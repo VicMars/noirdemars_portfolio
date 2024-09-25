@@ -74,15 +74,20 @@ section.left-section a {
 
 .content .primary-title-one,
 .content .primary-title-two {
-  display:block;
-  height:45vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height:38vh;
   overflow:hidden;
 }
 
 .content .primary-title-span {
-  display:block;
-  height:10vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height:15vh;
   overflow:hidden;
+  border:1px solid;
 }
 
 .content .primary-title-one h1,
@@ -99,6 +104,49 @@ section.left-section a {
   margin:0;
   padding: 0;
 }
+
+.content .primary-title-one h1 {
+	animation: 1.8s linear 0s 1 normal forwards running title-one;
+	transform-box: fill-box;
+	transform-origin: 50% 50%;
+}
+
+@keyframes title-one {
+	0% {
+		transform: translateX(-50%);
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+	83.33% {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+.content .primary-title-two h1 {
+	animation: 1.8s linear 0s 1 normal forwards running title-two;
+	transform-box: fill-box;
+	transform-origin: 50% 50%;
+}
+
+@keyframes title-two {
+	0% {
+		transform: translateX(150%);
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+	83.33% {
+		transform: translateX(20%);
+		opacity: 1;
+	}
+}
+
+
+
 
 .content .secondary-title {
   position:absolute;
