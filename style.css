@@ -54,12 +54,18 @@ section.right-section {
 section a {
   writing-mode: vertical-lr;
   text-orientation: mixed;
-  margin:50px 0;
+  margin:20px 0;
   text-decoration:none;
 }
 
 section.left-section a {
   transform: scale(-1);
+}
+
+section a span {
+   margin:20px 0;
+   color:#121212;
+   font-weight:600;
 }
 
 .content {
