@@ -1,8 +1,8 @@
-const h1 = document.querySelector(".primary-title-one h1");
-console.log(h1);
-
 // Function to animate the h1 element
 function animateH1() {
+  const h1 = document.querySelector(".primary-title-one h1");
+  console.log(h1);
+  
   // Move the h1 to the right and set opacity to 1 over 2 seconds
   h1.style.left = '300px';  // Move right by 300px
   h1.style.opacity = '1';
