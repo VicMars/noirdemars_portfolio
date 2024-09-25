@@ -132,13 +132,15 @@ section.left-section a {
 		transform: translateX(-50%);
 		opacity: 1;
 	}
-	100% {
-		opacity: 0;
-	}
-	83.33% {
+	
+	50% {
 		transform: translateX(0%);
 		opacity: 1;
 	}
+	
+	93% {
+		opacity: 0;
+    }
 }
 
 .content .primary-title-two h1:not(.primary-title-span) {
@@ -150,14 +152,15 @@ section.left-section a {
 @keyframes title-two {
 	0% {
 		transform: translateX(150%);
-		opacity: 1;
-	}
-	100% {
 		opacity: 0;
 	}
-	83.33% {
+	50% {  
 		transform: translateX(0%);
 		opacity: 1;
+	}
+	93% {
+		transform: translateX(0%);
+		opacity: 0;
 	}
 }
 
