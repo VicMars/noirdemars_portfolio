@@ -1,6 +1,13 @@
+function testJS() {
+  console.log("JavaScript is working!");
+}
+
+testJS(); // Call the function to test
+
+
 // Function to animate the h1 element
 function animateH1() {
-  const h1 = document.querySelector("h1");
+  const h1 = document.querySelector(".primary-title-one h1");
   console.log(h1);
   
   // Move the h1 to the right and set opacity to 1 over 2 seconds
