@@ -1,6 +1,6 @@
 // Function to animate the h1 element
 function animateH1() {
-  var h1 = document.getElementByClassName("primary-title-one h1");
+  var h1 = document.getElementsByClassName("primary-title-one h1");
   console.log(h1);
   
   // Move the h1 to the right and set opacity to 1 over 2 seconds
