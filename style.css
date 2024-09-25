@@ -65,7 +65,9 @@ section.left-section a {
 }
 
 .content .primary-title {
-  display:block;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
   height: 100vh;
   max-height: 100%;
 }
@@ -74,15 +76,16 @@ section.left-section a {
   font-family:"Playfair Display";
   margin:0;
   padding: 0;
-  font-size:450px;
-  line-height:40vh;
+  font-size: 400px;
+  line-height: 180px;
+  letter-spacing: -28px;
 }
 
 .content .primary-title-one,
 .content .primary-title-two {
   display: block; /* Forces the h1 to behave like a block element */
   box-sizing: border-box;
-  height:40vh;
+  height:45%;
 }
 
 .content h1.primary-title-span {
