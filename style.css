@@ -122,22 +122,12 @@ section.left-section a {
 }
 
 .content .primary-title-one h1 {
-	animation: 1.8s linear 0s 1 normal running title-one;
-	transform-box: fill-box;
-	transform-origin: 50% 50%;
-	opacity:0;
+  position: relative; 
+  opacity: 0; 
+  left: 0;
+  transition: all 2s ease-in-out; 
 }
 
-@keyframes title-one {
-	0% {
-	  transform: translateX(-50%);
-	}
-	
-	80% {
-	  transform: translateX(0%);
-	  opacity: 1;
-	}
-}
 
 .content .primary-title-two h1:not(.primary-title-span) {
 	animation: 1.8s linear 0s 1 normal forwards running title-two;
