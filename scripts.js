@@ -1,4 +1,5 @@
-const h1 = document.querySelector(".primary-title-one");
+const h1 = document.querySelector(".primary-title-one h1");
+console.log(h1);
 
 // Function to animate the h1 element
 function animateH1() {
