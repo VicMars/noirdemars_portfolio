@@ -1,5 +1,5 @@
 /* Styles for the noir de mars Portfolio
-* * */
+* ------------------------------------------ * */
 
 body {
   background-color:#121212;
@@ -72,12 +72,20 @@ section.left-section a {
   max-height: 100%;
 }
 
-.content .primary-title-one,
-.content .primary-title-two {
+.content .primary-title-one {
   display:flex;
   flex-direction:column;
-  justify-content:center;
-  height:38vh;
+  justify-content:flex-end;
+  height:50vh;
+  overflow:hidden;
+  border:1px solid
+}
+
+.content .primary-title-two {
+  display:flex;
+  flex-direction:row;
+  justify-content:start;
+  height:50vh;
   overflow:hidden;
 }
 
@@ -85,17 +93,26 @@ section.left-section a {
   display:flex;
   flex-direction:column;
   justify-content:center;
+  text-align:center;
+  flex-basis:25%;
   height:15vh;
   overflow:hidden;
-  border:1px solid;
 }
 
-.content .primary-title-one h1,
-.content .primary-title-two h1 {
+.content .primary-title-one h1 {
   font-family:"Playfair Display";
-  font-size:20vw;
+  font-size:25vw;
   margin:0;
   padding: 0;
+  line-height: 45vh;
+}
+
+.content .primary-title-two h1 {
+  font-family:"Playfair Display";
+  font-size:25vw;
+  margin:0;
+  padding: 0;
+  line-height: 20vh;
 }
 
 .content .primary-title-span h1 {
@@ -140,15 +157,13 @@ section.left-section a {
 		opacity: 0;
 	}
 	83.33% {
-		transform: translateX(20%);
+		transform: translateX(0%);
 		opacity: 1;
 	}
 }
 
-
-
-
 .content .secondary-title {
+  display:none;
   position:absolute;
   left:0;
   right:0;
