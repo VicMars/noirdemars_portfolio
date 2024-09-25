@@ -8,3 +8,42 @@ body {
   color: white;
 }
 
+#main {
+  width:100vw;
+  height:100vh;
+  border:2px solid aqua
+}
+
+.container {
+  display:flex;
+}
+
+section {
+  width:50px;
+  height:100vh;
+  align-content:flex-end;
+  text-align:center;
+}
+
+section.left-section {
+  border-right:1px solid white;
+}
+
+section.right-section {
+  border-left:1px solid white
+}
+
+section a {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  margin:50px 0;
+  border:1px solid red
+}
+
+section.left-section a {
+  transform: scale(-1);
+}
+
+.content {
+  flex-grow:1
+}
