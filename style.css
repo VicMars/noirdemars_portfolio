@@ -122,25 +122,21 @@ section.left-section a {
 }
 
 .content .primary-title-one h1 {
-	animation: 1.8s linear 0s 1 normal forwards running title-one;
+	animation: 1.8s linear 0s 1 normal running title-one;
 	transform-box: fill-box;
 	transform-origin: 50% 50%;
+	opacity:0;
 }
 
 @keyframes title-one {
 	0% {
-		transform: translateX(-50%);
-		opacity: 1;
+	  transform: translateX(-50%);
 	}
 	
-	50% {
-		transform: translateX(0%);
-		opacity: 1;
+	80% {
+	  transform: translateX(0%);
+	  opacity: 1;
 	}
-	
-	93% {
-		opacity: 0;
-    }
 }
 
 .content .primary-title-two h1:not(.primary-title-span) {
