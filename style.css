@@ -72,26 +72,32 @@ section.left-section a {
   max-height: 100%;
 }
 
-.content .primary-title h1 {
+.content .primary-title-one,
+.content .primary-title-two {
+  display:block;
+  height:45vh;
+  overflow:hidden;
+}
+
+.content .primary-title-span {
+  display:block;
+  height:10vh;
+  overflow:hidden;
+}
+
+.content .primary-title-one h1,
+.content .primary-title-two h1 {
   font-family:"Playfair Display";
+  font-size:20vw;
   margin:0;
   padding: 0;
 }
 
-.content .primary-title-one,
-.content .primary-title-two {
-  display: block; /* Forces the h1 to behave like a block element */
-  height:inherit;
-  font-size:380px;
-  line-height: 0.75;
-  letter-spacing: -28px;
-  overflow:hidden;
-  border:1px solid red
-}
-
-.content h1.primary-title-span {
+.content .primary-title-span h1 {
+  font-family:"Playfair Display";
   font-size:100px;
-  line-height:0!important;
+  margin:0;
+  padding: 0;
 }
 
 .content .secondary-title {
