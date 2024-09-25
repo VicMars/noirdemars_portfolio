@@ -78,7 +78,6 @@ section.left-section a {
   justify-content:flex-end;
   height:50vh;
   overflow:hidden;
-  border:1px solid
 }
 
 .content .primary-title-two {
@@ -142,7 +141,7 @@ section.left-section a {
 	}
 }
 
-.content .primary-title-two h1 {
+.content .primary-title-two h1:not(.primary-title-span) {
 	animation: 1.8s linear 0s 1 normal forwards running title-two;
 	transform-box: fill-box;
 	transform-origin: 50% 50%;
