@@ -8,6 +8,12 @@ body {
   color: white;
 }
 
+a:visited,
+a:focus {
+  color:white;
+  text-decoration:none;
+}
+
 #main {
   display:block;
   position:fixed;
@@ -49,6 +55,7 @@ section a {
   writing-mode: vertical-lr;
   text-orientation: mixed;
   margin:50px 0;
+  text-decoration:none;
 }
 
 section.left-section a {
