@@ -101,6 +101,12 @@ section a span {
   overflow:hidden;
 }
 
+.content .primary-title-two {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 .content .primary-title-span {
   display:flex;
   flex-direction:column;
@@ -146,7 +152,7 @@ section a span {
   opacity: 0; 
   right: -100%;
   transition: all 2s ease-in-out;
-    animation: 2s linear 0s 1 forwards title-two;
+  animation: 2s linear 0s 1 forwards title-two;
 }
 
 @keyframes title-two {
