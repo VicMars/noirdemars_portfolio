@@ -217,14 +217,19 @@ section a span {
 
 .content .secondary-title #portrait-anchor {
   display:block;
-  float:right;
-  font-size:30px;
+  font-size:1.5rem;
   font-weight:bold;
   width:50px;
   height:50px;
   background-color:transparent;
   color:white;
   border:0;
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.5s, top 1s, left 1s;
 }
 
 .content .secondary-title .img_portrait {
