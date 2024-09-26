@@ -23,19 +23,12 @@ animateH1();
 
 ////// Homepage introduction - Function to animate dot
 const dot = document.querySelector(".portrait-dot");
-const dotSecond = document.querySelector(".portrait-dot-second");
 
 // ----- Blinking Effect -----
 function toggleBlink() {
     dot.style.opacity = (dot.style.opacity === '0') ? '1' : '0';
 }
 setInterval(toggleBlink, 1000);
-
-function toggleBlinkTwo() {
-    dotSecond.style.opacity = (dotSecond.style.opacity === '0') ? '1' : '0';
-}
-setInterval(toggleBlinkTwo, 2000);
-
 
 
 
