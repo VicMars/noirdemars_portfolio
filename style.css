@@ -93,7 +93,7 @@ section a span {
   overflow:hidden;
 }
 
-.content .primary-title-two {
+.content .primary-title-one-bottom {
   display:flex;
   flex-direction:row;
   justify-content:start;
@@ -135,7 +135,7 @@ section a span {
 }
 
 
-.content .primary-title-two:not(.primary-title-span) h1 {
+.content .primary-title-two h1 {
   font-family:"Playfair Display";
   font-size:25vw;
   margin:0;
