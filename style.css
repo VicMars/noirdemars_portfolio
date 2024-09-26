@@ -257,15 +257,6 @@ section .nav-link.active a span {
   transition: opacity 0.5s;
 }
 
-.content .secondary-title .portrait-dot-second {
-  position:relative;
-  left:35px;
-  font-size: 1.5rem;
-  font-weight:bold;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
 .portrait-animation #portrait_img {
   margin-top:50px;
   opacity:1;
