@@ -58,23 +58,6 @@ section.right-section {
   border-left:1px solid white;
 }
 
-section a {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  margin:20px 0;
-  text-decoration:none;
-}
-
-section.left-section a {
-  transform: scale(-1);
-}
-
-section a span {
-   margin:20px 0;
-   color:#121212;
-   font-weight:600;
-}
-
 .content {
   flex-grow:1;
   display:flex;
@@ -82,6 +65,35 @@ section a span {
   justify-content: center;
   padding:25px;
   max-height: 100vh;
+}
+
+/* Navigation */
+section .nav-link a {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  margin:20px 0;
+  text-decoration:none;
+}
+
+section.left-section .nav-link a {
+  transform: scale(-1);
+}
+
+section .nav-link a span {
+   margin:20px 0;
+   color:#121212;
+   font-weight:600;
+}
+
+section .nav-link.active {
+  display:block;
+  position: relative;
+  bottom: 40vh;
+  transition: bottom 3s ease-in;
+}
+
+section .nav-link.active a span {
+  color:white;
 }
 
 /* HOMEPAGE 
