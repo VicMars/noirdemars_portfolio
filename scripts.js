@@ -40,69 +40,6 @@ setInterval(toggleBlinkTwo, 2000);
 
 
 
-
-let scrollSpeed = 0.1;  // Slow down factor, lower value = slower scrolling
-        let isScrolling = false;
-
-        function smoothScroll(event) {
-            event.preventDefault();  // Prevent the default scroll behavior
-
-            if (isScrolling) return;
-
-            isScrolling = true;
-
-            // Save the current scroll position
-            const startScroll = window.scrollY;
-            const targetScroll = startScroll + event.deltaY * scrollSpeed; // Slowed down scroll
-
-            const duration = 600; // Duration of the smooth scroll effect
-            const startTime = performance.now();
-
-            function easeOutCubic(t) {
-                return (--t) * t * t + 1;
-            }
-
-            function animateScroll(currentTime) {
-                const timeElapsed = currentTime - startTime;
-                const progress = Math.min(timeElapsed / duration, 1);
-                const ease = easeOutCubic(progress);
-
-                // Calculate the new scroll position
-                const scrollPosition = startScroll + (targetScroll - startScroll) * ease;
-                window.scrollTo(0, scrollPosition);
-
-                if (progress < 1) {
-                    requestAnimationFrame(animateScroll);
-                } else {
-                    isScrolling = false;  // Allow further scrolling when done
-                }
-            }
-
-            requestAnimationFrame(animateScroll);
-        }
-
-        // Listen for the wheel event to detect scrolling and prevent default behavior
-        window.addEventListener('wheel', smoothScroll, { passive: false });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ----- Moving dot Effect -----
 // function movePortraitAnimation() {
 //     const imgPortrait = document.getElementById('portrait_img');
