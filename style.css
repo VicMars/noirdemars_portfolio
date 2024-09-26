@@ -262,7 +262,7 @@ section .nav-link.active a span {
   opacity:1;
   width:20vw;
   object-fit:cover;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
   z-index:1;
   transition: opacity 1s;
 }
