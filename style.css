@@ -193,7 +193,7 @@ section a span {
   opacity:0;
   animation: 4s linear 4s 1 forwards title-appear;
   width: 60vw;
-  height: 50vh;
+  height: 70vh;
   padding: 25px;
   overflow-y:scroll;
   scroll-behavior: smooth;
@@ -219,7 +219,7 @@ section a span {
   justify-content:center;
   position:sticky;
   top: 0;
-  height:50vh;
+  height:70vh;
   font-size: 24px;
 }
 
@@ -249,8 +249,8 @@ section a span {
 .portrait-animation #portrait_img {
   display:block;
   position:absolute;
-  right: -5vw;
-  bottom: -25vh;
+  right: 10px;
+  top:70vh;
   margin-top:50px;
   opacity:1;
   width:20vw;
