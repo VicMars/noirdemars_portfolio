@@ -29,6 +29,7 @@ const dot = document.getElementById('portrait-anchor');
 function toggleBlink() {
     dot.style.opacity = (dot.style.opacity === '0') ? '1' : '0';
 }
+setInterval(toggleBlink, 500);
 
 // ----- Moving dot Effect -----
 function movePortraitAnimation() {
@@ -54,3 +55,6 @@ function movePortraitAnimation() {
     dot.style.left = newLeft + 'px';
     dot.style.top = newTop + 'px';
 }
+// Trigger and time the animation
+setInterval(movePortraitAnimation, 2000);
+movePortraitAnimation();
