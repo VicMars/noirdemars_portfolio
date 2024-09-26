@@ -50,12 +50,9 @@ section {
   text-align:center;
 }
 
-section.left-section {
-  border-right:1px solid white;
-}
-
-section.right-section {
-  border-left:1px solid white;
+section.first-section, 
+section.second-section {
+ border-left:1px solid white;
 }
 
 .content {
