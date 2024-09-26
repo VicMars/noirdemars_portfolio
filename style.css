@@ -245,6 +245,9 @@ section a span {
   transform: rotate(10deg);
 }
 
+.content .secondary-title .portrait-anchor:hover {
+  cursor:pointer;
+
 .content .secondary-title .portrait-anchor:hover ~ img {
   visibility:visible;
   opacity:1;
