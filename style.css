@@ -278,9 +278,16 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-two .rotating-star {
-  display:block;
-  font-size:24px;
-  animation: rotate 3s linear infinite;
+    display: inline-block;
+    position: relative;
+    bottom: -20px;
+    left: -10px;
+    font-size: 70px;
+    width: 10px;
+    height: 10px;
+    line-height: 1;
+    animation: rotate 3s linear infinite;
+    transform-origin: 100% 5px;
 }
 
 @keyframes rotate {
