@@ -215,7 +215,7 @@ section a span {
   width:45vw;
 }
 
-.content .secondary-title .portrait-anchor {
+.content .secondary-title #portrait-anchor {
   display:block;
   float:right;
   font-size:30px;
