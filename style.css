@@ -177,11 +177,22 @@ section a span {
 }
 
 .content .secondary-title {
-  display:none;
+  display:block;
   position:absolute;
   left:0;
   right:0;
   justify-self:center;
   text-align:center; 
   margin:0 auto;
+  opacity:0;
+  animation: 4s linear 2s 1 forwards title-appear;
+}
+
+@keyframes title-appear {
+  0 {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
