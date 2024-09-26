@@ -72,10 +72,6 @@ section .nav-link a {
   text-decoration:none;
 }
 
-section.left-section .nav-link a {
-  transform: scale(-1);
-}
-
 section .nav-link a span {
    margin:20px 0;
    color:#121212;
