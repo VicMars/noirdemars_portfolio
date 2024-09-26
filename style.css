@@ -169,7 +169,7 @@ section a span {
   }
 }
 
-.content .primary-title-span h1 {
+.content .primary-title-one-bottom .primary-title-span h1 {
   font-size:100px;
   margin:0;
   padding: 0;
@@ -186,7 +186,7 @@ section a span {
   text-align:center; 
   margin:0 auto;
   opacity:0;
-  animation: 4s linear 2s 1 forwards title-appear;
+  animation: 4s linear 3s 1 forwards title-appear;
 }
 
 @keyframes title-appear {
