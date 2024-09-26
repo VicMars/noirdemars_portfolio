@@ -193,7 +193,9 @@ section a span {
   opacity:0;
   animation: 4s linear 4s 1 forwards title-appear;
   width: 60vw;
+  height: 50vh;
   padding: 25px;
+  overflow-y:scroll;
 }
 
 @keyframes title-appear {
@@ -210,7 +212,11 @@ section a span {
   line-height:0.5;
 }
 
-.content .secondary-title p {
+.content .secondary-title .sub-introducion {
+  display: block;
+  position: fixed;
+  left:0;
+  right:0;
   font-size: 24px;
 }
 
