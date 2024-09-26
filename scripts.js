@@ -4,8 +4,6 @@ function animateH1() {
   const rightTitle = document.querySelector(".primary-title-two:not(.primary-title-span) h1");
   
   // Move the h1 to the right and set opacity to 1 over 2 seconds
-  leftTitle.style.left = '0';  
-  rightTitle.style.right = '-100%'; 
   leftTitle.style.opacity = '1';
   rightTitle.style.opacity = '1';
 
