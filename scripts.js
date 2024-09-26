@@ -35,8 +35,8 @@ function movePortraitAnimation() {
     const movementRange = 20;  // Maximum number of pixels the dot can move in any direction
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
-    const wordWidth = dot.offsetWidth;
-    const wordHeight = dot.offsetHeight;
+    const dotWidth = dot.offsetWidth;
+    const dotHeight = dot.offsetHeight;
 
     // Get the current position of the word
     const currentLeft = parseFloat(window.getComputedStyle(dot).left);
