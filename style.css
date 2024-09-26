@@ -245,10 +245,10 @@ section a span {
   transform: rotate(10deg);
 }
 
-.content .secondary-title .portrait-anchor:hover {
+.content .secondary-title #portrait-anchor:hover {
   cursor:pointer;
 
-.content .secondary-title .portrait-anchor:hover ~ img {
+.content .secondary-title #portrait-anchor:hover ~ img {
   visibility:visible;
   opacity:1;
   transition:all 1.5s ease-in-out;
