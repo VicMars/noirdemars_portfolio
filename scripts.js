@@ -29,12 +29,12 @@ const dotSecond = document.querySelector(".portrait-dot-second");
 function toggleBlink() {
     dot.style.opacity = (dot.style.opacity === '0') ? '1' : '0';
 }
-setInterval(toggleBlink, 500);
+setInterval(toggleBlink, 1000);
 
 function toggleBlinkTwo() {
     dotSecond.style.opacity = (dotSecond.style.opacity === '0') ? '1' : '0';
 }
-setInterval(toggleBlinkTwo, 1000);
+setInterval(toggleBlinkTwo, 2000);
 
 
 // ----- Moving dot Effect -----
