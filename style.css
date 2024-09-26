@@ -232,7 +232,7 @@ section a span {
   transition: opacity 0.5s, top 1s, left 1s;
 }
 
-.content .secondary-title .img_portrait {
+.content .secondary-title #portrait_img {
   display:block;
   position:absolute;
   right: -5vw;
