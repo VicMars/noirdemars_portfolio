@@ -186,7 +186,7 @@ section a span {
   text-align:center; 
   margin:0 auto;
   opacity:0;
-  animation: 4s linear 3s 1 forwards title-appear;
+  animation: 4s linear 4s 1 forwards title-appear;
 }
 
 @keyframes title-appear {
