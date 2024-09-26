@@ -118,8 +118,9 @@ section a span {
   padding: 0;
   line-height: 45vh;
   position: relative; 
+  width:fit-content;
   opacity: 0; 
-  left: -200%;
+  left: -100%;
   transition: all 2s ease-in-out; 
 }
 
@@ -129,9 +130,10 @@ section a span {
   margin:0;
   padding: 0;
   line-height: 20vh;
-  position: relative; 
+  position: relative;
+  width:fit-content;
   opacity: 0; 
-  right: -200%;
+  right: -100%;
   transition: all 2s ease-in-out;
 }
 
