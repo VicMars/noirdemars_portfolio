@@ -32,31 +32,31 @@ function toggleBlink() {
 setInterval(toggleBlink, 500);
 
 // ----- Moving dot Effect -----
-function movePortraitAnimation() {
-    const imgPortrait = document.getElementById('portrait_img');
+// function movePortraitAnimation() {
+//     const imgPortrait = document.getElementById('portrait_img');
   
-    const movementRange = 20;  // Maximum number of pixels the dot can move in any direction
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
-    const imgWidth = imgPortrait.offsetWidth;
-    const imgHeight = imgPortrait.offsetHeight;
+//     const movementRange = 20;  // Maximum number of pixels the dot can move in any direction
+//     const viewportWidth = window.innerWidth;
+//     const viewportHeight = window.innerHeight;
+//     const imgWidth = imgPortrait.offsetWidth;
+//     const imgHeight = imgPortrait.offsetHeight;
 
-    // Get the current position of the word
-    const currentLeft = parseFloat(window.getComputedStyle(imgPortrait).left);
-    const currentTop = parseFloat(window.getComputedStyle(imgPortrait).top);
+//     // Get the current position of the word
+//     const currentLeft = parseFloat(window.getComputedStyle(imgPortrait).left);
+//     const currentTop = parseFloat(window.getComputedStyle(imgPortrait).top);
 
-    // Calculate new positions within the limited movement range
-    let newLeft = currentLeft + (Math.random() * movementRange * 2 - movementRange);
-    let newTop = currentTop + (Math.random() * movementRange * 2 - movementRange);
+//     // Calculate new positions within the limited movement range
+//     let newLeft = currentLeft + (Math.random() * movementRange * 2 - movementRange);
+//     let newTop = currentTop + (Math.random() * movementRange * 2 - movementRange);
 
-    // Ensure the word stays within the viewport
-    newLeft = Math.max(0, Math.min(newLeft, viewportWidth - imgWidth));
-    newTop = Math.max(0, Math.min(newTop, viewportHeight - imgHeight));
+//     // Ensure the word stays within the viewport
+//     newLeft = Math.max(0, Math.min(newLeft, viewportWidth - imgWidth));
+//     newTop = Math.max(0, Math.min(newTop, viewportHeight - imgHeight));
 
-    // Apply the new positions
-    imgPortrait.style.left = newLeft + 'px';
-    imgPortrait.style.top = newTop + 'px';
-}
-// Trigger and time the animation
-setInterval(movePortraitAnimation, 2000);
-movePortraitAnimation();
+//     // Apply the new positions
+//     imgPortrait.style.left = newLeft + 'px';
+//     imgPortrait.style.top = newTop + 'px';
+// }
+// // Trigger and time the animation
+// setInterval(movePortraitAnimation, 2000);
+// movePortraitAnimation();
