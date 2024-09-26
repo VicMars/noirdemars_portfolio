@@ -217,6 +217,7 @@ section a span {
 .content .secondary-title #portrait-anchor {
   display:block;
   text-align:center;
+  margin:0 auto;
   font-size:2rem;
   font-weight:bold;
   width:50px;
