@@ -1,7 +1,7 @@
 // Function to animate the h1 element
 function animateH1() {
   const leftTitle = document.querySelector(".primary-title-one h1");
-  const rightTitle = document.querySelector(".primary-title-two h1");
+  const rightTitle = document.querySelector(".primary-title-two:not(.primary-title-span) h1");
   
   // Move the h1 to the right and set opacity to 1 over 2 seconds
   leftTitle.style.left = '0';  
