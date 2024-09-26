@@ -122,7 +122,18 @@ section a span {
   opacity: 0; 
   left: -100%;
   transition: all 2s ease-in-out; 
+  animation: 2s linear 0s 1 forwards title-one;
 }
+
+@keyframes title-one {
+  0 {
+    left:-100%;
+  }
+  100% {
+    left:0;
+  }
+}
+
 
 .content .primary-title-two:not(.primary-title-span) h1 {
   font-family:"Playfair Display";
@@ -135,6 +146,16 @@ section a span {
   opacity: 0; 
   right: -100%;
   transition: all 2s ease-in-out;
+    animation: 2s linear 0s 1 forwards title-two;
+}
+
+@keyframes title-two {
+  0 {
+    right:-100%;
+  }
+  100% {
+    right:0;
+  }
 }
 
 .content .primary-title-span h1 {
