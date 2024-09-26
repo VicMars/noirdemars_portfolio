@@ -14,6 +14,10 @@ a:focus {
   text-decoration:none;
 }
 
+h1 {
+  font-family:"Playfair Display";
+}
+
 #main {
   display:block;
   position:fixed;
@@ -121,7 +125,6 @@ section a span {
 }
 
 .content .primary-title-one h1 {
-  font-family:"Playfair Display";
   font-size:25vw;
   margin:0;
   padding: 0;
@@ -145,7 +148,6 @@ section a span {
 
 
 .content .primary-title-two h1 {
-  font-family:"Playfair Display";
   font-size:25vw;
   margin:0;
   padding: 0;
@@ -168,12 +170,12 @@ section a span {
 }
 
 .content .primary-title-span h1 {
-  font-family:"Playfair Display";
   font-size:100px;
   margin:0;
   padding: 0;
   opacity:0;
   transition: all 4s ease-in-out;
+  animation: 2s linear 0s 1 forwards title-appear;
 }
 
 .content .secondary-title {
