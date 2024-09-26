@@ -202,3 +202,28 @@ section a span {
   font-size: 8vw;
   line-height:0.5;
 }
+
+.content .secondary-title p {
+  font-size: 24px;
+}
+
+.content .secondary-title .portrait-anchor {
+  display:block;
+  text-align:right;
+  font-size:18px;
+  font-weight:bold;
+  padding:30px;
+}
+.content .secondary-title .portrait-anchor:hover > .img_portrait {
+  display:block;
+}
+
+.content .secondary-title .img_portrait {
+  display:none;
+  position:relative;
+  transform: rotate(20deg);
+  width:25vw;
+  object-fit:cover;
+  
+}
+
