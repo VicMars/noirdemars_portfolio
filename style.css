@@ -175,7 +175,6 @@ section a span {
   padding: 0;
   opacity:0;
   transition: all 4s ease-in-out;
-  animation: 2s linear 0s 1 forwards title-appear;
 }
 
 .content .secondary-title {
@@ -197,4 +196,8 @@ section a span {
   100% {
     opacity:1;
   }
+}
+
+.content .secondary-title h1 {
+  font-size: 20vw;
 }
