@@ -248,7 +248,7 @@ section a span {
 .content .secondary-title #portrait-anchor:hover {
   cursor:pointer;
 
-.content .secondary-title #portrait-anchor:hover ~ img {
+.content .secondary-title #portrait-anchor:hover ~ #portrait_img {
   visibility:visible;
   opacity:1;
   transition:all 1.5s ease-in-out;
