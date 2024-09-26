@@ -244,6 +244,7 @@ section .nav-link.active a span {
   left: 0;
   right: 0;
   height: 100%;
+  text-align:center;
 }
 
 .content .secondary-title .portrait-dot {
@@ -267,10 +268,6 @@ section .nav-link.active a span {
 }
 
 .portrait-animation #portrait_img {
-  display:block;
-  position:absolute;
-  right: 50px;
-  top:70vh;
   margin-top:50px;
   opacity:1;
   width:20vw;
