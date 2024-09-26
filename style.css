@@ -237,14 +237,22 @@ section a span {
   height: 100%;
 }
 
-.content .secondary-title .portrait-dot,
-.content .secondary-title .portrait-dot-second {
-  display:block;
-  text-align:center;
+.content .secondary-title .portrait-dot {
+ display:block; 
+ text-align:center;
   margin:0 auto;
-  font-size:2rem;
+  font-size: 1.5rem;
   font-weight:bold;
   padding: 0 25px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.content .secondary-title .portrait-dot-second {
+  position:relative;
+  left:35px;
+  font-size: 1.5rem;
+  font-weight:bold;
   opacity: 1;
   transition: opacity 0.5s;
 }
