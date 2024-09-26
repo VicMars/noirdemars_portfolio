@@ -244,7 +244,7 @@ section a span {
   font-size: 1.5rem;
   font-weight:bold;
   padding: 0 25px;
-  opacity: 1;
+  opacity: 0;
   transition: opacity 0.5s;
 }
 
@@ -253,8 +253,8 @@ section a span {
   left:35px;
   font-size: 1.5rem;
   font-weight:bold;
-  opacity: 1;
-  transition: opacity 0.5s;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .portrait-animation #portrait_img {
