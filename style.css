@@ -267,7 +267,13 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
+.secondary-introduction-one {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .secondary-introduction-two {
   align-self:end;
-  justify-self:end;
 }
