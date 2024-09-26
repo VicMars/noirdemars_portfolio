@@ -37,6 +37,68 @@ function toggleBlinkTwo() {
 setInterval(toggleBlinkTwo, 2000);
 
 
+
+let scrollSpeed = 0.2;  // Slow down factor, lower value = slower scrolling
+let isScrolling = false;
+
+function smoothScroll(event) {
+    if (isScrolling) return;
+
+    isScrolling = true;
+
+    // Save the current scroll position
+    const startScroll = window.scrollY;
+    let targetScroll = startScroll + event.deltaY * scrollSpeed;
+
+    const duration = 500; // Duration of the smooth scroll effect
+    const startTime = performance.now();
+
+    function easeOutCubic(t) {
+        return (--t) * t * t + 1;
+    }
+
+    function animateScroll(currentTime) {
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / duration, 1);
+        const ease = easeOutCubic(progress);
+
+        // Calculate the new scroll position
+        const scrollPosition = startScroll + (targetScroll - startScroll) * ease;
+        window.scrollTo(0, scrollPosition);
+
+        if (progress < 1) {
+            requestAnimationFrame(animateScroll);
+        } else {
+            isScrolling = false;  // Allow further scrolling when done
+        }
+    }
+
+    requestAnimationFrame(animateScroll);
+}
+
+// Listen for the wheel event to detect scrolling
+window.addEventListener('wheel', smoothScroll, { passive: false });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ----- Moving dot Effect -----
 // function movePortraitAnimation() {
 //     const imgPortrait = document.getElementById('portrait_img');
