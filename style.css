@@ -212,9 +212,12 @@ section a span {
   line-height:0.5;
 }
 
-.content .secondary-title .sub-introducion {
+.content .secondary-title .secondary-introduction,
+.content .secondary-title .portrait-animation {
   display: block;
-  position: fixed;
+  position: relative;
+  width:50vw;
+  top:0;
   left:0;
   right:0;
   font-size: 24px;
@@ -233,10 +236,6 @@ section a span {
   border:0;
   opacity: 1;
   transition: opacity 0.5s, top 1s, left 1s;
-}
-
-.content .secondary-title .portrait-animation {
-  width:45vw;
 }
 
 .portrait-animation #portrait_img {
