@@ -237,8 +237,8 @@ section a span {
   height: 100%;
 }
 
-.content .secondary-title .portrait-anchor,
-.content .secondary-title .portrait-anchor-second {
+.content .secondary-title .portrait-dot,
+.content .secondary-title .portrait-dot-second {
   display:block;
   text-align:center;
   margin:0 auto;
