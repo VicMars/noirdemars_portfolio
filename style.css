@@ -124,7 +124,7 @@ section a span {
   transition: all 2s ease-in-out; 
 }
 
-.content .primary-title-two h1 {
+.content .primary-title-two:not(.primary-title-span) h1 {
   font-family:"Playfair Display";
   font-size:25vw;
   margin:0;
