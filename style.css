@@ -228,7 +228,7 @@ section a span {
   top: 90%;
   left: 75%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.5s, top 1s, left 1s;
 }
 
