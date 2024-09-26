@@ -258,7 +258,7 @@ section .nav-link.active a span {
 }
 
 .portrait-animation #portrait_img {
-  margin-top:50px;
+  margin:50px 50px 0 50px;
   opacity:1;
   width:20vw;
   object-fit:cover;
