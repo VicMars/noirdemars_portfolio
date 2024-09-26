@@ -104,6 +104,8 @@ section a span {
 .content .primary-title-two {
   display: flex;
   justify-content: flex-end;
+  flex-basis:50%;
+  flex-grow:1;
   width: 100%;
 }
 
@@ -113,6 +115,7 @@ section a span {
   justify-content:center;
   text-align:center;
   flex-basis:25%;
+  flex-grow:2;
   height:15vh;
   overflow:hidden;
 }
