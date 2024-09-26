@@ -129,6 +129,10 @@ section a span {
   margin:0;
   padding: 0;
   line-height: 20vh;
+  position: relative; 
+  opacity: 0; 
+  right: -200%;
+  transition: all 2s ease-in-out;
 }
 
 .content .primary-title-span h1 {
@@ -136,28 +140,6 @@ section a span {
   font-size:100px;
   margin:0;
   padding: 0;
-}
-
-
-.content .primary-title-two h1:not(.primary-title-span) {
-	animation: 1.8s linear 0s 1 normal forwards running title-two;
-	transform-box: fill-box;
-	transform-origin: 50% 50%;
-}
-
-@keyframes title-two {
-	0% {
-		transform: translateX(150%);
-		opacity: 0;
-	}
-	50% {  
-		transform: translateX(0%);
-		opacity: 1;
-	}
-	93% {
-		transform: translateX(0%);
-		opacity: 0;
-	}
 }
 
 .content .secondary-title {
