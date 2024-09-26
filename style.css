@@ -258,7 +258,7 @@ section a span {
   font-size: 1.5rem;
   font-weight:bold;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 0.5s;
 }
 
 .portrait-animation #portrait_img {
