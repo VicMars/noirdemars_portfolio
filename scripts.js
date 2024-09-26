@@ -38,7 +38,7 @@ setInterval(toggleBlinkTwo, 2000);
 
 
 
-let scrollSpeed = 0.9;  // Slow down factor, lower value = slower scrolling
+let scrollSpeed = 0.01;  // Slow down factor, lower value = slower scrolling
 let isScrolling = false;
 
 function smoothScroll(event) {
