@@ -18,6 +18,9 @@ h1 {
   font-family:"Playfair Display";
 }
 
+
+/* LAYOUT 
+* ------------------------------- */
 #main {
   display:block;
   position:fixed;
@@ -81,14 +84,15 @@ section a span {
   max-height: 100vh;
 }
 
+/* HOMEPAGE 
+* --------------------------------- */
 .content .primary-title {
   display:flex;
   flex-direction:column;
   justify-content:space-between;
   height: 100vh;
   max-height: 100%;
-  align-content: CENTER;
-  /* align-items: center; */
+  align-content: center;
 }
 
 .content .primary-title-one {
@@ -147,7 +151,6 @@ section a span {
     left:0;
   }
 }
-
 
 .content .primary-title-two h1 {
   font-size:25vw;
