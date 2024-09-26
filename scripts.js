@@ -54,8 +54,8 @@ function movePortraitAnimation() {
     newTop = Math.max(0, Math.min(newTop, viewportHeight - imgHeight));
 
     // Apply the new positions
-    dot.style.left = newLeft + 'px';
-    dot.style.top = newTop + 'px';
+    imgPortrait.style.left = newLeft + 'px';
+    imgPortrait.style.top = newTop + 'px';
 }
 // Trigger and time the animation
 setInterval(movePortraitAnimation, 2000);
