@@ -1,4 +1,4 @@
-// Function to animate the h1 element
+///// Homepage introduction - Function to animate the h1 element
 function animateH1() {
   const leftTitle = document.querySelector(".primary-title-one h1");
   const rightTitle = document.querySelector(".primary-title-two h1");
@@ -19,3 +19,38 @@ function animateH1() {
 
 // Trigger the animation
 animateH1();
+
+
+////// Homepage introduction - Function to animate dot and image
+
+const dot = document.getElementById('portrait-anchor');
+
+// ----- Blinking Effect -----
+function toggleBlink() {
+    dot.style.opacity = (dot.style.opacity === '0') ? '1' : '0';
+}
+
+// ----- Moving dot Effect -----
+function movePortraitAnimation() {
+    const movementRange = 20;  // Maximum number of pixels the dot can move in any direction
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    const wordWidth = dot.offsetWidth;
+    const wordHeight = dot.offsetHeight;
+
+    // Get the current position of the word
+    const currentLeft = parseFloat(window.getComputedStyle(dot).left);
+    const currentTop = parseFloat(window.getComputedStyle(dot).top);
+
+    // Calculate new positions within the limited movement range
+    let newLeft = currentLeft + (Math.random() * movementRange * 2 - movementRange);
+    let newTop = currentTop + (Math.random() * movementRange * 2 - movementRange);
+
+    // Ensure the word stays within the viewport
+    newLeft = Math.max(0, Math.min(newLeft, viewportWidth - dotWidth));
+    newTop = Math.max(0, Math.min(newTop, viewportHeight - dotHeight));
+
+    // Apply the new positions
+    dot.style.left = newLeft + 'px';
+    dot.style.top = newTop + 'px';
+}
