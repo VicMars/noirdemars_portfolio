@@ -267,3 +267,7 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
+.secondary-introduction-two {
+  align-self:end;
+  justify-self:end;
+}
