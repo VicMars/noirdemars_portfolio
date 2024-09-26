@@ -196,6 +196,7 @@ section a span {
   height: 50vh;
   padding: 25px;
   overflow-y:scroll;
+  scroll-behavior: smooth;
 }
 
 @keyframes title-appear {
@@ -214,16 +215,20 @@ section a span {
 
 .content .secondary-title .secondary-introduction {
   display: flex;
-  position:sticky;
   flex-direction:column;
   justify-content:center;
-  width:50vw;
+  position:sticky;
+  top: 0;
   height:50vh;
   font-size: 24px;
 }
 
 .content .secondary-title .portrait-animation {
-  
+  position: relative;
+  top: -100%;
+  left: 0;
+  right: 0;
+  height: 100%;
 }
 
 .content .secondary-title #portrait-anchor {
@@ -247,10 +252,12 @@ section a span {
   right: -5vw;
   bottom: -25vh;
   margin-top:50px;
-  opacity:0;
+  opacity:1;
   width:20vw;
   object-fit:cover;
   transform: rotate(10deg);
+  z-index:1;
+  transition: opacity 1s;
 }
 
 .portrait-animation #portrait-anchor:hover {
