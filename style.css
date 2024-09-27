@@ -50,11 +50,19 @@ p {
 .main-nav a {
   font-family:"Playfair Display";
   font-size: 40px;
-  letter-spacing:-0.2em;
+  letter-spacing:-1px;
+  color:inherit;
+  text-decoration:none;
 }
 
-.main-nav em {
-  font-size:20px;
+.main-nav a em {
+  font-size:26px;
+  font-weight:600;
+}
+
+.main-nav a:hover {
+  margin-left:10px;
+  transition:all 1s ease-in-out;
 }
 
 section {
