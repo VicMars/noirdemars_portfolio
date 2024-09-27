@@ -282,8 +282,9 @@ section .nav-link.active a span {
 .content .secondary-title .portrait-dot {
   display:block; 
   text-align:left;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight:bold;
+  margin:8px;
   opacity: 1;
   transition: opacity 0.5s;
 }
