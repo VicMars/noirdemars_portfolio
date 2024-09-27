@@ -304,8 +304,11 @@ section .nav-link.active a span {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-size: 3.25vw;
     font-weight:200;
+}
+
+.secondary-introduction-one p.large-text {
+  font-size: 3.25vw;
 }
 
 .secondary-introduction-two {
@@ -316,7 +319,7 @@ section .nav-link.active a span {
    font-weight:300;
    margin:0;
    opacity: 0;
-   animation: 0.6s ease 5s 1 forwards appearText;
+   animation: 0.6s ease 6s 1 forwards appearText;
 }
 
 @keyframes appearText {
@@ -326,7 +329,7 @@ section .nav-link.active a span {
   }
   to {
     opacity:1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 } 
 
