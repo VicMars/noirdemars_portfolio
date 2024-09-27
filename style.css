@@ -309,6 +309,7 @@ section .nav-link.active a span {
 
 .secondary-introduction-one p.large-text {
   font-size: 3.25vw;
+  margin-bottom:0;
 }
 
 .secondary-introduction-two {
