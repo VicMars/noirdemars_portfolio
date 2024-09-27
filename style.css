@@ -47,6 +47,16 @@ p {
   overflow:hidden;
 }
 
+.main-nav a {
+  font-family:"Playfair Display";
+  font-size: 40px;
+  letter-spacing:-0.2em;
+}
+
+.main-nav em {
+  font-size:20px;
+}
+
 section {
   width:50px;
   height:100vh;
