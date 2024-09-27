@@ -21,6 +21,43 @@ function animateH1() {
 animateH1();
 
 
+
+
+document.addEventListener("scroll", function() {
+  const paragraphs = document.querySelectorAll(".secondary-introduction-two p");
+  const revealPoint = window.innerHeight * 0.75; // Trigger when the element is 75% down the viewport
+
+  paragraphs.forEach((paragraph, index) => {
+    const paragraphTop = paragraph.getBoundingClientRect().top;
+
+    if (paragraphTop < revealPoint) {
+      setTimeout(() => {
+        paragraph.classList.add("visible");
+      }, index * 200); // Add delay to create line-by-line effect
+    }
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////// Homepage introduction - Function to animate dot
 // const dot = document.querySelector(".portrait-dot");
 
