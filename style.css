@@ -54,6 +54,15 @@ section {
   text-align:center;
 }
 
+section:hover {
+  background-color:white;
+  transition: all 1s ease-in-out;
+}
+
+section:hover a {
+ color:#000;
+}
+
 section.first-section, 
 section.second-section {
  border-left:1px solid white;
@@ -70,6 +79,10 @@ section.second-section {
 
 /* Navigation */
 section .nav-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
   writing-mode: vertical-lr;
   text-orientation: mixed;
   margin:20px 0;
