@@ -303,7 +303,7 @@ section .nav-link.active a span {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-size: 4vw;
+    font-size: 3.25vw;
     font-weight:200;
 }
 
