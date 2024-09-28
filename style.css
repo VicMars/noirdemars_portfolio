@@ -413,6 +413,7 @@ section .nav-link.active a span {
    font-weight:300;
    margin:0;
    opacity: 0;
+   transition: margin-right 2s ease;
    animation: 0.8s ease 5s 1 forwards appearText;
 }
 
@@ -426,6 +427,10 @@ section .nav-link.active a span {
     transform: translateX(0) rotate(0deg);
   }
 } 
+
+.secondary-introduction-two p:hover {
+  margin-right:-10px;
+}
 
 .secondary-introduction-two p span {
   font-size: 14px;
