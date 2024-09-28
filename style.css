@@ -306,7 +306,7 @@ section .nav-link.active a span {
 }
 
 .hello-animation-image {
-  display:none;
+ display:none;
 }
 
 #portrait_img {
@@ -336,17 +336,38 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .hello-animation {
-  width:50vw;
-  text-align:right;
+  width:40vw;
+  /* align-self: end; */
+  margin-top: 25px;
+  border: 1px solid blue;
 }
 
 .secondary-introduction-one .hello-animation-content {
+  display:block;
+  position:relative;
   text-align:center;
+  width: fit-content;
+  margin: 0 auto;
 }
 
-.secondary-introduction-one .hello-animation-content span{
+.secondary-introduction-one .hello-animation-content span {
   writing-mode:vertical-lr;
   text-orientation: mixed;
+  font-weight: 500;
+}
+
+.secondary-introduction-one .hello-animation-content p {
+  font-size:1rem;
+}
+
+.secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
+  display:block;
+  position:absolute;
+  top:50px;
+  left:25vw;
+  right:0;
+  margin:0 auto;
+  text-align:center
 }
 
 
