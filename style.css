@@ -343,17 +343,17 @@ section .nav-link.active a span {
    font-weight:300;
    margin:0;
    opacity: 0;
-   animation: 0.6s ease 6s 1 forwards appearText;
+   animation: 0.8s ease 7s 1 forwards appearText;
 }
 
 @keyframes appearText {
   from {
     opacity:0;
-    transform: translateX(-8px);
+    transform: translateX(-10px) rotate(5deg);
   }
   to {
     opacity:1;
-    transform: translateX(0);
+    transform: translateX(0) rotate(0deg);
   }
 } 
 
