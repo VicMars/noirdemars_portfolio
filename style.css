@@ -406,6 +406,11 @@ section .nav-link.active a span {
     writing-mode:unset;
   }
 
+  .content .secondary-title {
+    width:calc(100% - 50px);
+    right:25px;
+  }
+
   .content .secondary-title .secondary-introduction {
    width:100%;
    margin;0;
