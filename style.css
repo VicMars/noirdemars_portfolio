@@ -47,6 +47,18 @@ p {
   overflow:hidden;
 }
 
+.main-nav {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  height:60px;
+}
+
+.main-nav .nav-mobile {
+  display:none;
+}
+
 .main-nav a {
   font-family:"Playfair Display";
   font-size: 40px;
@@ -380,32 +392,14 @@ section .nav-link.active a span {
     overflow:auto;
   }
 
-  .main-nav {
-    text-align:center;
-    width:fit-content;
-    margin:0 auto;
+  .main-nav .nav-mobile {
+    display:block;
   }
 
   section {
-    height:50px;
+    display:none;
   }
-
-  section.first-section {
-     position:absolute;
-     top:0;
-     left:10px;
-  }
-
-  section.second-section {
-     position:absolute;
-     top:0;
-     right:10px;
-  }
-
-  section .nav-link a {
-    writing-mode:unset;
-  }
-
+  
   .content .secondary-title {
     width:calc(100% - 50px);
     top:80px;
