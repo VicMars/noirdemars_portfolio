@@ -367,3 +367,48 @@ section .nav-link.active a span {
     }
 }
 
+
+
+
+
+
+
+// Responsive
+@media screen and (max-width:48em) {
+  .container {
+    flex-direction: column-reverse;
+    overflow:auto;
+  }
+
+  .main-nav {
+    text-align:center;
+    width:fit-content;
+    margin:0 auto;
+  }
+
+  section {
+    height:50px;
+  }
+
+  section.first-section {
+     position:absolute;
+     top:0;
+     left:10px;
+  }
+
+  section.second-section {
+     position:absolute;
+     top:0;
+     right:10px;
+  }
+
+  section .nav-link a {
+    writing-mode:unset;
+  }
+
+  .content .secondary-title .secondary-introduction {
+   width:100%;
+   margin;0;
+  }
+  
+}
