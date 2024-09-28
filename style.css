@@ -369,6 +369,7 @@ section .nav-link.active a span {
 .secondary-introduction-one .hello-animation-content button {
   background-color:transparent;
   border:0;
+  color:white;
 }
 
 .secondary-introduction-one .hello-animation-content button:hover ~ .hello-animation-image {
