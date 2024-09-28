@@ -379,7 +379,7 @@ section .nav-link.active a span {
   cursor:pointer;
 }
 
-.secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
+.secondary-introduction-one .hello-animation-content:hover ~ #portrait_img {
   display:block;
   margin:0 auto;
   text-align:center;
