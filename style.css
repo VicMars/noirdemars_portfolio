@@ -62,7 +62,7 @@ p {
   display:none;
 }
 
-.main-nav a {
+.main-nav .home-link a {
   font-family:"Playfair Display";
   font-size: 40px;
   letter-spacing:-1px;
@@ -73,9 +73,14 @@ p {
   line-height: 1;
 }
 
-.main-nav a em {
+.main-nav .home-link a em {
   font-size:26px;
   font-weight:600;
+}
+
+.main-nav .nav-mobile a {
+  font-family:"Spartan";
+  font-size:26px;
 }
 
 .main-nav a:hover {
