@@ -446,10 +446,6 @@ section .nav-link.active a span {
 /* Responsive
 * -------------------------------- */
 @media (max-width:48em) {
-  .container {
-    flex-direction: column-reverse;
-    overflow:auto;
-  }
 
   .main-nav .nav-mobile {
     display:block;
