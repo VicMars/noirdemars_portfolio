@@ -328,7 +328,7 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .hello-animation {
-  width:40vw;
+  display:flex;
   margin-top: 25px;
 }
 
@@ -355,7 +355,7 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation-image {
   display:none;
-  transition: all 1.5s ease;
+  flex-basis:50%;
 }
 
 #portrait_img {
