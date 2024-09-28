@@ -341,9 +341,10 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .hello-animation-content span {
-  writing-mode:vertical-lr;
-  text-orientation: mixed;
+  display:block;
   font-weight: 500;
+  line-height:12px;
+  opacity:0.5;
 }
 
 .secondary-introduction-one .hello-animation-content p {
