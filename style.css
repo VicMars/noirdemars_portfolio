@@ -350,6 +350,7 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation-content p {
   font-size:1rem;
+  padding:15px 0;
 }
 
 .secondary-introduction-one .hello-animation-image {
