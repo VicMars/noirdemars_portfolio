@@ -337,6 +337,7 @@ section .nav-link.active a span {
   position:relative;
   text-align:center;
   width: fit-content;
+  height:100%;
   margin: 0 auto;
 }
 
@@ -366,13 +367,15 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
-.secondary-introduction-one .hello-animation-content button {
-  background-color:transparent;
-  border:0;
-  color:white;
+.secondary-introduction-one .hello-animation-content p {
+  font-size:1rem;
 }
 
-.secondary-introduction-one .hello-animation-content button:hover ~ .hello-animation-image {
+.secondary-introduction-one .hello-animation-content:hover {
+  cursor:pointer;
+}
+
+.secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
   display:block;
   position:absolute;
   top:50px;
