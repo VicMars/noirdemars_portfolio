@@ -28,7 +28,7 @@ const interval = 500; // Time in milliseconds for each dot to blink
 
 function blinkDots() {
   // Set all dots to invisible
-  dots.forEach(dot => dot.style.opacity = 0);
+  dots.forEach(dot => dot.style.opacity = 0.5);
 
   // Set the current dot to visible
   dots[currentDot].style.opacity = 1;
