@@ -70,7 +70,7 @@ p {
   text-decoration:none;
   margin-left:0;
   transition: margin-left 1s ease-in-out;
-  line-height: 1;
+  line-height: 0;
 }
 
 .main-nav .home-link a em {
@@ -80,7 +80,8 @@ p {
 
 .main-nav .nav-mobile a {
   font-family:"Spartan";
-  font-size:26px;
+  font-size:18px;
+  text-decoration:none;
 }
 
 .main-nav a:hover {
