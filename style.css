@@ -385,7 +385,8 @@ section .nav-link.active a span {
 
 
 
-// Responsive
+/* Responsive
+* -------------------------------- */
 @media (max-width:48em) {
   .container {
     flex-direction: column-reverse;
