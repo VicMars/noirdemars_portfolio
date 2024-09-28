@@ -388,9 +388,6 @@ section .nav-link.active a span {
   }
 }
 
-
-
-
 .secondary-introduction-two {
   display: flex;
   justify-self: end;
@@ -403,13 +400,13 @@ section .nav-link.active a span {
    font-weight:300;
    margin:0;
    opacity: 0;
-   animation: 0.8s ease 7s 1 forwards appearText;
+   animation: 0.8s ease 5s 1 forwards appearText;
 }
 
 @keyframes appearText {
   from {
     opacity:0;
-    transform: translateX(-10px) rotate(5deg);
+    transform: translateX(-10px) rotate(8deg);
   }
   to {
     opacity:1;
