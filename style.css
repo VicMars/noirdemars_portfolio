@@ -49,10 +49,13 @@ p {
 
 .main-nav {
   display:flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-content:center;
-  align-items:center;
-  height:60px;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  top: 0;
+  left:0;
 }
 
 .main-nav .nav-mobile {
@@ -67,6 +70,7 @@ p {
   text-decoration:none;
   margin-left:0;
   transition: margin-left 1s ease-in-out;
+  line-height: 1;
 }
 
 .main-nav a em {
@@ -100,11 +104,12 @@ section.second-section {
 }
 
 .content {
-  flex-grow:1;
   display:flex;
   flex-direction:column;
-  justify-content: center;
-  padding:25px;
+  justify-content: space-between;
+  position: relative;
+  margin: 25px;
+  width: 100%;
   max-height: 100vh;
 }
 
@@ -116,8 +121,8 @@ section .nav-link a {
   line-height: 50px;
   writing-mode: vertical-lr;
   text-orientation: mixed;
-  margin:20px 0;
   text-decoration:none;
+  margin:20px 0;
 }
 
 section .nav-link a span {
@@ -143,9 +148,13 @@ section .nav-link.active a span {
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  height: 100vh;
-  max-height: 100%;
   align-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: calc(100vh - 100px);
+  max-height: 100%;
 }
 
 .content .primary-title-one {
@@ -236,13 +245,13 @@ section .nav-link.active a span {
 }
 
 .content .secondary-title {
-  display:block;
+  display: block;
   position: absolute;
-  top: 25px;
-  left: 25px;
-  bottom: 25px;
-  width:calc(100% - 160px);
+  top: 50px;
+  left: 0;
+  width: 100%;
   max-width: 100%;
+  height: calc(100vh - 100px);
   max-height: 100%;
   margin:0 auto;
   opacity:0;
@@ -266,11 +275,6 @@ section .nav-link.active a span {
   }
 }
 
-.content .secondary-title h1 {
-  font-size: 8vw;
-  line-height:0.5;
-}
-
 .content .secondary-title .secondary-introduction {
   display: flex;
   flex-direction:column;
@@ -279,7 +283,6 @@ section .nav-link.active a span {
   top: 0;
   height:100%;
   text-align:left;
-  margin:0 50px;
 }
 
 .content .secondary-title .portrait-animation {
@@ -317,10 +320,12 @@ section .nav-link.active a span {
     justify-content: center;
     flex-direction: column;
     font-weight:200;
+    position: relative;
+    top: 0;
 }
 
 .secondary-introduction-one p.large-text {
-  font-size: 3.25vw;
+  font-size: clamp(2.7rem, 3.25vw, 5.4rem);
   margin-bottom:0;
 }
 
@@ -388,13 +393,13 @@ section .nav-link.active a span {
 /* Responsive
 * -------------------------------- */
 @media (max-width:48em) {
-  .main-nav .nav-mobile {
-    display:block;
+  .container {
+    flex-direction: column-reverse;
+    overflow:auto;
   }
 
-  .main-nav .nav-mobile a {
-    font-family:"Spartan";
-    font-size: 25px;
+  .main-nav .nav-mobile {
+    display:block;
   }
 
   section {
@@ -405,11 +410,13 @@ section .nav-link.active a span {
     width:calc(100% - 50px);
     top:80px;
     right:25px;
+    margin: 0;
   }
 
   .content .secondary-title .secondary-introduction {
    width:100%;
    margin;0;
+   margin: 0;
   }
   
 }
