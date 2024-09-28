@@ -483,5 +483,14 @@ section .nav-link.active a span {
   .content .secondary-introduction-one .hello-animation {
     margin-top:50px;
   }
+
+  .secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
+    top:unset;
+    bottom:10vh;
+  }
+
+  .content .secondary-introduction-one .hello-animation #portrait_img {
+    width:45vw;
+  }
   
 }
