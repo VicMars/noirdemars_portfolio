@@ -351,7 +351,8 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .hello-animation-image {
-  display:none;
+  display:block;
+  visibility:hidden;
   transition: all 1.5s ease;
 }
 
@@ -369,10 +370,22 @@ section .nav-link.active a span {
   display:block;
   position:absolute;
   top:50px;
-  left:25vw;
+  left:23vw;
   right:0;
   margin:0 auto;
   text-align:center;
+  animation: showImage 1s 1 forwards ease;
+}
+
+@keyframes showImage {
+  from {
+    opacity:0;
+    top:30px;
+  }
+  to {
+    opacity:1;
+    top:50px;
+  }
 }
 
 
