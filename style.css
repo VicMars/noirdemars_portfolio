@@ -467,5 +467,10 @@ section .nav-link.active a span {
   .content .secondary-introduction-one {
     padding:0;
   }
+
+   .content .secondary-introduction-two {
+     padding:0;
+     text-align:center;
+   }
   
 }
