@@ -374,7 +374,7 @@ section .nav-link.active a span {
 
 
 // Responsive
-@media screen and (max-width:48em) {
+@media (max-width:48em) {
   .container {
     flex-direction: column-reverse;
     overflow:auto;
