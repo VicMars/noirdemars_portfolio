@@ -355,7 +355,7 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation-image {
   display:none;
-  flex-basis:50%;
+  flex-basis:70%;
 }
 
 #portrait_img {
@@ -378,10 +378,10 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
   display:block;
-  position:absolute;
+/*   position:absolute;
   top:50px;
   left:23vw;
-  right:0;
+  right:0; */
   margin:0 auto;
   text-align:center;
   animation: showImage 1s 1 forwards ease;
