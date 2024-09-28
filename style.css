@@ -337,8 +337,9 @@ section .nav-link.active a span {
   position:relative;
   text-align:center;
   width: fit-content;
+  flex-basis:50%
   height:100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .secondary-introduction-one .hello-animation-content span {
@@ -355,7 +356,7 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation-image {
   display:none;
-  flex-basis:70%;
+  flex-basis:50%;
 }
 
 #portrait_img {
