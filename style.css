@@ -323,6 +323,7 @@ section .nav-link.active a span {
     font-weight:200;
     position: relative;
     top: 0;
+    padding: 0 25px;
 }
 
 .secondary-introduction-one p.large-text {
@@ -335,6 +336,7 @@ section .nav-link.active a span {
   justify-self: end;
   flex-direction: column;
   align-items: flex-end;
+  padding: 0 25px;
 }
 
 .secondary-introduction-two p {
