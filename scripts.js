@@ -21,6 +21,26 @@ function animateH1() {
 animateH1();
 
 
+// Homepage - Animate dots for Hello animation
+const dots = document.querySelectorAll('.hello-dots span');
+let currentDot = 0;
+const interval = 500; // Time in milliseconds for each dot to blink
+
+function blinkDots() {
+  // Set all dots to invisible
+  dots.forEach(dot => dot.style.opacity = 0);
+
+  // Set the current dot to visible
+  dots[currentDot].style.opacity = 1;
+
+  // Move to the next dot
+  currentDot = (currentDot + 1) % dots.length;
+}
+
+// Start the blinking effect
+setInterval(blinkDots, interval);
+
+
 
 
 
