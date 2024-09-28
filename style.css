@@ -337,7 +337,7 @@ section .nav-link.active a span {
   position:relative;
   text-align:center;
   width: fit-content;
-  flex-basis:50%
+  flex-basis:50%;
   height:100%;
   margin: 0;
 }
@@ -355,11 +355,13 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .hello-animation-image {
-  display:none;
   flex-basis:50%;
 }
 
 #portrait_img {
+  display:none;
+  position:absolute;
+  top:0;
   margin:50px 0 25px 0;
   opacity:1;
   width:20vw;
@@ -379,10 +381,6 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
   display:block;
-/*   position:absolute;
-  top:50px;
-  left:23vw;
-  right:0; */
   margin:0 auto;
   text-align:center;
   animation: showImage 1s 1 forwards ease;
