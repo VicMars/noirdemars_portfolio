@@ -203,7 +203,7 @@ section .nav-link.active a span {
   font-size: clamp(7rem, 25vw, 25rem);
   margin:0;
   padding: 0;
-  line-height: 47vh;
+  line-height: 46vh;
   position: relative; 
   width:fit-content;
   opacity: 0; 
