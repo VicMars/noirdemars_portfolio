@@ -351,8 +351,7 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .hello-animation-image {
-  display:block;
-  visibility:hidden;
+  display:none;
   transition: all 1.5s ease;
 }
 
