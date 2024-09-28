@@ -366,7 +366,12 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
-.secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
+.secondary-introduction-one .hello-animation-content button {
+  background-color:transparent;
+  border:0;
+}
+
+.secondary-introduction-one .hello-animation-content button:hover ~ .hello-animation-image {
   display:block;
   position:absolute;
   top:50px;
