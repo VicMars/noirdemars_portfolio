@@ -331,6 +331,23 @@ section .nav-link.active a span {
   margin-bottom:0;
 }
 
+.secondary-introduction-one .hello-animation {
+  width:50vw;
+  text-align:right;
+}
+
+.secondary-introduction-one .hello-animation-content {
+  text-align:center;
+}
+
+.secondary-introduction-one .hello-animation-content span{
+  writing-mode:vertical-lr;
+  text-orientation: mixed;
+}
+
+
+
+
 .secondary-introduction-two {
   display: flex;
   justify-self: end;
