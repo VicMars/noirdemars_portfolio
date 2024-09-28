@@ -305,20 +305,6 @@ section .nav-link.active a span {
   transition: opacity 0.5s;
 }
 
-.hello-animation-image {
- display:none;
-}
-
-#portrait_img {
-  margin:50px 0 25px 0;
-  opacity:1;
-  width:20vw;
-  object-fit:cover;
-  transform: rotate(5deg);
-  z-index:1;
-  transition: opacity 1s;
-}
-
 .secondary-introduction-one {
     flex-grow: 1;
     display: flex;
@@ -337,9 +323,7 @@ section .nav-link.active a span {
 
 .secondary-introduction-one .hello-animation {
   width:40vw;
-  /* align-self: end; */
   margin-top: 25px;
-  border: 1px solid blue;
 }
 
 .secondary-introduction-one .hello-animation-content {
@@ -360,6 +344,21 @@ section .nav-link.active a span {
   font-size:1rem;
 }
 
+.secondary-introduction-one .hello-animation-image {
+  display:none;
+  transition: all 1.5s ease;
+}
+
+#portrait_img {
+  margin:50px 0 25px 0;
+  opacity:1;
+  width:20vw;
+  object-fit:cover;
+  transform: rotate(5deg);
+  z-index:1;
+  transition: opacity 1s;
+}
+
 .secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
   display:block;
   position:absolute;
@@ -367,7 +366,7 @@ section .nav-link.active a span {
   left:25vw;
   right:0;
   margin:0 auto;
-  text-align:center
+  text-align:center;
 }
 
 
