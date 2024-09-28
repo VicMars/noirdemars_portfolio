@@ -305,7 +305,7 @@ section .nav-link.active a span {
   transition: opacity 0.5s;
 }
 
-.portrait-animation #portrait_img {
+#portrait_img {
   margin:50px 0 25px 0;
   opacity:1;
   width:20vw;
