@@ -331,7 +331,10 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-two {
-  align-self:end;
+  display: flex;
+  justify-self: end;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .secondary-introduction-two p {
