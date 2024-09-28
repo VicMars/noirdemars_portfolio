@@ -358,10 +358,11 @@ section .nav-link.active a span {
   flex-basis:50%;
 }
 
-#portrait_img {
+.portrait-img {
   display:none;
-  position:absolute;
-  top:0;
+}
+
+#portrait_img {
   margin:50px 0 25px 0;
   opacity:1;
   width:20vw;
@@ -379,8 +380,10 @@ section .nav-link.active a span {
   cursor:pointer;
 }
 
-.secondary-introduction-one .hello-animation-content:hover ~ #portrait_img {
+.secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image .portrait-img {
   display:block;
+  position:absolute;
+  left:50%;
   margin:0 auto;
   text-align:center;
   animation: showImage 1s 1 forwards ease;
