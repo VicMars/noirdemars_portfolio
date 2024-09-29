@@ -1,3 +1,10 @@
+anime({
+  targets: '.scroll-text',
+  translateX: ['100%', '-100%'], // Moves the text from right to left
+  easing: 'linear',  // Smooth constant speed
+  duration: 10000,   // Adjust this for speed (in milliseconds)
+  loop: true        // Infinite loop
+});
 
 
 
