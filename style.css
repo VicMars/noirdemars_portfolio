@@ -170,9 +170,10 @@ section .nav-link.active a span {
 
 .primary-title h1 {
   font-size: clamp(7rem, 25vw, 25rem);
-  line-height: 46vh;
   margin:0;
   padding: 0;
+  height:200px;
+  line-height: 100px;
 }
 
 .primary-title-span {
