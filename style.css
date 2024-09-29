@@ -418,45 +418,28 @@ section .nav-link.active a span {
 
 .secondary-introduction-two {
   display: flex;
-  justify-self: end;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 0 25px;
+  justify-content:center;
+  width:80vw;
+  overflow: hidden;
+  white-space: nowrap;
+  margin:0 auto;
+  padding: 25px;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
 }
 
 .secondary-introduction-two p {
    font-weight:300;
    margin:0;
-   opacity: 0;
-   transition: margin-right 2s ease;
-   animation: 0.8s ease 5s 1 forwards appearText;
-}
-
-@keyframes appearText {
-  from {
-    opacity:0;
-    transform: translateX(-10px) rotate(8deg);
-  }
-  to {
-    opacity:1;
-    transform: translateX(0) rotate(0deg);
-  }
-} 
-
-.secondary-introduction-two p:hover {
-  margin-right:-10px;
 }
 
 .secondary-introduction-two p span {
   font-size: 14px;
   font-weight: 600;
   margin: 0 10px;
-  opacity:0;
 }
 
-.secondary-introduction-two p:hover span {
-  opacity:1;
-}
 
 .rotating-star {
     display: inline-block;
