@@ -170,7 +170,7 @@ section .nav-link.active a span {
 
 .primary-title-line,
 .primary-title-inline {
-  height: 45vh;
+  height: calc((100vh - 100px) / 2);
 }
 
 .primary-title-inline {
@@ -179,9 +179,11 @@ section .nav-link.active a span {
 
 .primary-title h1 {
   font-size: clamp(7rem, 24.75vw, 25rem);
+  font-weight:normal;
+  letter-spacing:-1px;
   margin:0;
   padding: 0;
-  line-height:0.75;
+  line-height:260px;
 }
 
 .primary-title-span {
