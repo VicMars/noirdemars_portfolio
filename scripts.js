@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     targets: '.scroll-text',
     translateX: ['100%', '-100%'],
     easing: 'linear',
-    duration: 10000,
+    duration: 50000,
     loop: true
   });
 });
