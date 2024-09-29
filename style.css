@@ -50,7 +50,6 @@ p {
 .main-nav {
   display:flex;
   justify-content: space-between;
-  align-content:center;
   align-items: center;
   height: 50px;
   position: relative;
@@ -110,7 +109,7 @@ section.second-section {
   text-decoration:none;
   margin-left:0;
   transition: margin-left 1s ease-in-out;
-  line-height: 0;
+  line-height: 1;
 }
 
 .main-nav .home-link a em {
