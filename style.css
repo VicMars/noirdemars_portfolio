@@ -230,29 +230,8 @@ section .nav-link.active a span {
   display: flex;
   flex-direction:column;
   justify-content:center;
-  position:sticky;
-  top: 0;
-  height:100%;
-  text-align:left;
-}
-
-.secondary-title .portrait-animation {
-  display:block;
-  position: relative;
-  left: 0;
-  right: 0;
-  height: 100%;
-  text-align:center;
-}
-
-.secondary-title .portrait-dot {
-  display:block; 
-  text-align:left;
-  font-size: 1.75rem;
-  font-weight:bold;
-  margin:8px;
-  opacity: 1;
-  transition: opacity 0.5s;
+  height:20vh;
+  text-align:right;
 }
 
 .secondary-introduction-one {
@@ -269,12 +248,12 @@ section .nav-link.active a span {
   margin-bottom:0;
 }
 
-.secondary-introduction-one .hello-animation {
+.secondary-introduction .hello-animation {
   display:flex;
   margin-top: 25px;
 }
 
-.secondary-introduction-one .hello-animation-content {
+.secondary-introduction .hello-animation-content {
   display:block;
   position:relative;
   text-align:center;
@@ -284,20 +263,39 @@ section .nav-link.active a span {
   margin: 0;
 }
 
-.secondary-introduction-one .hello-animation-content span {
+.secondary-introduction .hello-animation-content span {
   display:block;
   font-weight: 500;
   line-height:12px;
   opacity:0.5;
 }
 
-.secondary-introduction-one .hello-animation-content p {
+.secondary-introduction .hello-animation-content p {
   font-size:1rem;
   padding:15px 0;
 }
 
-.secondary-introduction-one .hello-animation-image {
+.secondary-introduction .hello-animation-image {
   flex-basis:50%;
+}
+
+.portrait-animation {
+  display:block;
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 100%;
+  text-align:center;
+}
+
+.portrait-dot {
+  display:block; 
+  text-align:left;
+  font-size: 1.75rem;
+  font-weight:bold;
+  margin:8px;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .portrait-img {
@@ -315,15 +313,15 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
-.secondary-introduction-one .hello-animation-content p {
+.secondary-introduction .hello-animation-content p {
   font-size:1rem;
 }
 
-.secondary-introduction-one .hello-animation-content:hover {
+.secondary-introduction .hello-animation-content:hover {
   cursor:pointer;
 }
 
-.secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image .portrait-img {
+.secondary-introduction .hello-animation-content:hover ~ .hello-animation-image .portrait-img {
   display:block;
   position:absolute;
   left:50%;
