@@ -1,3 +1,10 @@
+
+AOS.init({
+  duration: 1200,
+})
+
+
+
 ///// Homepage introduction - Function to animate the h1 element
 // function animateH1() {
 //   const leftTitle = document.querySelector(".primary-title-one h1");
