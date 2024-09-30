@@ -1,6 +1,3 @@
-window.addEventListener('load', AOS.refresh);
-
-
 ///// Homepage:  Hello animation
 const helloText = document.querySelector(".hello-animation-text");
 const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
