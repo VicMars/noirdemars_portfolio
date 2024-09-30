@@ -4,16 +4,18 @@ const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img
 const portraitImg = document.querySelector("#portrait_img");
 
 // Add event listener for mouseover to change the target element's style
-helloText.addEventListener('mouseover', function() {
-  portraitImgWrapper.style.right = '20px'; // Change position on hover
-  portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
-});
-
-// Add event listener for mouseout to reset the target element's style
-helloText.addEventListener('mouseout', function() {
-  portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
-  portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
-});
+if (helloText !== null) { 
+  helloText.addEventListener('mouseover', function() {
+    portraitImgWrapper.style.right = '20px'; // Change position on hover
+    portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
+  });
+  
+  // Add event listener for mouseout to reset the target element's style
+  helloText.addEventListener('mouseout', function() {
+    portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
+    portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
+  });
+}
 
 
 /// Anime.js effects
@@ -26,14 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
     loop: true
   });
 });
-
-document.addEventListener('DOMContentLoaded', function() {
-  AOS.init({
-    once: false // Ensures the animation replays when scrolling back up
-  });
-});
-
-
 
 
 
