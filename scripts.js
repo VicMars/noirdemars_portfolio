@@ -5,7 +5,7 @@ const portraitImg = document.querySelector(".hello-animation-portrait");
 
 // Add event listener for mouseover to change the target element's style
 helloText.addEventListener('mouseover', function() {
-  portraitImg.style.right = '0'; // Change position on hover
+  portraitImg.style.right = '100%'; // Change position on hover
 });
 
 
