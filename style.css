@@ -413,6 +413,7 @@ section .nav-link.active a span {
 }
 
 .content-contact-text p {
+  font-size: 1rem;
   padding: 0 2rem;
 }
 
