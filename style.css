@@ -230,7 +230,7 @@ section .nav-link.active a span {
   max-width: 100%;
   height: auto;
   margin:0 auto;
-  padding-bottom:100px;
+  padding-bottom:25px;
   overflow-x:hidden;
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
