@@ -510,7 +510,7 @@ section .nav-link.active a span {
   text-align:right;
 }
 
-.project-card-details p:not(span) {
+.project-card-details:not(span) {
    display:none;
 }
 
