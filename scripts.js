@@ -25,15 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
     duration: 50000,
     loop: true
   });
-
-  anime.timeline({ loop: false })
-  .add({
-    targets: '.primary-title-line h1',
-    opacity: [0, 1],
-    easing: "easeInOutQuad",
-    duration: 1200,
-    delay: (el, i) => 150 * (i + 1)
-  });
 });
 
 
