@@ -280,6 +280,8 @@ section .nav-link.active a span {
   display:block;
   position:absolute;
   right:-80%;
+  font-size:1rem;
+  text-align:right;
 }
 
 #portrait_img {
