@@ -1,3 +1,26 @@
+///// Homepage:  Hello animation
+const helloText = document.querySelector(".hello-animation-text");
+const portraitImg = document.querySelector(".hello-animation-portrait");
+
+helloText.addEventListener(
+  "mouseover",
+  function() {
+    portraitImg.style.border = "2px solid red";
+  }
+);
+
+       
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
   anime({
     targets: '.scroll-text',
