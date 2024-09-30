@@ -11,7 +11,7 @@ helloText.addEventListener('mouseover', function() {
 
 // Add event listener for mouseout to reset the target element's style
 helloText.addEventListener('mouseout', function() {
-  portraitImg.style.right = '-20%'; // Reset position when no hover
+  portraitImg.style.right = '-80%'; // Reset position when no hover
 });
 
 
