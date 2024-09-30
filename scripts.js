@@ -25,8 +25,8 @@ const dots = document.querySelectorAll('.hello-dots span');
 let currentDot = 0;
 const interval = 500; // Time in milliseconds for each dot to blink
 
-if (dots !== null) { 
-  function blinkDots() {
+function blinkDots() {
+  if (dots !== null) { 
     // Set all dots to invisible
     dots.forEach(dot => dot.style.opacity = 0.5);
   
@@ -39,6 +39,7 @@ if (dots !== null) {
   
   // Start the blinking effect
   setInterval(blinkDots, interval);
+  }
 }
 
 
