@@ -78,7 +78,7 @@ p {
   overflow: hidden;
 }
 
-.content {
+.content, .content-about, .content-work {
   flex-grow:1;
   display:block;
   position: relative;
@@ -90,7 +90,9 @@ p {
   scrollbar-width: none;
 }
 
-.content::-webkit-scrollbar {
+.content::-webkit-scrollbar,
+.content-about::-webkit-scrollbar,
+.content-work::-webkit-scrollbar{
   display:none; /* for Chrome, Safari, and Opera */
 }
 
