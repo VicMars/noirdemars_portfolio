@@ -376,7 +376,6 @@ section .nav-link.active a span {
 
 /* Contact
 ------------------------------------------------------ */
-
 #content-contact {
   display:block;
   padding:3rem 0;
@@ -422,12 +421,15 @@ section .nav-link.active a span {
   text-align:center;
 }
 
-.contact-links ul li {
+.contact-links-social ul li {
   display:inline-block;
   list-style:none;
   margin:0;
-  padding:0 25px;
-  font-size:0.95rem;
+  padding:0 10px;
+}
+
+.contact-links-social ul li a {
+  font-size:0.9rem;
 }
 
 .rw-words-1 span {
