@@ -27,6 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  AOS.init({
+    once: false // Ensures the animation replays when scrolling back up
+  });
+});
+
+
 
 
 
