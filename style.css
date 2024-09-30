@@ -407,7 +407,7 @@ section .nav-link.active a span {
 .content-contact h2 {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 200;
   letter-spacing: 5px;
   text-align: left;
 }
@@ -450,6 +450,7 @@ section .nav-link.active a span {
 }
 
 .rw-words-1 span {
+  font-weight:900;
   position: absolute;
   opacity: 0;
   overflow: hidden;
