@@ -266,13 +266,6 @@ section .nav-link.active a span {
   padding:0 15px;
 }
 
-.hello-dots {
-  position:relative;
-  top:-25px;
-  left:25px;
-  transform:rotate(-40deg);
-}
-
 .hello-animation-image {
   flex-basis:25%;
   display:block;
