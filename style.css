@@ -272,13 +272,14 @@ section .nav-link.active a span {
 
 .hello-animation-portrait {
   display:block;
+  position:relative;
   font-size:1rem;
 }
 
 .hello-animation-portrait-img {
   display:block;
   position:absolute;
-  right:-20%;
+  right:-80%;
 }
 
 #portrait_img {
