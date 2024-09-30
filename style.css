@@ -419,6 +419,7 @@ section .nav-link.active a span {
 
 .contact-links ul {
   padding:25px;
+  text-align:center;
 }
 
 .contact-links ul li {
@@ -426,6 +427,7 @@ section .nav-link.active a span {
   list-style:none;
   margin:0;
   padding:0 25px;
+  font-size:0.95rem;
 }
 
 .rw-words-1 span {
