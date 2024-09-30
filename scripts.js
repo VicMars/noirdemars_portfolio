@@ -1,7 +1,7 @@
 ///// Homepage:  Hello animation
 const helloText = document.querySelector(".hello-animation-text");
 const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
-const portraitImg = document.querySelector("#portrait_img)";
+const portraitImg = document.querySelector("#portrait_img");
 
 
 // Add event listener for mouseover to change the target element's style
