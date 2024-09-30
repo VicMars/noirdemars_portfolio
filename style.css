@@ -278,11 +278,11 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
-.secondary-introduction .hello-animation-content:hover {
+.secondary-introduction .hello-animation-text:hover {
   cursor:pointer;
 }
 
-.secondary-introduction .hello-animation-content:hover ~ .hello-animation-portrait {
+.secondary-introduction .hello-animation-text:hover ~ .hello-animation-portrait {
   display:block;
   position:absolute;
   left:50%;
@@ -310,6 +310,11 @@ section .nav-link.active a span {
     font-weight:200;
     height:40vh;
     padding: 4rem 25px;
+}
+
+.secondary-introduction-one .portrait-dot {
+ font-siz:16px;
+ font-weight:bold;
 }
 
 .secondary-introduction-one p.large-text {
