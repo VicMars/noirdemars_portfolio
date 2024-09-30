@@ -238,8 +238,6 @@ section .nav-link.active a span {
 .hello-animation {
   display:flex;
   justify-content:flex-end;
-  position:relative;
-  overflow:hidden;
   margin: 25px 0;
 }
 
@@ -256,6 +254,8 @@ section .nav-link.active a span {
 
 .hello-animation-image {
   flex-basis:25%;
+  display:block;
+  position:relative;
 }
 
 .hello-animation-content span {
@@ -272,9 +272,13 @@ section .nav-link.active a span {
 
 .hello-animation-portrait {
   display:block;
+  font-size:1rem;
+}
+
+.hello-animation-portrait-img {
+  display:block;
   position:absolute;
   right:-20%;
-  font-size:1rem;
 }
 
 #portrait_img {
