@@ -282,6 +282,7 @@ section .nav-link.active a span {
   right:-80%;
   font-size:1rem;
   text-align:right;
+  transition: right 1s ease;
 }
 
 #portrait_img {
@@ -291,28 +292,11 @@ section .nav-link.active a span {
   object-fit:cover;
   transform: rotate(5deg);
   z-index:1;
-  transition: opacity 1s;
+  transition: transform 1s ease;
 }
 
 .hello-animation-text:hover {
   cursor:pointer;
-}
-
-.hello-animation-text:hover ~ .hello-animation-portrait {
-  margin:0 auto;
-  text-align:center;
-  animation: showImage 1s 1 forwards ease;
-}
-
-@keyframes showImage {
-  from {
-    opacity:0;
-    right:-30%;
-  }
-  to {
-    opacity:1;
-    right:0;
-  }
 }
 
 .secondary-introduction-one {
