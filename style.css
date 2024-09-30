@@ -485,8 +485,23 @@ section .nav-link.active a span {
   100% { opacity: 0; }
 }
 
+.content-projects {
+    display: flex;
+    justify-content: flex-start;
+    width:auto;
+    height: calc(100vh - 80px);
+    gap: 2rem;
+    overflow-x:scroll;
+}
 
+.project-card {
+   display:block;
+   max-height:100%;
+}
 
+.project-card img {
+    max-height:100%;
+}
 
 
 /* Responsive
