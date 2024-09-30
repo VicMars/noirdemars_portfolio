@@ -67,13 +67,14 @@ p {
 }
 
 .wrapper {
-  flex-grow: 1;
-  display:block;
+  display:flex;
+  justify-content:space-between;
   height: 100vh;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .content {
+  flex-grow:1;
   display:block;
   position: relative;
   max-width: 100%;
