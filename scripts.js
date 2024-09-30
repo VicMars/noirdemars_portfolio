@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   anime.timeline({ loop: false })
   .add({
-    targets: '.primary-title-line h1 .letter',
+    targets: '.primary-title-line h1',
     opacity: [0, 1],
     easing: "easeInOutQuad",
     duration: 1200,
