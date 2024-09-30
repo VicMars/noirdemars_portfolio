@@ -81,6 +81,12 @@ p {
   height: 100%;
   margin: 25px;
   overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.content::-webkit-scrollbar {
+  display:none; /* for Chrome, Safari, and Opera */
 }
 
 section {
@@ -143,7 +149,7 @@ section .nav-link a {
   writing-mode: vertical-lr;
   text-orientation: mixed;
   text-decoration:none;
-  margin:20px 0;
+  margin:10px 0;
 }
 
 section .nav-link a span {
