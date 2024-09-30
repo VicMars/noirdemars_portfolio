@@ -252,7 +252,18 @@ section .nav-link.active a span {
 }
 
 .hello-animation-text {
-  text-align:center;
+  display:flex;
+}
+
+.hello-animation-text span {
+  font-weight: 500;
+  line-height:12px;
+  opacity:0.5;
+}
+
+.hello-animation-text p {
+  font-size:1rem;
+  padding:0 15px;
 }
 
 .hello-dots {
@@ -268,7 +279,7 @@ section .nav-link.active a span {
   position:relative;
 }
 
-.hello-animation-content span {
+/* .hello-animation-content span {
   display:block;
   font-weight: 500;
   line-height:12px;
@@ -278,7 +289,7 @@ section .nav-link.active a span {
 .hello-animation-content p {
   font-size:1rem;
   padding:15px 0;
-}
+} */
 
 .hello-animation-portrait {
   display:block;
