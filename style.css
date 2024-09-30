@@ -245,7 +245,7 @@ section .nav-link.active a span {
 .hello-animation {
   display:flex;
   justify-content:flex-end;
-  align-content:flex-end;
+  align-items:flex-end;
   margin: 25px 0;
 }
 
