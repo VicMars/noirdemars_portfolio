@@ -50,7 +50,27 @@
     
   <!-- AOS Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script> AOS.init();</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        once: false // Allow animations to repeat
+      });
+
+      // Detect scroll direction
+      let lastScrollTop = 0;
+
+      window.addEventListener('scroll', function() {
+        let st = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Check if scrolling up
+        if (st < lastScrollTop) {
+          AOS.refresh(); // Refresh AOS when scrolling up
+        }
+        
+        lastScrollTop = st <= 0 ? 0 : st; // Ensure we don't go below 0
+      });
+    });
+  </script>
     
   <!-- Custom JS -->
   <script src="scripts.js"></script>
