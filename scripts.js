@@ -5,7 +5,7 @@ const portraitImg = document.querySelector(".hello-animation-portrait");
 helloText.addEventListener(
   "mouseover",
    (event) => {
-    event.portraitImg.style.border = "2px solid red";
+    portraitImg.style.border = "2px solid red";
   }
 );
 
