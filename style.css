@@ -327,8 +327,11 @@ section .nav-link.active a span {
 }
 
 .secondary-introduction-one .portrait-dot {
- font-siz:16px;
- font-weight:bold;
+   display: block;
+   width: fit-content;
+   font-size:16px;
+   font-weight:bold;
+   margin: 10px;
 }
 
 .secondary-introduction-one p.large-text {
