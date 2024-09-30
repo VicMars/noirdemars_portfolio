@@ -497,11 +497,23 @@ section .nav-link.active a span {
 .project-card {
    display:block;
    max-height:100%;
+   font-size: 1rem;
 }
 
 .project-card img {
-    max-height:100%;
+   width:700px;
+   max-height:450px;
+   object-fit:cover;
 }
+
+.project-card-description {
+  text-align:right;
+}
+
+.project-card-details p:not(span) {
+   display:none;
+}
+
 
 
 /* Responsive
