@@ -1,11 +1,11 @@
 ///// Homepage:  Hello animation
 const helloText = document.querySelector(".hello-animation-text");
-const portraitImg = document.querySelector(".hello-animation-portrait");
+const portraitImg = document.querySelector(".hello-animation-portrait-img");
 
 
 // Add event listener for mouseover to change the target element's style
 helloText.addEventListener('mouseover', function() {
-  portraitImg.style.right = '100%'; // Change position on hover
+  portraitImg.style.right = '20px'; // Change position on hover
 });
 
 
