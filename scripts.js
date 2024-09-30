@@ -3,13 +3,11 @@ const helloText = document.querySelector(".hello-animation-text");
 const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
 const portraitImg = document.querySelector("#portrait_img");
 
-
 // Add event listener for mouseover to change the target element's style
 helloText.addEventListener('mouseover', function() {
   portraitImgWrapper.style.right = '20px'; // Change position on hover
   portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
 });
-
 
 // Add event listener for mouseout to reset the target element's style
 helloText.addEventListener('mouseout', function() {
@@ -18,22 +16,23 @@ helloText.addEventListener('mouseout', function() {
 });
 
 
-
-
-
-
-
-
-
-
-
+/// Anime.js effects
 document.addEventListener("DOMContentLoaded", function() {
   anime({
-    targets: '.scroll-text',
+    targets: '.scroll-text', // homepage automatic scrolling text
     translateX: ['100%', '-100%'],
     easing: 'linear',
     duration: 50000,
     loop: true
+  });
+
+  anime.timeline({ loop: false })
+  .add({
+    targets: '.primary-title-line h1 .letter',
+    opacity: [0, 1],
+    easing: "easeInOutQuad",
+    duration: 1200,
+    delay: (el, i) => 150 * (i + 1)
   });
 });
 
