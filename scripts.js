@@ -35,7 +35,7 @@ function blinkDots() {
   
     // Move to the next dot
     currentDot = (currentDot + 1) % dots.length;
-  }
+  
   
   // Start the blinking effect
   setInterval(blinkDots, interval);
