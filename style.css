@@ -271,7 +271,7 @@ section .nav-link.active a span {
 }
 
 .hello-animation-image {
-  flex-basis:25%;
+  flex-basis:15%;
   display:block;
   position:relative;
 }
@@ -296,7 +296,7 @@ section .nav-link.active a span {
 .hello-animation-portrait-img {
   display:block;
   position:absolute;
-  top:-50px;
+  top:-15px;
   right:-80%;
   font-size:1rem;
   text-align:right;
@@ -304,8 +304,6 @@ section .nav-link.active a span {
 }
 
 #portrait_img {
-  margin:50px 0 25px 0;
-  opacity:1;
   width:20vw;
   object-fit:cover;
   transform: rotate(5deg);
