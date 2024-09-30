@@ -33,17 +33,84 @@
   <body>
   <div id="main">
     <div class="container">
-        <section class="left-section"><div class="nav-link active"><a href="about.html"><span>•</span>ABOUT</a></div></section>
-        <div class="contentw" style="display:block; width:100%; height:auto; overflow:scroll;">
-         <div style="height:50vh; border:1px solid red;"></div>
-              <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom">
+        import React from 'react'
+import ProjectCard from './ProjectCard'
 
-              noir
-            </h1>
+
+function WebContent() {
+
+  return(
+
+    <div id="content-web">
+      <h2 className="content-title"> Design & Développement Web </h2>
+
+      <div className="content-web">
+        <div className="content-web-inside">
+
+          <div class="project-card">
+            <p class="project-card-title">Instagram Cynthia Immo</p>
+            <img src="./assets/images/Vicky_Andre_Cynthia_Immo.gif" alt="Instagram Cynthia Immo">
+            <div class="project-card-description">
+               <p>Branding, Graphic Design, Media Kit</p>
+               <p class="project-card-details">Adobe Illustrator & Photoshop • Canva <span>•</span></p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <p class="project-card-title">Laboratoire Textile</p>
+            <img src="./assets/images/Vicky_Andre_LaboratoireTextile.png" alt="Laboratoire Textile">
+            <div class="project-card-description">
+               <p>Online store: Web Design & Front-end developpment</p>
+               <p class="project-card-details">Figma • Wordpress • Woocommerce • CSS • HTML • PHP • JS <span>•</span></p>
+            </div>
+          </div>
+        
+          <div class="project-card">
+            <p class="project-card-title">Cocq Sida</p>
+            <img src="./assets/images/Vicky_Andre_Cocqsida.png" alt="Cocq Sida">
+            <div class="project-card-description">
+               <p>Web Design & Front-end developpment</p>
+               <p class="project-card-details">Wordpress • Woocommerce • CSS • HTML • PHP • JS <span>•</span></p>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <p class="project-card-title">spärck</p>
+            <img src="./assets/images/Vicky_Andre_sparck.png" alt="spärck">
+            <div class="project-card-description">
+               <p>Design UI/UX</p>
+               <p class="project-card-details">Branding • Figma • CSS integration<span>•</span></p>
+            </div>
+          </div>
             
-            <div style="height: 50vh;"></div>
+          <div class="project-card">
+            <p class="project-card-title">ct•studio</p>
+            <img src="./assets/images/Vicky_Andre_collectiftextile.png" alt="ct•studio">
+            <div class="project-card-description">
+               <p>Front-end Developpment</p>
+               <p class="project-card-details">Wordpress • Woocommerce • CSS • HTML • PHP • JS <span>•</span></p>
+            </div>
+          </div>
+            
+          <div class="project-card">
+            <p class="project-card-title">Collectif Textile</p>
+            <img src="./assets/images/Vicky_Andre_collectiftextile.png" alt="Collectif Textile">
+            <div class="project-card-description">
+               <p>Web Design & Front-end developpment</p>
+               <p class="project-card-details">Wordpress • CSS • HTML • PHP • JS <span>•</span></p>
+            </div>
+          </div>
+            
+      </div>
+
+      <div class="content-web-scroll">
+        <div class="scroll-element">
+          <p>scroll</p><p class="scroll-line">⎯</p>
         </div>
-        <section class="right-section"><div class="nav-link"><a href="work.html"><span>•</span>WORK</a></div></section>
+      </div>
+
+    </div>
+
     </div>
   </div>
     
