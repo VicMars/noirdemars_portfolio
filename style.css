@@ -282,7 +282,7 @@ section .nav-link.active a span {
   right:-80%;
   font-size:1rem;
   text-align:right;
-  transition: right 1s ease;
+  transition: right 2s ease;
 }
 
 #portrait_img {
@@ -292,7 +292,7 @@ section .nav-link.active a span {
   object-fit:cover;
   transform: rotate(5deg);
   z-index:1;
-  transition: transform 1s ease;
+  transition: transform 2s ease;
 }
 
 .hello-animation-text:hover {
