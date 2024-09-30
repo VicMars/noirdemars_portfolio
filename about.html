@@ -32,9 +32,8 @@
   <div id="main">
     <div class="container">
         <section class="left-section"><div class="nav-link active"><a href="about.html"><span>•</span>ABOUT</a></div></section>
-        <div class="contentw" style="height:auto; overflow:scroll;">
+        <div class="contentw" style="display:block; width:100%; height:auto; overflow:scroll;">
          <div style="height: 100vh;"></div>
-  
             <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-once="false">
               noir
             </h1>
@@ -44,7 +43,11 @@
         <section class="right-section"><div class="nav-link"><a href="work.html"><span>•</span>WORK</a></div></section>
     </div>
   </div>
-    
+    <script>
+    AOS.init({
+      once: false // Ensure the animation replays
+    });
+  </script>
   <script src="scripts.js"></script>
   </body> 
 </html>
