@@ -17,6 +17,10 @@ body {
   color: white;
 }
 
+a {
+ color: white;
+}
+
 a:visited,
 a:focus {
   color:white;
@@ -292,6 +296,7 @@ section .nav-link.active a span {
 .hello-animation-portrait-img {
   display:block;
   position:absolute;
+  top:-50px;
   right:-80%;
   font-size:1rem;
   text-align:right;
@@ -425,6 +430,10 @@ section .nav-link.active a span {
   text-align:center;
 }
 
+.contact-links-social {
+ text-align:center;
+}
+
 .contact-links-social ul li {
   display:inline-block;
   list-style:none;
@@ -434,6 +443,8 @@ section .nav-link.active a span {
 
 .contact-links-social ul li a {
   font-size:0.9rem;
+  text-decoration:none;
+  text-transform:uppercase;
 }
 
 .rw-words-1 span {
