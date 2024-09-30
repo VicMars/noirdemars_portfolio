@@ -278,11 +278,11 @@ section .nav-link.active a span {
   transition: opacity 1s;
 }
 
-.secondary-introduction .hello-animation-text:hover {
+.hello-animation-text:hover {
   cursor:pointer;
 }
 
-.secondary-introduction .hello-animation-text:hover ~ .hello-animation-portrait {
+.hello-animation-text:hover ~ .hello-animation-portrait {
   display:block;
   position:absolute;
   left:50%;
