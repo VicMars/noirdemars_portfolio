@@ -271,7 +271,7 @@ section .nav-link.active a span {
 .hello-animation-portrait {
   display:block;
   position:absolute;
-  right:-10%;
+  right:-20%;
   font-size:1rem;
 }
 
