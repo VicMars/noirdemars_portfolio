@@ -545,7 +545,7 @@ section .nav-link.active a span {
    }
 }
 
-.project-card-span:hover + .project-card-details {
+.project-card-span:hover .project-card-details {
    display:block;
 }
 
