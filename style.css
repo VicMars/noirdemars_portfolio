@@ -499,8 +499,8 @@ section .nav-link.active a span {
 
 .project-card {
    display:block;
-   width:calc(100vw - 160px);
-   padding:2rem 2rem;
+   width:calc(100vw - 200px);
+   padding: 2rem;
    font-size: 1rem;
 }
 
@@ -508,7 +508,7 @@ section .nav-link.active a span {
    width:700px;
    max-height:450px;
    object-fit:cover;
-   margin:0 auto;
+   margin:0 auto 1rem auto;
    text-align:center;
 }
 
