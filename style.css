@@ -500,8 +500,14 @@ section .nav-link.active a span {
 .project-card {
    display:block;
    width:calc(100vw - 200px);
-   padding: 2rem;
    font-size: 1rem;
+   text-align:center;
+}
+
+.project-card-title {  
+   text-align:left;
+   padding:0 2rem;
+   margin-top:1rem;
 }
 
 .project-card img {
@@ -509,7 +515,6 @@ section .nav-link.active a span {
    max-height:450px;
    object-fit:cover;
    margin:0 auto 1rem auto;
-   text-align:center;
 }
 
 .project-card-description {
