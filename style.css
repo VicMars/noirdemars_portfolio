@@ -497,14 +497,18 @@ section .nav-link.active a span {
 }
 
 .project-card {
-   font-size: 1rem;
+   display:block;
    width:calc(100vw - 160px);
+   padding:2rem 2rem;
+   font-size: 1rem;
 }
 
 .project-card img {
    width:700px;
    max-height:450px;
    object-fit:cover;
+   margin:0 auto;
+   text-align:center;
 }
 
 .project-card-description {
