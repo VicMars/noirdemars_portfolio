@@ -504,6 +504,13 @@ section .nav-link.active a span {
    text-align:center;
 }
 
+.project-card-wrapper {
+  display:block;
+  width:100%;
+  max-width:70vw;
+  margin:0 auto;
+}
+
 .project-card-title {  
    text-align:left;
    padding:0 2rem;
@@ -511,7 +518,7 @@ section .nav-link.active a span {
 }
 
 .project-card img {
-   width:700px;
+   width:100%;
    max-height:450px;
    object-fit:cover;
    margin:0 auto 1rem auto;
@@ -521,10 +528,23 @@ section .nav-link.active a span {
   text-align:right;
 }
 
-.project-card-details:not(span) {
+.project-card-details {
    display:none;
+   animation: projectDetails 1.5s ease-in-out forwards;
 }
 
+@keyframes projectDetails {
+   from {
+    transform: translateX(-20px);
+   }
+   to {
+     transform: translateX(0px);
+   }
+}
+
+.project-card-span:hover + .project-card-details {
+   display:block;
+}
 
 
 /* Responsive
