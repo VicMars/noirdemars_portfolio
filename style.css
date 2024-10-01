@@ -487,17 +487,18 @@ section .nav-link.active a span {
 
 .content-projects {
     display: flex;
-    justify-content: flex-start;
-    width:auto;
+    flex-direction: row;
+    justify-content: center; 
+    width: fit-content;
     height: calc(100vh - 80px);
-    gap: 2rem;
+    gap: 2rem; 
     overflow-x:scroll;
+    flex-wrap:nowrap
 }
 
 .project-card {
-   display:block;
-   max-height:100%;
    font-size: 1rem;
+   width:calc(100vw - 160px);
 }
 
 .project-card img {
