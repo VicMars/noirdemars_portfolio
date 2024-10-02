@@ -499,7 +499,7 @@ section .nav-link.active a span {
 
 .project-card {
    display:block;
-   width:calc(100vw - 200px);
+   width:calc(100vw - 150px);
    font-size: 1rem;
    text-align:center;
 }
@@ -537,6 +537,7 @@ section .nav-link.active a span {
    display:inline-block;
    font-size:0.9rem;
    text-transform:none;
+   margin-bottom:0;
 }
 
 .project-card-span {
