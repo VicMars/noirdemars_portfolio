@@ -536,23 +536,9 @@ section .nav-link.active a span {
 }
 
 .project-card-details {
-   display:none;
    font-size:1rem;
-   animation: projectDetails 1.5s ease-in-out forwards;
 }
 
-@keyframes projectDetails {
-   from {
-    transform: translateX(-20px);
-   }
-   to {
-     transform: translateX(0px);
-   }
-}
-
-.project-card-span:hover ~ .project-card-details {
-   display:block;
-}
 
 
 /* Responsive
