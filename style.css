@@ -519,6 +519,14 @@ section .nav-link.active a span {
    margin-top:1rem;
 }
 
+.project-card-images {
+  display:block;
+  width:100%;
+  height:450px;
+  overflow-y:scroll;
+  cursor:s-resize;
+}
+
 .project-card img {
    width:100%;
    height:450px;
