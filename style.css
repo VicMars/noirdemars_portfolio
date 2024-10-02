@@ -528,15 +528,18 @@ section .nav-link.active a span {
 
 .project-card-description {
   text-align:right;
-  text-transform:uppercase;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.project-card-description p:first-child {
+   text-transform:uppercase;
+   margin-bottom:0.5rem;
+ }
+
 .project-card-details {
    display:inline-block;
    font-size:0.9rem;
-   text-transform:none;
    margin-bottom:0;
 }
 
