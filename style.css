@@ -516,7 +516,6 @@ section .nav-link.active a span {
 
 .project-card-title {  
    text-align:left;
-   padding:0 2rem;
    margin-top:1rem;
 }
 
@@ -529,6 +528,11 @@ section .nav-link.active a span {
 
 .project-card-description {
   text-align:right;
+}
+
+.project-card-description, .project-card-span {
+ font-size:16px;
+ font-weight:600;
 }
 
 .project-card-details {
