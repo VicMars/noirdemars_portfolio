@@ -523,20 +523,24 @@ section .nav-link.active a span {
    width:100%;
    max-height:400px;
    object-fit:cover;
-   margin:0 auto 1rem auto;
+   margin:0 auto;
 }
 
 .project-card-description {
   text-align:right;
-}
-
-.project-card-span {
- font-size:16px; 
- font-weight:600;
+  text-transform:uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-card-details {
-   font-size:1rem;
+   font-size:0.9rem;
+}
+
+.project-card-span {
+ display:inline-block;
+ font-size:16px; 
+ font-weight:600;
 }
 
 
