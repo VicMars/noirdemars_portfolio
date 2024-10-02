@@ -39,7 +39,6 @@ function blinkDots() {
   }
 }
 
-
 /// Anime.js effects
 document.addEventListener("DOMContentLoaded", function() {
   anime({
@@ -50,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
     loop: true
   });
 });
-
 
 
 
