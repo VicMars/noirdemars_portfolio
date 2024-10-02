@@ -530,13 +530,14 @@ section .nav-link.active a span {
   text-align:right;
 }
 
-.project-card-description, .project-card-span {
+.project-card-span {
  font-size:16px; 
  font-weight:600;
 }
 
 .project-card-details {
    display:none;
+   font-size:1rem;
    animation: projectDetails 1.5s ease-in-out forwards;
 }
 
