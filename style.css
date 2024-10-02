@@ -531,7 +531,7 @@ section .nav-link.active a span {
 }
 
 .project-card-description, .project-card-span {
- font-size:16px;
+ font-size:16px; 
  font-weight:600;
 }
 
