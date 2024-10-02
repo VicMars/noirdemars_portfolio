@@ -534,7 +534,9 @@ section .nav-link.active a span {
 }
 
 .project-card-details {
+   display:inline-block;
    font-size:0.9rem;
+   text-transform:normal;
 }
 
 .project-card-span {
