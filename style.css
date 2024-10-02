@@ -536,13 +536,14 @@ section .nav-link.active a span {
 .project-card-details {
    display:inline-block;
    font-size:0.9rem;
-   text-transform:normal;
+   text-transform:none;
 }
 
 .project-card-span {
  display:inline-block;
  font-size:16px; 
  font-weight:600;
+ margin-left:10px;
 }
 
 
