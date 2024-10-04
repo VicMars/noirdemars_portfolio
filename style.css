@@ -508,7 +508,7 @@ section .nav-link.active a span {
    width:calc(100vw - 150px);
    font-size: 1rem;
    text-align:center;
-   margin-top: 1.5rem;
+   margin-top: 10px;
 }
 
 .project-card-wrapper {
@@ -534,7 +534,7 @@ section .nav-link.active a span {
    font-family:"Playfair Display";
    font-size: 2.5rem;
    font-weight: 100;
-   margin: 0;
+   margin: 0 0 20px 0;
    line-height:1;
 }
 
