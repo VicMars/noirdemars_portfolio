@@ -508,6 +508,7 @@ section .nav-link.active a span {
    width:calc(100vw - 150px);
    font-size: 1rem;
    text-align:center;
+   margin-top: 1.5rem;
 }
 
 .project-card-wrapper {
