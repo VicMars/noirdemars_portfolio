@@ -35,6 +35,16 @@ p {
   margin-top:0;
 }
 
+p.large-text {
+  font-size: clamp(2.7rem, 3.25vw, 5.4rem);
+  margin-bottom:0;
+}
+
+p.medium-text {
+  font-size: clamp(1.8rem, 2.1vw, 3.6rem);
+  margin-bottom:0;
+}
+
 
 /* LAYOUT 
 * ------------------------------- */
@@ -336,11 +346,6 @@ section .nav-link.active a span {
    margin: 10px;
 }
 
-.secondary-introduction-one p.large-text {
-  font-size: clamp(2.7rem, 3.25vw, 5.4rem);
-  margin-bottom:0;
-}
-
 .secondary-introduction-two {
   display: flex;
   flex-direction: column;
@@ -412,6 +417,7 @@ section .nav-link.active a span {
   font-weight: 200;
   letter-spacing: 5px;
   text-align: left;
+  margin-bottom:10px;
 }
 
 .content-contact-text p {
