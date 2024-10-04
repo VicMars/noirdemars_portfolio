@@ -535,12 +535,13 @@ section .nav-link.active a span {
    font-size: 2.5rem;
    font-weight: 100;
    margin: 0;
+   line-height:1;
 }
 
 .project-card-description {
   text-align:center;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .project-card-details {
