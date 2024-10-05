@@ -127,10 +127,16 @@ section.second-section {
  border-left:1px solid white;
 }
 
-.content-work section.first-section {
+section.first-section.work {
   border-right:1px solid white;
   border-left: 0;
 }
+
+section.first-section.work .nav-link a {
+   writing-mode: vertical-lr;
+   text-orientation: mixed;
+}
+
 
 /* Navigation */
 .main-nav .nav-mobile {
