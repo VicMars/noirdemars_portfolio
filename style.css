@@ -521,7 +521,7 @@ section .nav-link.active a span {
    max-width: 100%;
    font-size: 1rem;
    text-align:center;
-   margin: 25px auto 0 auto;
+   margin: 60px auto 0 auto;
 }
 
 .project-card-wrapper {
@@ -574,7 +574,7 @@ section .nav-link.active a span {
 .project-card-images {
   display:block;
   width:100%;
-  height:450px;
+  height:600px;
   cursor:s-resize;
   overflow-y:scroll;
   -ms-overflow-style: none;
