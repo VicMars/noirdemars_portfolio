@@ -531,9 +531,8 @@ section .nav-link.active a span {
 }
 
 .project-card-title h2 {
-   font-family:"Playfair Display";
    font-size: 2.5rem;
-   font-weight: 100;
+   font-weight: 200;
    margin: 0 0 20px 0;
    line-height:1;
 }
