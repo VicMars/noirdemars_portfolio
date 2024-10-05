@@ -127,6 +127,11 @@ section.second-section {
  border-left:1px solid white;
 }
 
+.content-work section.first-section {
+  border-right:1px solid white;
+  border-left: 0;
+}
+
 /* Navigation */
 .main-nav .nav-mobile {
   display:none;
