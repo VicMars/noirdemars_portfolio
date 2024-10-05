@@ -133,8 +133,6 @@ section.first-section.work {
 }
 
 section.first-section.work .nav-link a {
-   writing-mode: vertical-lr;
-   text-orientation: mixed;
    transform: rotate(180deg);
 }
 
