@@ -57,6 +57,19 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  const videos = document.querySelectorAll('video');
+  if ( videos !== null) { 
+    videos.forEach(video => {
+      video.autoplay = true;  // Set autoplay
+      video.loop = true;      // Set loop to repeat
+      video.muted = true;     // Ensure it's muted (important for autoplay in most browsers)
+      
+      video.play();  // Start playing
+    });
+ }
+});
+
 
 /// Anime.js effects
 document.addEventListener("DOMContentLoaded", function() {
