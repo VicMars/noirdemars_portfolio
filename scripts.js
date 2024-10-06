@@ -42,7 +42,7 @@ if (dots !== null) {
 
 /// PROJECTS: scroll to next div
 document.addEventListener('DOMContentLoaded', function () {
-  const cards = document.querySelectorAll('.poject-card');
+  const cards = document.querySelectorAll('.project-card');
   const buttons = document.querySelectorAll('#next-project');
 
   if ( cards !== null) { 
