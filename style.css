@@ -80,6 +80,11 @@ p.medium-text {
   left:0;
 }
 
+.main-nav.work {
+   border-bottom:1px solid white;
+   justify-content: center;
+}
+
 .wrapper {
   display:flex;
   justify-content:space-between;
@@ -536,7 +541,7 @@ section .nav-link.active a span {
 }
 
 .project-card-title {  
-   text-align:center;
+   text-align:left;
    margin-top:50px;
 }
 
