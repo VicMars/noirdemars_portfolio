@@ -517,15 +517,17 @@ section .nav-link.active a span {
    display:block;
    width:calc(100vw - 154px);
    max-width: 100%;
+   height:100%;
    font-size: 1rem;
    text-align:center;
-   margin: 60px auto 0 auto;
+   margin: 0 auto;
 }
 
 .project-card-wrapper {
   display:flex;
   flex-direction:column;
   align-items:stretch;
+  justify-content: space-between;
   max-width:100%;
   height:100%;
   margin:0 auto;
@@ -534,6 +536,7 @@ section .nav-link.active a span {
 
 .project-card-title {  
    text-align:center;
+   margin-top:50px;
 }
 
 .project-card-title p {
