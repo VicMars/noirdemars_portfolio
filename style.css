@@ -203,7 +203,16 @@ section .nav-link.active {
   display:block;
   position: relative;
   bottom: 40vh;
-  transition: bottom 3s ease-in;
+  animation: moveUp 2s ease-in forwards;
+}
+
+@keyframes moveUp {
+  from {
+   bottom:0;
+  }
+  to {
+   bottom:40vh;
+  }
 }
 
 section .nav-link.active a span {
