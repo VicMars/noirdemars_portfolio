@@ -570,6 +570,7 @@ section .nav-link.active a span {
    text-align:left;
    text-transform:uppercase;
    font-size:0.8rem;
+   line-height:1.8;
    margin-bottom:0;
 }
 
