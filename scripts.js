@@ -39,6 +39,25 @@ if (dots !== null) {
     }
 }
 
+
+/// PROJECTS: scroll to next div
+document.addEventListener('DOMContentLoaded', function () {
+  const cards = document.querySelectorAll('.poject-card');
+  const buttons = document.querySelectorAll('#next-project');
+
+  if ( cards !== null) { 
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', function () {
+      // If it's not the last card, scroll to the next one
+      if (index < cards.length - 1) {
+        cards[index + 1].scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+}
+});
+
+
 /// Anime.js effects
 document.addEventListener("DOMContentLoaded", function() {
   anime({
