@@ -561,9 +561,8 @@ section .nav-link.active a span {
 
 .project-card-description {
   flex-basis:15%;
-  margin-top: 10px;
   margin-bottom: 20px;
-  padding-left:10px;
+  padding-left:15px;
 }
 
 .project-card-details {
