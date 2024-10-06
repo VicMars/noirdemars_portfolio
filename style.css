@@ -4,6 +4,7 @@
 html {
  -ms-overflow-style: none;
  scrollbar-width: none;
+ scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -609,21 +610,25 @@ button#next-project {
     padding-top: 10px;
 }
 
+button#next-project:hover {
+   cursor:pointer;
+}
+
 .project-card-span {
- display:inline-block;
- font-size:16px; 
- font-weight:600;
- margin:0 10px;
+   display:inline-block;
+   font-size:16px; 
+   font-weight:600;
+   margin:0 10px;
 }
 
 .project-card-images {
-  display:block;
-  width:100%;
-  max-height:500px;
-  cursor:s-resize;
-  overflow-y:scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+   display:block;
+   width:100%;
+   max-height:500px;
+   cursor:s-resize;
+   overflow-y:scroll;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
 }
 
 .project-card-images::-webkit-scrollbar {
