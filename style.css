@@ -546,7 +546,6 @@ section .nav-link.active a span {
   height:100%;
   overflow-y: hidden;
   margin: 0 auto;
-  padding:0 4rem;
 }
 
 .project-card-title {  
@@ -597,6 +596,7 @@ button#next-project {
     color: white;
     background: none;
     border: 0;
+    border-top: 1px solid white;
 }
 
 .project-card-span {
