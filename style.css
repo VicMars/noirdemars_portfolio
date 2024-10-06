@@ -203,7 +203,7 @@ section .nav-link.active {
   display:block;
   position: relative;
   bottom: 40vh;
-  animation: moveUp 2s ease-in forwards;
+  animation: moveUp 3s ease-in-out forwards;
 }
 
 @keyframes moveUp {
