@@ -642,6 +642,10 @@ button#next-project:hover {
    margin:0 auto;
 }
 
+.project-card .video {
+  max-width:100%
+}
+
 
 
 /* Responsive
