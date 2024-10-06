@@ -555,11 +555,11 @@ section .nav-link.active a span {
    display:flex;
    flex-direction:row;
    justify-content:space-between;
+   margin-top:15px;
 }
 
 .project-card-description {
   flex-basis:15%;
-  text-align:center;
   margin-top: 10px;
   margin-bottom: 20px;
   padding-left:10px;
@@ -567,7 +567,7 @@ section .nav-link.active a span {
 
 .project-card-details {
    display:inline-block;
-   text-align:center;
+   text-align:left;
    text-transform:uppercase;
    font-size:0.9rem;
    margin-bottom:0;
