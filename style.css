@@ -137,11 +137,23 @@ section:hover a {
  color:#000;
 }
 
+.section-work {
+ display:flex;
+ flex-direction:row;
+ justify-content:space-between;
+ width:80px;
+ border-left:1px solid white;
+}
+
+.section-work .nav-link a {
+  transform: rotate(180deg);
+}
+
 section.first-section, 
 section.second-section {
  border-left:1px solid white;
 }
-
+/* 
 section.first-section.work {
   border-right:1px solid white;
   border-left: 0;
@@ -151,7 +163,7 @@ section.first-section.work .nav-link a {
    transform: rotate(180deg);
 }
 
-
+ */
 /* Navigation */
 .main-nav .nav-mobile {
   display:none;
