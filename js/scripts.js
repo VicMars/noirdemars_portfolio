@@ -93,11 +93,10 @@ anime({
     { value: 1.5, duration: 500 },
     { value: 1, duration: 500 }
   ],
-  delay: anime.stagger(100), // Stagger for each letter
+  delay: anime.stagger(100, {start: 0}), // Adjust stagger delay for better timing
   easing: 'easeInOutQuad',
-  loop: true // Repeat the animation
+  loop: true
 });
-
 
 
 ///// Homepage introduction - Function to animate the h1 element
