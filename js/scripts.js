@@ -119,10 +119,15 @@ anime({
     { value: 1.5, duration: 500 },    // Grow to 1.5
     { value: 1, duration: 500 }       // Settle at scale 1
   ],
+  opacity: [
+    { value: 0, duration: 0 },        // Start with opacity 0 (invisible)
+    { value: 1, duration: 500 }       // Fade to full opacity
+  ],
   delay: anime.stagger(100, { start: 0 }), // Adds delay for each letter
   easing: 'easeInOutQuad',
   loop: true
 });
+
 
 
 
