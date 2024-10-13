@@ -141,7 +141,8 @@ section:hover a {
  display:flex;
  flex-direction:column;
  justify-content:space-between;
- width:80px;
+ align-items:center;
+ width:55px;
  height:100vh;
  border-right:1px solid white;
 }
@@ -178,7 +179,7 @@ section.first-section.work .nav-link a {
   text-decoration:none;
   margin-left:0;
   transition: margin-left 1s ease-in-out;
-  line-height: 1;
+  padding-left: 20px;
 }
 
 .home-link a em {
@@ -200,11 +201,11 @@ section .nav-link a {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 50px;
+/*   line-height: 50px; */
   writing-mode: vertical-lr;
   text-orientation: mixed;
   text-decoration:none;
-  margin:10px 0;
+/*   margin:10px 0; */
 }
 
 section .nav-link a span {
