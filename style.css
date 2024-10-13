@@ -610,6 +610,18 @@ section .nav-link.active a span {
    border: 1px solid;
 }
 
+.project-card-main-left .project-card-next button {
+    background: transparent;
+    border: 0;
+    font-size: 2.25rem;
+    color: white;
+}
+
+.project-card-main-left .project-card-next button:hover {
+  cursor:pointer;
+  
+}
+
 .project-card-main-left .project-card-description {
    background-color: pink;
 }
