@@ -567,10 +567,6 @@ section .nav-link.active a span {
   margin:0 auto;
 }
 
-.contact-work-link {
- 
-}
-
 .content-work-text h1 {
   font-family:"Spartan";
   font-size:2.2rem;
@@ -578,12 +574,14 @@ section .nav-link.active a span {
   text-transform:uppercase;
 }
 
-.content-work-text p {
+.contact-work-link {
    font-size:0.9rem;
    text-align:center;
+   text-decoration:none;
    text-transform:uppercase;
    margin:25px 0 0 0;
 }
+
 
 .projects-list {
   display:block;
