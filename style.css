@@ -592,8 +592,27 @@ section .nav-link.active a span {
 
 .project-card-main-left {
   flex-basis:60%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
   height:calc(100vh - 30px);
   background-color:green;
+}
+
+.project-card-main-left .project-card-next {
+  display:flex;
+  flex-direction:row;
+  align-content:center;
+  align-items:center;
+  height:80px;
+}
+
+.project-card-main-left .project-card-description {
+ 
+}
+.project-card-main-left .project-card-images {
+  background-color: red;
+  height: 35vh;
 }
 
 
