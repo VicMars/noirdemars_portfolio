@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-/// Anime.js effects
+/// Anime.js - Infinite Scrolling Text Effect
 document.addEventListener("DOMContentLoaded", function() {
   anime({
     targets: '.scroll-text', // homepage automatic scrolling text
@@ -82,6 +82,21 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+
+/// Anime.js - Loading Text Effect
+const text = document.querySelector('.loading-text');
+text.innerHTML = text.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime({
+  targets: '.letter',
+  scale: [
+    { value: 1.5, duration: 500 },
+    { value: 1, duration: 500 }
+  ],
+  delay: anime.stagger(100), // Stagger for each letter
+  easing: 'easeInOutQuad',
+  loop: true // Repeat the animation
+});
 
 
 
