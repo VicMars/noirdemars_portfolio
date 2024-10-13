@@ -627,7 +627,7 @@ section .nav-link.active a span {
   display:block;
   width:100%;
   overflow:hidden;
-  border:1px solid white;
+  border-top:1px solid white;
 }
 
 .content-work-projects {
@@ -720,7 +720,7 @@ section .nav-link.active a span {
 
 .project-card-main-left .project-card-images {
   display:block;
-  height: 40vh;
+  height: 45vh;
   overflow-x:scroll;
 }
 
