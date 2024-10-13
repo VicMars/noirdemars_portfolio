@@ -545,6 +545,13 @@ section .nav-link.active a span {
     width:100%;
 }
 
+.content-projects-wrapper {
+  display:flex;
+  justify-content:flex-start;
+/*   width: calc(100vw - 80px); */
+  height:100vh;
+}
+
 /* .content-projects {
     display: flex;
     flex-direction: row;
