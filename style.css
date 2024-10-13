@@ -613,17 +613,19 @@ section .nav-link.active a span {
 .project-card-main-left .project-card-description {
    background-color: pink;
 }
+
 .project-card-main-left .project-card-images {
+  display:block;
+  height: 40vh;
+  overflow-x:scroll;
   background-color: red;
-  height: 70vh;
 }
 
 .project-card-images-container {
   display:flex;
   justify-content:flex-start;
   width:fit-content;
-  gap:10px;
-  overflow-x:scroll;
+  gap:15px;
 }
 
 
