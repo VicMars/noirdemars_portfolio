@@ -550,7 +550,6 @@ section .nav-link.active a span {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none; 
-  border:1px solid blue;
 }
 
 .content-work-introduction {
@@ -562,8 +561,6 @@ section .nav-link.active a span {
 
 .content-work-projects-wrapper {
   display:block;
-/*   overflow:hidden; */
-  border:1px solid red;
 }
 
 .content-work-projects {
@@ -581,7 +578,6 @@ section .nav-link.active a span {
  gap:15px;
  width: calc(100vw - 85px);
  padding:15px;
- border:2px solid white;
 }
 
 
@@ -589,7 +585,6 @@ section .nav-link.active a span {
 .project-card-main-right {
   flex-basis:40%;
   height:calc(100vh - 30px);
-  background-color:yellow;
 }
 
 .project-card-main-right .project-video {
@@ -607,7 +602,6 @@ section .nav-link.active a span {
   justify-content:space-between;
   height:calc(100vh - 30px);
   overflow: hidden;
-  background-color:green;
 }
 
 .project-card-main-left .project-card-next {
@@ -617,7 +611,6 @@ section .nav-link.active a span {
    align-items: center;
    height: 50px;
    margin: 15px;
-   border: 1px solid;
 }
 
 .project-card-main-left .project-card-next button {
@@ -632,7 +625,8 @@ section .nav-link.active a span {
 }
 
 .project-card-main-left .project-card-description {
-   background-color: pink;
+   flex-grow:2;
+   padding-bottom:15px;
 }
 
 .project-card-title p {
@@ -655,7 +649,6 @@ section .nav-link.active a span {
   display:block;
   height: 40vh;
   overflow-x:scroll;
-  background-color: red;
 }
 
 .project-card-images-container {
