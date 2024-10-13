@@ -597,16 +597,20 @@ section .nav-link.active a span {
 }
 
 .projects-list li {
-  padding:50px 0;
+  padding:50px;
   border-bottom:1px solid white;
 }
 
 .project-link span {
    display:block;
    font-style:italic;
+   font-size:0.9rem;
+   margin-bottom:6px;
 }
 
 .project-link a {
+   font-size: 1.8rem;
+   font-weight: 100;
    text-decoration:none;
    text-transform:uppercase;
 }
