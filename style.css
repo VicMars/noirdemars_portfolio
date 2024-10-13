@@ -545,15 +545,15 @@ section .nav-link.active a span {
     width:100%;
 }
 
-.content-projects {
+/* .content-projects {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-    align-items: stretch;
+    justify-content: start; 
+/*     align-items: stretch; */
     width: auto;
     height: 100vh;
     overflow-x:scroll;
-}
+} */
 
 .project-card {
    display:block;
