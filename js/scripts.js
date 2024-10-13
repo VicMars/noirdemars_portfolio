@@ -84,8 +84,45 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /// Anime.js - Loading Text Effect
-const text = document.querySelector('.loading-text');
-text.innerHTML = text.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+function wrapTextWithSpans(element) {
+  element.childNodes.forEach((node) => {
+    // Check if the node is a text node (nodeType === 3)
+    if (node.nodeType === 3) {
+      const text = node.textContent.trim();
+      if (text.length > 0) {
+        // Split text into spans
+        const wrappedText = text.replace(/\S/g, "<span class='letter'>$&</span>");
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = wrappedText;
+        
+        // Replace the text node with the spans
+        while (tempDiv.firstChild) {
+          node.parentNode.insertBefore(tempDiv.firstChild, node);
+        }
+        node.remove(); // Remove original text node
+      }
+    } else if (node.nodeType === 1) {
+      // Recursive call if the node is an element (to handle nested tags like <em>)
+      wrapTextWithSpans(node);
+    }
+  });
+}
+
+const textWrapper = document.querySelector('.loading-text');
+wrapTextWithSpans(textWrapper);
+
+// Now apply the anime.js animation
+anime({
+  targets: '.letter',
+  scale: [
+    { value: 1.5, duration: 500 },
+    { value: 1, duration: 500 }
+  ],
+  delay: anime.stagger(100, { start: 0 }), // Adds delay for each letter
+  easing: 'easeInOutQuad',
+  loop: true
+});
+
 
 document.addEventListener("DOMContentLoaded", function() {
 anime({
