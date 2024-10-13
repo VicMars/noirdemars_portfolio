@@ -561,7 +561,8 @@ section .nav-link.active a span {
 .content-work-text {
   display:flex;
   flex-direction:column;
-  align-items:center;
+  justify-content:center;
+/*   align-items:center; */
   max-width: 60vw;
   height:95vh;
   margin:0 auto;
