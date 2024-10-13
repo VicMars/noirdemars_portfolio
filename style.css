@@ -584,6 +584,7 @@ section .nav-link.active a span {
  border:2px solid white;
 }
 
+/* Work: Right column */
 .project-card-main-right {
   flex-basis:40%;
   height:calc(100vh - 30px);
@@ -596,6 +597,8 @@ section .nav-link.active a span {
    object-fit:cover;
 }
 
+
+/* Work: Left column */
 .project-card-main-left {
   flex-basis:60%;
   display:flex;
@@ -625,11 +628,25 @@ section .nav-link.active a span {
 
 .project-card-main-left .project-card-next button:hover {
   cursor:pointer;
-  
 }
 
 .project-card-main-left .project-card-description {
    background-color: pink;
+}
+
+.project-card-title p {
+  font-size:1.25rem;
+  margin-bottom:0;
+}
+
+.project-card-title h2 {
+ font-size:2.5rem;
+ font-weight:100;
+ margin: 0 0 5rem 0;
+}
+
+project-card-details p {
+ font-size:1rem;
 }
 
 .project-card-main-left .project-card-images {
