@@ -622,9 +622,14 @@ section .nav-link.active a span {
 }
 
 .projects-list {
-  list-style:none;
+  display:block;
+  max-width: 60vw;
   padding:50px 0;
   border-top:1px solid white;
+}
+
+.projects-list ul {
+  list-style:none;
 }
 
 .projects-list li {
