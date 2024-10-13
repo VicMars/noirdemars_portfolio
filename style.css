@@ -692,6 +692,9 @@ section .nav-link.active a span {
 
 .project-card-main-left .project-card-description {
    flex-grow:2;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    padding-bottom:15px;
 }
 
