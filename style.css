@@ -593,18 +593,20 @@ section .nav-link.active a span {
 .project-card-main-left {
   flex-basis:60%;
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content:space-between;
   height:calc(100vh - 30px);
   background-color:green;
 }
 
 .project-card-main-left .project-card-next {
-  display:flex;
-  flex-direction:row;
-  align-content:center;
-  align-items:center;
-  height:80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   height: 50px;
+   margin: 15px;
+   border: 1px solid;
 }
 
 .project-card-main-left .project-card-description {
@@ -612,7 +614,7 @@ section .nav-link.active a span {
 }
 .project-card-main-left .project-card-images {
   background-color: red;
-  height: 35vh;
+  height: 70vh;
 }
 
 
