@@ -582,6 +582,7 @@ section .nav-link.active a span {
 }
 
 .project-card-main-left {
+  flex-basis:60%;
   height:100vh;
   background-color:green;
 }
