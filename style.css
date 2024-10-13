@@ -573,9 +573,12 @@ section .nav-link.active a span {
   text-transform:uppercase;
 }
 
+.contact-work-link {
+   text-align:center;
+}
+
 .contact-work-link a {
    font-size:0.9rem;
-   text-align:center;
    text-decoration:none;
    text-transform:uppercase;
    margin:25px 0 0 0;
