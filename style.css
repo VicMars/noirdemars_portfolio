@@ -567,10 +567,10 @@ section .nav-link.active a span {
 }
 
 .content-work-projects {
-    display: flex;
-    justify-content: space-between;
-    width: fit-content;
-    overflow-x: scroll;
+   display: flex;
+   justify-content: space-between;
+   width: fit-content;
+   overflow-x: scroll;
 }
 
 .project-card {
@@ -583,6 +583,7 @@ section .nav-link.active a span {
  padding:15px;
  border:2px solid white;
 }
+
 
 /* Work: Right column */
 .project-card-main-right {
@@ -635,8 +636,9 @@ section .nav-link.active a span {
 }
 
 .project-card-title p {
-  font-size:1.25rem;
-  margin-bottom:0;
+  font-size:0.9rem;
+  text-transform:uppercase;
+  margin-bottom:6px;
 }
 
 .project-card-title h2 {
