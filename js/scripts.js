@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
 const text = document.querySelector('.loading-text');
 text.innerHTML = text.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+document.addEventListener("DOMContentLoaded", function() {
 anime({
   targets: '.letter',
   scale: [
@@ -97,7 +98,7 @@ anime({
   easing: 'easeInOutQuad',
   loop: true
 });
-
+});
 
 ///// Homepage introduction - Function to animate the h1 element
 // function animateH1() {
