@@ -561,7 +561,7 @@ section .nav-link.active a span {
 .content-work-text {
   display:flex;
   flex-direction:column;
-  justify-content:flex-end;
+  justify-content:center;
   max-width: 60vw;
   height:80vh;
   margin:0 auto;
@@ -569,9 +569,10 @@ section .nav-link.active a span {
 }
 
 .content-work-text p {
-  font-size:2rem;
+  font-size:1.7rem;
   font-weight:100;
   text-transform:uppercase;
+  word-break: break-word;
 }
 
 .contact-work-link {
