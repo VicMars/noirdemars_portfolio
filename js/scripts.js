@@ -115,8 +115,9 @@ wrapTextWithSpans(textWrapper);
 anime({
   targets: '.letter',
   scale: [
-    { value: 1.5, duration: 500 },
-    { value: 1, duration: 500 }
+    { value: 0, duration: 0 },        // Start with scale 0 (invisible)
+    { value: 1.5, duration: 500 },    // Grow to 1.5
+    { value: 1, duration: 500 }       // Settle at scale 1
   ],
   delay: anime.stagger(100, { start: 0 }), // Adds delay for each letter
   easing: 'easeInOutQuad',
@@ -124,18 +125,6 @@ anime({
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-anime({
-  targets: '.letter',
-  scale: [
-    { value: 1.5, duration: 500 },
-    { value: 1, duration: 500 }
-  ],
-  delay: anime.stagger(100, {start: 10}), // Adjust stagger delay for better timing
-  easing: 'easeInOutQuad',
-  loop: true
-});
-});
 
 ///// Homepage introduction - Function to animate the h1 element
 // function animateH1() {
