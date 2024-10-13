@@ -596,6 +596,7 @@ section .nav-link.active a span {
   flex-direction:column;
   justify-content:space-between;
   height:calc(100vh - 30px);
+  overflow: hidden;
   background-color:green;
 }
 
