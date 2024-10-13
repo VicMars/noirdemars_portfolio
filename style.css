@@ -627,6 +627,7 @@ section .nav-link.active a span {
   display:block;
   width:100%;
   overflow:hidden;
+  border:1px solid white;
 }
 
 .content-work-projects {
