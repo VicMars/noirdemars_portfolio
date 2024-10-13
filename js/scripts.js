@@ -94,7 +94,7 @@ anime({
     { value: 1.5, duration: 500 },
     { value: 1, duration: 500 }
   ],
-  delay: anime.stagger(100, {start: 0}), // Adjust stagger delay for better timing
+  delay: anime.stagger(100, {start: 10}), // Adjust stagger delay for better timing
   easing: 'easeInOutQuad',
   loop: true
 });
