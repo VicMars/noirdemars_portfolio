@@ -603,7 +603,10 @@ section .nav-link.active a span {
 }
 
 .content-work-text {
-  display:block;
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  height:80vh;
   max-width: 60vw;
   margin:0 auto;
 }
