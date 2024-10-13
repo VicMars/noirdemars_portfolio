@@ -566,10 +566,20 @@ section .nav-link.active a span {
   border:1px solid red;
 }
 
+.content-work-projects {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    overflow-x: scroll;
+}
+
 .project-card {
  display:flex;
  justify-content:space-between;
+ flex-basis: 100%;
+ flex-grow: 1;
  gap:15px;
+ width: calc(100vw - 85px);
  padding:15px;
  border:2px solid white;
 }
