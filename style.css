@@ -590,6 +590,12 @@ section .nav-link.active a span {
   background-color:yellow;
 }
 
+.project-card-main-right .project-video {
+   width:100%;
+   height:100%;
+   object-fit:cover;
+}
+
 .project-card-main-left {
   flex-basis:60%;
   display:flex;
@@ -637,9 +643,15 @@ section .nav-link.active a span {
   display:flex;
   justify-content:flex-start;
   width:fit-content;
+  height:100%;
   gap:15px;
 }
 
+.project-image {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
 
 
 /* Responsive
