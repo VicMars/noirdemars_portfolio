@@ -573,7 +573,7 @@ section .nav-link.active a span {
   text-transform:uppercase;
 }
 
-.contact-work-link {
+.contact-work-link a {
    font-size:0.9rem;
    text-align:center;
    text-decoration:none;
@@ -585,6 +585,11 @@ section .nav-link.active a span {
   display:block;
   max-width: 50vw;
   margin:0 auto 80px auto;
+}
+
+.projects-list h2 {
+  font-family:"Playfair Display";
+  font-style:italic;
 }
 
 .projects-list ul {
