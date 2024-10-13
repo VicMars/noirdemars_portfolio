@@ -625,6 +625,16 @@ section .nav-link.active a span {
   border-bottom:1px solid white;
 }
 
+.project-link span {
+   display:block;
+   font-style:italic;
+}
+
+.project-link a {
+   text-decoration:none;
+   text-transform:uppercase;
+}
+
 /* Work: Left column */
 .project-card-main-left {
   flex-basis:60%;
