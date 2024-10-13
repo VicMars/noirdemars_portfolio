@@ -645,7 +645,7 @@ section .nav-link.active a span {
  margin: 0 0 5rem 0;
 }
 
-project-card-details p {
+.project-card-details p {
  font-size:1rem;
 }
 
