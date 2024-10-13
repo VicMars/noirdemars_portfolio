@@ -562,14 +562,12 @@ section .nav-link.active a span {
   display:flex;
   flex-direction:column;
   justify-content:center;
-/*   align-items:center; */
   max-width: 60vw;
-  height:95vh;
+  height:85vh;
   margin:0 auto;
 }
 
-.content-work-text h1 {
-  font-family:"Spartan";
+.content-work-text p {
   font-size:2.2rem;
   font-weight:100;
   text-transform:uppercase;
@@ -582,7 +580,6 @@ section .nav-link.active a span {
    text-transform:uppercase;
    margin:25px 0 0 0;
 }
-
 
 .projects-list {
   display:block;
