@@ -626,8 +626,16 @@ section .nav-link.active a span {
 .content-work-projects-wrapper {
   display:block;
   width:100%;
-  overflow:hidden;
   border-top:1px solid white;
+  overflow-x:scroll;
+  overflow-y:hidden;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.content-work-projects-wrapper::-webkit-scrollbar {
+  display:none; /* for Chrome, Safari, and Opera */
 }
 
 .content-work-projects {
@@ -725,6 +733,13 @@ section .nav-link.active a span {
   display:block;
   height: 45vh;
   overflow-x:scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.project-card-images::-webkit-scrollbar {
+  display:none; /* for Chrome, Safari, and Opera */
 }
 
 .project-card-images-container {
@@ -736,9 +751,9 @@ section .nav-link.active a span {
 }
 
 .project-image {
-    height: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+   height: 100%;
+   aspect-ratio: 1 / 1;
+   object-fit: cover;
 }
 
 
