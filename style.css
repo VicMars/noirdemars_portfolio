@@ -561,6 +561,8 @@ section .nav-link.active a span {
 
 .content-work-projects-wrapper {
   display:block;
+  width:100%;
+  overflow:hidden;
 }
 
 .content-work-projects {
