@@ -149,6 +149,12 @@ document.addEventListener("DOMContentLoaded", function() {
     duration: 750,
     easing: "easeOutExpo",
     delay: (el, i) => 50 * i
+  }).add({
+    targets: '.page-title',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
   });
 
   // Apply effect on each title
