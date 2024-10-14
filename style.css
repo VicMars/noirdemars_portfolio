@@ -805,9 +805,9 @@ section .nav-link.active a span {
   flex-direction:column;
   justify-content:center;
   max-width: 52vw;
-  height:75vh;
+  height:100vh;
   margin:0 auto;
-  padding-bottom:25px;
+  padding:25px 0;
 }
 
 .paragraph-loading p {
