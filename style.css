@@ -589,7 +589,7 @@ section .nav-link.active a span {
   margin-bottom: 5rem;
 }
 
-.content-work-text * { 
+.content-work-text > * { 
   flex-basis:40%; 
 }
 
@@ -849,10 +849,15 @@ section .nav-link.active a span {
 }
 
 .content-about-text {
-  display:block;
-  max-width:50vw;
-  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items: stretch;
+  height: 42vh;
   margin: 5rem auto 0 auto;
+}
+
+.content-about-text > * {
+  flex-basis:40%;
 }
 
 .content-about-introduction .paragraph-loading p {
