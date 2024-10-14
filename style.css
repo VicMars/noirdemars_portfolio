@@ -585,7 +585,7 @@ section .nav-link.active a span {
   display:flex;
   justify-content:center;
   align-items: stretch;
-  height: 35vh;
+  height: 40vh;
   margin-bottom: 5rem;
 }
 
