@@ -555,21 +555,25 @@ section .nav-link.active a span {
 
 .content-work-introduction {
   display:block;
-  text-align:center;
-  margin: 5rem 0 1rem 0;
+  margin: 5rem 0 2rem 0;
 }
 
 .content-work-text {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  max-width: 52vw;
-  height:75vh;
-  margin:0 auto;
-  padding-bottom:25px;
+  display:block;
+  margin: 0 3rem;
 }
 
-.paragraph-loading p {
+.content-work-text h1 {
+   text-align:left;
+}
+
+.content-work-paragraph { 
+   font-size:1.9rem;
+   font-weight:100;
+   text-align:right; 
+}
+
+/* .paragraph-loading p {
   font-size:1.9rem;
   font-weight:100;
   text-align:center;
@@ -603,7 +607,7 @@ section .nav-link.active a span {
 
 .contact-work-link a:hover:after {
   width:60px;
-}
+} */
 
 .projects-list {
   display:block;
