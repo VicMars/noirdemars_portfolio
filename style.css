@@ -585,17 +585,19 @@ section .nav-link.active a span {
   display:flex;
   justify-content:center;
   align-items: stretch;
-  height: 40vh;
+  height: 42vh;
   margin-bottom: 5rem;
 }
 
+.content-work-text * { 
+  flex-basis:40%; 
+}
+
 .content-work-text h1 {
-   flex-basis:40%;
    margin: 0;
 }
 
 .content-work-paragraph {
-   flex-basis:40%;
    align-self: flex-end;
    margin: 0 0 0 -50px;
 }
