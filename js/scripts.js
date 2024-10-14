@@ -83,45 +83,62 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/// Anime.js - Loading Text Effect
+/// Anime.js - Paragraph Text Effect
 document.addEventListener("DOMContentLoaded", function() {
 
-var SlideupParagraph = anime.timeline({
-  loop: false,
-  autoplay: false,
-});
-
-SlideupParagraph
-.add({
-    targets: '.is--slideup .paragraph-loading',
-    translateY: [50,0],
-    translateZ: 0,
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 3000,
-    delay: (el, i) => 500 + 60 * i
-});
-
-// Apply effect on each paragraph
-const paragraphAnchor = document.getElementById('paragraph-anchor');
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      SlideupParagraph.play();
-    }
+  var SlideupParagraph = anime.timeline({
+    loop: false,
+    autoplay: false,
   });
+  
+  SlideupParagraph
+  .add({
+      targets: '.is--slideup .paragraph-loading',
+      translateY: [50,0],
+      translateZ: 0,
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 3000,
+      delay: (el, i) => 500 + 60 * i
+  });
+  
+  // Apply effect on each paragraph
+  const paragraphAnchor = document.getElementById('paragraph-anchor');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        SlideupParagraph.play();
+      }
+    });
+  });
+  observer.observe(paragraphAnchor);
+  
 });
 
-observer.observe(paragraphAnchor);
 
+/// Anime.js - Title Animation
+
+document.addEventListener("DOMContentLoaded", function() {
+  
+    var titleH1 = anime.timeline({
+    loop: false,
+    autoplay: false,
+  });
+  
+  titleH1 
+    .add({
+      targets: '.page-title .letter',
+      translateY: [100,0],
+      translateZ: 0,
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 1400,
+      delay: (el, i) => 450 + 30 * i
+   
+  });
 
 });
-
-
-
-
-
 
 
 
