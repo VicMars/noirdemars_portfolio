@@ -938,7 +938,7 @@ section .nav-link.active a span {
     border-bottom: 1px solid;
 }
 
-.content-about-portfolio h3 {
+.content-about-portfolio h4 {
     text-transform:uppercase;
     font-weight:100;
 }
