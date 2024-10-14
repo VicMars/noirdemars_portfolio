@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
   titleH1 
     .add({
       targets: '.page-title .letter',
-      translateY: ['-50%',0],
+      translateY: ['-100vh',0],
       translateZ: 0,
       opacity: [0,1],
       easing: "easeOutExpo",
