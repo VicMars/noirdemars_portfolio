@@ -573,8 +573,6 @@ section .nav-link.active a span {
 
 .content-work-paragraph {
    align-self: flex-end;
-   font-size:1.2rem;
-   font-weight:100;
    margin: 0;
 }
 
