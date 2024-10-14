@@ -867,12 +867,21 @@ section .nav-link.active a span {
    margin:80px auto 0 auto;
 }
 
+.wordpress-anim {
+   position:relative;
+}
+
 .wordpress-anim:before {
    display:none;
+   position:absolute;
+   top:-25px;
+   right:-25px;
    content:"& other CMS";
-   background-color: #000000;
-   line-height:0;
-   padding:4px 6px;
+   background-color: #fff;
+   color:#000000;
+   font-size:15px;
+   font-weight:normal;
+   padding:6px 6px 3px 6px;
 }
 
 .wordpress-anim:hover:before {
