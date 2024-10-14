@@ -568,11 +568,10 @@ section .nav-link.active a span {
   padding-bottom:25px;
 }
 
-.content-work-text p {
-  font-size:1.7rem;
+.paragraph-loading p {
+  font-size:1.8rem;
   font-weight:100;
-  text-transform:uppercase;
-  word-break: break-word;
+  margin-bottom:0;
 }
 
 .contact-work-link {
@@ -584,6 +583,27 @@ section .nav-link.active a span {
    text-decoration:none;
    text-transform:uppercase;
    margin:25px 0 0 0;
+}
+
+.contact-work-link a:after {
+  display:block;
+  content:"";
+  width:20px;
+  height:1px;
+  background-color:white;
+  margin:0 auto;
+  text-align:center;
+  -moz-transition: left 0.15s ease-out,right 0.15s ease-out;
+  -o-transition: left 0.15s ease-out,right 0.15s ease-out;
+  -webkit-transition: left 0.15s ease-out,right 0.15s ease-out;
+  transition: left 0.15s ease-out,right 0.15s ease-out;
+}
+
+.contact-work-link a:hover:after {
+  -moz-transition: left 0.15s ease-in,right 0.15s ease-in;
+  -o-transition: left 0.15s ease-in,right 0.15s ease-in;
+  -webkit-transition: left 0.15s ease-in,right 0.15s ease-in;
+  transition: left 0.15s ease-in,right 0.15s ease-in;
 }
 
 .projects-list {
