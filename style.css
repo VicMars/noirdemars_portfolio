@@ -615,7 +615,6 @@ section .nav-link.active a span {
   font-family:"Playfair Display";
   font-size: 2.9rem;
   font-weight:100;
-  font-style:italic;
 }
 
 .projects-list ul {
