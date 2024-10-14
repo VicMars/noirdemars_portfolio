@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
   anime({
     targets: '.wordpress-anim',
     translateX: function() {
-      return anime.random(-8, 8); // Random horizontal movement between -10px and 10px
+      return anime.random(-10, 10); // Random horizontal movement between -10px and 10px
     },
     translateY: function() {
       return anime.random(-10, 10); // Random vertical movement between -10px and 10px
