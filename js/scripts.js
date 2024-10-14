@@ -142,12 +142,12 @@ document.addEventListener("DOMContentLoaded", function() {
   titleH1 
     .add({
       targets: '.page-title .letter',
-      translateY: ['50%',0],
+      translateY: ['-50%',0],
       translateZ: 0,
       opacity: [0,1],
       easing: "easeOutExpo",
       duration: 1400,
-      delay: 500
+      delay: (el, i) => 450 + 30 * i
   });
 
   // Apply effect on each title
