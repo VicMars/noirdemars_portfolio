@@ -98,7 +98,7 @@ SlideupParagraph
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 1800,
+    duration: 2000,
     delay: (el, i) => 500 + 60 * i
 });
 
