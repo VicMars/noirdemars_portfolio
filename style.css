@@ -560,10 +560,11 @@ section .nav-link.active a span {
 
 .content-work-text {
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: stretch;
   align-content: space-between;
-  height:20vh;
+  height: 25vh;
+  margin-bottom: 5rem;
 }
 
 .content-work-text h1 {
