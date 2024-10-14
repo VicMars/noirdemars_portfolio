@@ -966,6 +966,10 @@ section .nav-link.active a span {
   display: inline-block; /* Required for translate to work correctly */
 }
 
+.paragraph-loading {
+  position: relative;
+}
+
 
 
 
