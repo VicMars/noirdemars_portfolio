@@ -922,7 +922,7 @@ section .nav-link.active a span {
 
 /* Animate.js custom selector
 * ------------------------------------ */
-.title-anchor, .paragraph-anchor {
+.title-anchor, #paragraph-anchor {
   position: relative; /* Ensure it’s positioned properly */
   overflow: visible; /* Allow overflow */
 }
