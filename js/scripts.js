@@ -148,8 +148,19 @@ document.addEventListener("DOMContentLoaded", function() {
       easing: "easeOutExpo",
       duration: 1400,
       delay: (el, i) => 450 + 30 * i
-   
   });
+
+  // Apply effect on each title
+  const paragraphAnchor = document.getElementById('page-title-anchor');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+         titleH1.play();
+      }
+    });
+  });
+  observer.observe(paragraphAnchor); 
 
 });
 
