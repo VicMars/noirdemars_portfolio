@@ -622,6 +622,13 @@ section .nav-link.active a span {
    font-weight: 100;
    text-decoration:none;
    text-transform:uppercase;
+   opacity:0.8;
+   transition: transform 600ms;
+}
+
+.project-link a:hover {
+  display:inline-block;
+  transform:translate3d(5%, 0, 0) scale(1.05);
 }
 
 .content-work-projects-wrapper {
