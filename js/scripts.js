@@ -84,48 +84,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /// Anime.js - Loading Text Effect
-function wrapTextWithSpans(element) {
-  element.childNodes.forEach((node) => {
-    // Check if the node is a text node (nodeType === 3)
-    if (node.nodeType === 3) {
-      const text = node.textContent.trim();
-      if (text.length > 0) {
-        // Split text into spans
-        const wrappedText = text.replace(/\S/g, "<span class='letter'>$&</span>");
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = wrappedText;
-        
-        // Replace the text node with the spans
-        while (tempDiv.firstChild) {
-          node.parentNode.insertBefore(tempDiv.firstChild, node);
-        }
-        node.remove(); // Remove original text node
-      }
-    } else if (node.nodeType === 1) {
-      // Recursive call if the node is an element (to handle nested tags like <em>)
-      wrapTextWithSpans(node);
-    }
-  });
-}
+var SlideupParagraph = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
 
-const textWrapper = document.querySelector('.loading-text');
-wrapTextWithSpans(textWrapper);
-
-// Now apply the anime.js animation
-anime({
-  targets: '.letter',
-  scale: [
-    { value: 0, duration: 0 },        // Start with scale 0 (invisible)
-    { value: 1.5, duration: 500 },    // Grow to 1.5
-    { value: 1, duration: 500 }       // Settle at scale 1
-  ],
-  opacity: [
-    { value: 0, duration: 0 },        // Start with opacity 0 (invisible)
-    { value: 1, duration: 500 }       // Fade to full opacity
-  ],
-  delay: anime.stagger(100, { start: 0 }), // Adds delay for each letter
-  easing: 'easeInOutQuad',
-  loop: true
+SlideupParagraph
+.add({
+    targets: '.is--slideup .paragraph-loading',
+    translateY: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1800,
+    delay: (el, i) => 1000 + 60 * i
 });
 
 
