@@ -868,6 +868,7 @@ section .nav-link.active a span {
 }
 
 .wordpress-anim {
+   display:inline-block;
    position:relative;
 }
 
