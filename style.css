@@ -137,7 +137,7 @@ section:hover a {
  color:#000;
 }
 
-.section-work {
+.section-work, .section-about {
  display:flex;
  flex-direction:column;
  justify-content:space-between;
@@ -147,7 +147,8 @@ section:hover a {
  border-right:1px solid white;
 }
 
-.section-work .nav-link a {
+.section-work .nav-link a,
+.section-about .nav-link a{
   transform: rotate(180deg);
 }
 
@@ -789,6 +790,16 @@ section .nav-link.active a span {
 
 /* About 
 * ---------------------------------------- */
+.content-about {
+  flex-grow:1;
+  display:block;                   
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
 .content-about-text {
   display:flex;
   flex-direction:column;
