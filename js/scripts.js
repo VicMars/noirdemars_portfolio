@@ -108,7 +108,7 @@ const paragraphAnchor = document.getElementById('paragraph-anchor');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      SlideupPara.play();
+      SlideupParagraph.play();
     }
   });
 });
