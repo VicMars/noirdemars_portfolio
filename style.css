@@ -560,21 +560,21 @@ section .nav-link.active a span {
 
 .content-work-text {
   display:flex;
-  justify-content:space-around;
+  justify-content:center;
   align-items: stretch;
-  align-content: space-between;
-  height: 25vh;
+  height: 35vh;
   margin-bottom: 5rem;
 }
 
 .content-work-text h1 {
-   text-align:left;
+   flex-basis:40%;
    margin: 0;
 }
 
 .content-work-paragraph {
+   flex-basis:40%;
    align-self: flex-end;
-   margin: 0;
+   margin: 0 0 0 -50px;
 }
 
 /* .paragraph-loading p {
