@@ -786,6 +786,56 @@ section .nav-link.active a span {
 }
 
 
+
+/* About 
+* ---------------------------------------- */
+.content-about-text {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  max-width: 52vw;
+  height:75vh;
+  margin:0 auto;
+  padding-bottom:25px;
+}
+
+.paragraph-loading p {
+  font-size:1.9rem;
+  font-weight:100;
+  text-align:center;
+  margin-bottom:0;
+}
+
+.contact-about-link {
+   text-align:center;
+   margin:25px 0 0 0;
+}
+
+.contact-about-link a {
+   font-size:0.8rem;
+   text-decoration:none;
+   text-transform:uppercase;
+}
+
+.contact-about-link a:after {
+  display:block;
+  content:"";
+  width:20px;
+  height:1px;
+  background-color:white;
+  margin:6px auto;
+  text-align:center;
+  transition: width 0.25s ease-in-out;
+  -moz-transition: width 0.25s ease-in-out;
+  -o-transition: width 0.25s ease-in-out;
+  -webkit-transition: width 0.25s ease-in-out;
+}
+
+.contact-about-link a:hover:after {
+  width:60px;
+}
+
+
 /* Responsive
 * -------------------------------- */
 @media (max-width:48em) {
