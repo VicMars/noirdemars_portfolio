@@ -597,16 +597,6 @@ section .nav-link.active a span {
    margin: 0;
 }
 
-/* Animate.js selector */
-.title-anchor {
-  position: relative; /* Ensure it’s positioned properly */
-  overflow: visible; /* Allow overflow */
-}
-
-.page-title .letter {
-  display: inline-block; /* Required for translate to work correctly */
-}
-
 .content-work-paragraph {
    align-self: flex-end;
    margin: 0 0 0 -50px;
@@ -927,6 +917,22 @@ section .nav-link.active a span {
     text-transform:uppercase;
     font-weight:100;
 }
+
+
+
+/* Animate.js custom selector
+* ------------------------------------ */
+.title-anchor, .paragraph-anchor {
+  position: relative; /* Ensure it’s positioned properly */
+  overflow: visible; /* Allow overflow */
+}
+
+.page-title .letter {
+  display: inline-block; /* Required for translate to work correctly */
+}
+
+
+
 
 
 /* Responsive
