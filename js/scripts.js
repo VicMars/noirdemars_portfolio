@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function() {
       opacity: [0,1],
       easing: "easeOutExpo",
       duration: 1400,
-      delay: (el, i) => 450 + 30 * i
+      delay: (el, i) => 50 * i
   });
 
   // Apply effect on each title
