@@ -101,6 +101,14 @@ SlideupParagraph
 });
 
 
+$('#paragraph-anchor').on('inview', function(event, isInView) {
+  if (isInView) {
+    SlideupPara.play();
+  } else {
+  }
+});
+
+
 
 
 ///// Homepage introduction - Function to animate the h1 element
