@@ -118,7 +118,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /// Anime.js - Title Animation
-
 document.addEventListener("DOMContentLoaded", function() {
   //Split letters of title
   var wordsplit = document.getElementsByClassName("wordsplit");
@@ -163,6 +162,23 @@ document.addEventListener("DOMContentLoaded", function() {
   observer.observe(paragraphAnchor); 
 
 });
+
+
+/// Anime.js - 'Wordpress' word Animation
+anime({
+  targets: '.wordpress-anim',
+  translateX: function() {
+    return anime.random(-10, 10); // Random horizontal movement between -10px and 10px
+  },
+  translateY: function() {
+    return anime.random(-10, 10); // Random vertical movement between -10px and 10px
+  },
+  duration: 1000,  // 1 second per move
+  easing: 'easeInOutQuad', // Smooth easing
+  direction: 'alternate',  // Move back and forth
+  loop: true // Continues to loop
+});
+
 
 
 
