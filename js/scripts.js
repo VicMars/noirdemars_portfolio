@@ -102,6 +102,7 @@ SlideupParagraph
     delay: (el, i) => 1000 + 60 * i
 });
 
+
 const paragraphAnchor = document.getElementById('paragraph-anchor');
 
 const observer = new IntersectionObserver((entries) => {
@@ -112,10 +113,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
+observer.observe(paragraphAnchor);
+
+
 });
 
 
-observer.observe(paragraphAnchor);
+
 
 
 
