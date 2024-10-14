@@ -99,7 +99,7 @@ SlideupParagraph
     opacity: [0,1],
     easing: "easeOutExpo",
     duration: 1800,
-    delay: (el, i) => 1000 + 60 * i
+    delay: (el, i) => 500 + 60 * i
 });
 
 
