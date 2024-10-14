@@ -120,8 +120,21 @@ document.addEventListener("DOMContentLoaded", function() {
 /// Anime.js - Title Animation
 
 document.addEventListener("DOMContentLoaded", function() {
+  //Split letters of title
+  var wordsplit = document.getElementsByClassName("wordsplit");
+  for (var i = 0; i < wordsplit.length; i++) {
+    var wordWrap = wordsplit.item(i);
+    wordWrap.innerHTML = wordWrap.innerHTML.replace(/(^|<\/?[^>]+>|\s+)([^\s<]+)/g, '$1<span class="wordsplit-word">$2</span>');
+  }
   
-    var titleH1 = anime.timeline({
+  var splitLetter = document.getElementsByClassName("wordsplit-word");
+  for (var i = 0; i < splitLetter.length; i++) {
+     var letterWrap = splitLetter.item(i);
+     letterWrap.innerHTML = letterWrap.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  }
+
+  //Animate letters
+  var titleH1 = anime.timeline({
     loop: false,
     autoplay: false,
   });
