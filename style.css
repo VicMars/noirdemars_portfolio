@@ -843,17 +843,19 @@ section .nav-link.active a span {
   scrollbar-width: none; 
 }
 
-.content-about-text {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  max-width: 52vw;
-  height:100vh;
-  margin:0 auto;
-  padding:25px 0;
+.content-about-introduction {
+  display:block;
+  margin: 5rem;
 }
 
-.paragraph-loading p {
+.content-about-text {
+  display:block;
+  max-width:50vw;
+  height:100vh;
+  margin: 5rem auto 0 auto;
+}
+
+.content-about-introduction .paragraph-loading p {
   font-size:1.9rem;
   font-weight:100;
   text-align:center;
