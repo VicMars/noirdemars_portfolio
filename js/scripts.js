@@ -94,15 +94,15 @@ var SlideupParagraph = anime.timeline({
 SlideupParagraph
 .add({
     targets: '.is--slideup .paragraph-loading',
-    translateY: [40,0],
+    translateY: [50,0],
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 2000,
+    duration: 2200,
     delay: (el, i) => 500 + 60 * i
 });
 
-
+// Apply effect on each paragraph
 const paragraphAnchor = document.getElementById('paragraph-anchor');
 
 const observer = new IntersectionObserver((entries) => {
