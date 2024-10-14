@@ -30,13 +30,30 @@ a:focus {
 
 h1 {
   font-family:"Playfair Display";
+  font-size: clamp(7rem, 8.49vw, 14rem);
+  line-height:1;
+  margin:0;
+}
+
+h2 {
+  font-family:"Playfair Display";
+  font-size: clamp(4.36rem, 5.25vw, 8.7rem);
+  line-height:1;
+  margin:0;
+}
+
+h3 {
+ font-family:"Spartan";
+ font-size: clamp(2.7rem, 3.25vw, 5.4rem);
+ line-height:1;
+  margin:0;
 }
 
 p {
   margin-top:0;
 }
 
-p.large-text {
+/* p.large-text {
   font-size: clamp(2.7rem, 3.25vw, 5.4rem);
   margin-bottom:0;
 }
@@ -44,7 +61,7 @@ p.large-text {
 p.medium-text {
   font-size: clamp(1.8rem, 2.1vw, 3.6rem);
   margin-bottom:0;
-}
+} */
 
 
 /* LAYOUT 
