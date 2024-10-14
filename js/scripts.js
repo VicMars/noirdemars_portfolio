@@ -84,6 +84,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /// Anime.js - Loading Text Effect
+document.addEventListener("DOMContentLoaded", function() {
+
 var SlideupParagraph = anime.timeline({
   loop: false,
   autoplay: false,
@@ -100,13 +102,21 @@ SlideupParagraph
     delay: (el, i) => 1000 + 60 * i
 });
 
+const paragraphAnchor = document.getElementById('paragraph-anchor');
 
-$('#paragraph-anchor').on('inview', function(event, isInView) {
-  if (isInView) {
-    SlideupPara.play();
-  } else {
-  }
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      SlideupPara.play();
+    }
+  });
 });
+
+});
+
+
+observer.observe(paragraphAnchor);
+
 
 
 
