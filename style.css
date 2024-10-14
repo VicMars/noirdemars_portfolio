@@ -18,6 +18,10 @@ body {
   color: white;
 }
 
+:hover {
+ cursor:pointer;
+}
+
 a {
  color: white;
 }
@@ -938,8 +942,9 @@ section .nav-link.active a span {
     border-bottom: 1px solid;
 }
 
-.content-about-portfolio h4 {
+.content-about-portfolio h4 a {
     text-transform:uppercase;
+    text-decoration:none;
     font-weight:100;
 }
 
