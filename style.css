@@ -593,19 +593,16 @@ section .nav-link.active a span {
   width:20px;
   height:1px;
   background-color:white;
-  margin:0 auto;
+  margin:6px auto;
   text-align:center;
-  -moz-transition: left 0.15s ease-out,right 0.15s ease-out;
-  -o-transition: left 0.15s ease-out,right 0.15s ease-out;
-  -webkit-transition: left 0.15s ease-out,right 0.15s ease-out;
-  transition: left 0.15s ease-out,right 0.15s ease-out;
+  transition: width 0.25s ease-in-out;
+  -moz-transition: width 0.25s ease-in-out;
+  -o-transition: width 0.25s ease-in-out;
+  -webkit-transition: width 0.25s ease-in-out;
 }
 
 .contact-work-link a:hover:after {
-  -moz-transition: left 0.15s ease-in,right 0.15s ease-in;
-  -o-transition: left 0.15s ease-in,right 0.15s ease-in;
-  -webkit-transition: left 0.15s ease-in,right 0.15s ease-in;
-  transition: left 0.15s ease-in,right 0.15s ease-in;
+  width:60px;
 }
 
 .projects-list {
@@ -645,7 +642,10 @@ section .nav-link.active a span {
    text-decoration:none;
    text-transform:uppercase;
    opacity:0.8;
-   transition: transform 600ms;
+   transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
 }
 
 .project-link a:hover {
