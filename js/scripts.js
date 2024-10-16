@@ -202,6 +202,11 @@ document.addEventListener('DOMContentLoaded', function () {
   if (helloText !== null) { 
       // Add event listener for mouseover to change the target element's style
       helloText.addEventListener('mouseover', function() {
+        portraitImgWrapper.style.right = '-40px'; // Change position on hover
+        portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
+      });
+
+      portraitImg.addEventListener('mouseover', function() {
         portraitImgWrapper.style.right = '20px'; // Change position on hover
         portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
       });
