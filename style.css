@@ -156,13 +156,13 @@ section {
   box-sizing:border-box;
 }
 
-section:hover {
+/* section:hover {
   background-color:white;
 }
 
 section:hover a {
  color:#000;
-}
+} */
 
 .section-work, .section-about {
  display:flex;
@@ -179,10 +179,10 @@ section:hover a {
   transform: rotate(180deg);
 }
 
-section.first-section, 
+/* section.first-section, 
 section.second-section {
  border-left:1px solid white;
-}
+} */
 /* 
 section.first-section.work {
   border-right:1px solid white;
@@ -213,6 +213,7 @@ section.first-section.work .nav-link a {
 .home-link a em {
   font-size:26px;
   font-weight:600;
+  margin-left:-10px;
 }
 
 .main-nav .nav-mobile a {
@@ -229,11 +230,10 @@ section .nav-link a {
   display: flex;
   justify-content: center;
   align-items: center;
-/*   line-height: 50px; */
   writing-mode: vertical-lr;
   text-orientation: mixed;
   text-decoration:none;
-/*   margin:10px 0; */
+  font-size:18px;
 }
 
 section .nav-link a span {
@@ -534,6 +534,25 @@ section .nav-link.active a span {
   text-transform:uppercase;
 }
 
+contact-links-social ul li a:after {
+  display:block;
+  content:"";
+  width:20px;
+  height:1px;
+  background-color:transparent;
+  margin:6px auto;
+  text-align:center;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+
+contact-links-social ul li a:hover:after {
+  width:60px;
+  background-color:white;
+}
+
 .rw-words-1 span {
   font-weight:900;
   position: absolute;
@@ -677,16 +696,14 @@ section .nav-link.active a span {
    font-weight: 100;
    text-decoration:none;
    text-transform:uppercase;
-   opacity:0.8;
    transition: all 600ms ease-in-out;
-  -moz-transition: all 600ms ease-in-out;
-  -o-transition: all 600ms ease-in-out;
-  -webkit-transition: all 600ms ease-in-out;
+   -moz-transition: all 600ms ease-in-out;
+   -o-transition: all 600ms ease-in-out;
+   -webkit-transition: all 600ms ease-in-out;
 }
 
 .project-link a:hover {
   display:inline-block;
-  opacity:1;
   transform:translate3d(5%, 0, 0) scale(1.05);
 }
 
@@ -781,8 +798,9 @@ section .nav-link.active a span {
 
 .project-card-title h2 {
  font-style:italic;
+ font-weight:100;
  letter-spacing:-2px;
- margin: 0 0 5rem 0;
+ margin: 0 0 2rem 0;
 }
 
 .project-card-details {
@@ -798,7 +816,7 @@ section .nav-link.active a span {
 
 .project-card-main-left .project-card-images {
   display:block;
-  height: 45vh;
+  height: 47vh;
   overflow-x:scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -904,33 +922,12 @@ section .nav-link.active a span {
 }
 
 .contact-about-link {
-   text-align:center;
-   margin:25px 0 0 0;
-}
-
-.contact-about-link a {
-   font-size:0.8rem;
-   text-decoration:none;
+   font-size:5vw; 
+   font-family: 'Playfair display';
    text-transform:uppercase;
-}
-
-.contact-about-link a:after {
-  display:block;
-  content:"";
-  width:20px;
-  height:1px;
-  background-color:white;
-  margin:6px auto;
-  text-align:center;
-  transition: width 0.25s ease-in-out;
-  -moz-transition: width 0.25s ease-in-out;
-  -o-transition: width 0.25s ease-in-out;
-  -webkit-transition: width 0.25s ease-in-out;
-}
-
-.contact-about-link a:hover:after {
-  width:60px;
-}
+   text-align:center;
+   margin:100px 0 0 0;
+} 
 
 .content-about-portfolio {
     display:block;
