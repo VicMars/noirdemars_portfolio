@@ -41,19 +41,17 @@ if (helloElements !== null) {
   helloElements.forEach(element => {
     // Add event listener for mouseover to change the target element's style
     element.addEventListener('mouseover', function() {
-      // portraitImgWrapper.style.right = '20px'; // Change position on hover
-      portraitImgWrapper.style.transform = 'translateX(20px)';
+      portraitImgWrapper.style.right = '20px'; // Change position on hover
       portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
     });
   
     // Add event listener for mouseout to reset the target element's style
     element.addEventListener('mouseout', function() {
-      // portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
-      portraitImgWrapper.style.transform = 'translateX(-80%)';
+      portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
       portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
     });
     
-    element.style.transition = 'transform 3s ease';
+    element.style.transition = 'all 3s ease';
   });
 }
 
