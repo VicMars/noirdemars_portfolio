@@ -164,7 +164,7 @@ section:hover a {
  color:#000;
 } */
 
-.section-work, .section-about {
+.section-index, .section-work, .section-about {
  display:flex;
  flex-direction:column;
  justify-content:space-between;
@@ -174,8 +174,7 @@ section:hover a {
  border-right:1px solid white;
 }
 
-.section-work .nav-link a,
-.section-about .nav-link a{
+.section .nav-link a {
   transform: rotate(180deg);
 }
 
