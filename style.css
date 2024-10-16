@@ -890,7 +890,7 @@ section .nav-link.active a span {
 
 /* Animate.js custom selector
 * ------------------------------------ */
-.title-anchor {
+.title-anchor, #home-title-anchor {
   position: relative; /* Ensure it’s positioned properly */
   overflow: visible; /* Allow overflow */
 }
