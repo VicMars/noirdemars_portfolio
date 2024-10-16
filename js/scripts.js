@@ -128,6 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Apply effect on each title
   const titleSlideAnchor = document.getElementById('home-title-anchor');
 
+  if (titleSlideAnchor) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -136,7 +137,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
-  observer.observe(titleSlideAnchor);
+  observer.observe(titleSlideAnchor); 
+  }
 });
 
 
@@ -160,14 +162,16 @@ SlideupPara
 // Apply effect on each title
   const paragraphAnchor = document.getElementById('paragraph-anchor');
 
+  if (paragraphAnchor) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        SlideupPara.play();
+         SlideupPara.play();
       }
     });
   });
-  observer.observe(paragraphAnchor);
+  observer.observe(paragraphAnchor); 
+  }
 });
 
 
