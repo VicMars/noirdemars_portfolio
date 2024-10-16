@@ -16,7 +16,7 @@ if (helloElements !== null) {
       portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
       portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
     });
-  }
+  });
 }
 
 ///// Homepage - Animate dots for Hello animation
