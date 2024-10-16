@@ -297,7 +297,7 @@ section .nav-link.active a span {
   display:flex;
   justify-content:flex-end;
   align-items:flex-end;
-  margin: 25px 0;
+  margin: 35px 0 25px 0;
 }
 
 .hello-animation-content {
@@ -374,7 +374,7 @@ section .nav-link.active a span {
     flex-direction: column;
     font-weight:200;
     height:40vh;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .homepage-introduction-one h2 {
