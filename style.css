@@ -391,6 +391,7 @@ section .nav-link.active a span {
 
 .homepage-introduction-one h2 {
   font-size: calc(clamp(4.36rem, 5.25vw, 8.7rem) / 2 );
+  line-height:1.2;
 }
 
 .homepage-introduction-one .portrait-dot {
