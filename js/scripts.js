@@ -90,18 +90,34 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/// Anime.js - Paragraph Text Effect
+/// Anime.js - Homepage Title sliding
 document.addEventListener("DOMContentLoaded", function() {
 
-  var SlideupParagraph = anime.timeline({
+  var SlideRightTitle = anime.timeline({
+    loop: false,
+    autoplay: false,
+  });
+
+  var SlideLeftTitle = anime.timeline({
     loop: false,
     autoplay: false,
   });
   
-  SlideupParagraph
+  SlideRightTitle
   .add({
-      targets: '.is--slideup .paragraph-loading',
-      translateY: [50,0],
+      targets: '.is--slideright .title-sliding',
+      translateX: [100,0],
+      translateZ: 0,
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 3000,
+      delay: (el, i) => 500 + 60 * i
+  });
+
+   SlideLeftTitle
+  .add({
+      targets: '.is--slideleft .title-sliding',
+      translateX: [-100,0],
       translateZ: 0,
       opacity: [0,1],
       easing: "easeOutExpo",
@@ -110,17 +126,17 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
   // Apply effect on each paragraph
-  const paragraphAnchor = document.getElementById('paragraph-anchor');
+  const titleSlideAnchor = document.getElementById('home-title-anchor');
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        SlideupParagraph.play();
+        SlideRightTitle.play();
+        SlideLeftTitle.play();
       }
     });
   });
-  observer.observe(paragraphAnchor);
-  
+  observer.observe(titleSlideAnchor);
 });
 
 
