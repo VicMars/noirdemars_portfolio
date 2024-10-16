@@ -206,10 +206,10 @@ document.addEventListener('DOMContentLoaded', function () {
         portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
       });
 
-      portraitImg.addEventListener('mouseover', function() {
-        portraitImgWrapper.style.right = '20px'; // Change position on hover
-        portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
-      });
+      // portraitImg.addEventListener('mouseover', function() {
+      //   portraitImgWrapper.style.right = '20px'; // Change position on hover
+      //   portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
+      // });
     
       // Add event listener for mouseout to reset the target element's style
       helloText.addEventListener('mouseout', function() {
