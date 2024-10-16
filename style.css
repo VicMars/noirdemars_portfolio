@@ -179,6 +179,10 @@ section .nav-link a span {
    font-weight:600;
 }
 
+section .nav-link a:hover span {
+   color:#ffffff;
+}
+
 section .nav-link.active {
   display:block;
   position: relative;
