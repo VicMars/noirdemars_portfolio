@@ -9,22 +9,13 @@ if (helloText !== null) {
     portraitImgWrapper.style.right = '20px'; // Change position on hover
     portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
   });
-
-  portraitImg.addEventListener('mouseover', function() {
-    portraitImgWrapper.style.right = '20px'; // Change position on hover
-    portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
-  });
   
   // Add event listener for mouseout to reset the target element's style
   helloText.addEventListener('mouseout', function() {
     portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
     portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
   });
-
-  portraitImg.addEventListener('mouseout', function() {
-    portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
-    portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
-  });  
+ 
 }
 
 ///// Homepage - Animate dots for Hello animation
