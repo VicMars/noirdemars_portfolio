@@ -9,12 +9,22 @@ if (helloText !== null) {
     portraitImgWrapper.style.right = '20px'; // Change position on hover
     portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
   });
+
+  portraitImg.addEventListener('mouseover', function() {
+    portraitImgWrapper.style.right = '20px'; // Change position on hover
+    portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
+  });
   
   // Add event listener for mouseout to reset the target element's style
   helloText.addEventListener('mouseout', function() {
     portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
     portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
   });
+
+  portraitImg.addEventListener('mouseout', function() {
+    portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
+    portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
+  });  
 }
 
 ///// Homepage - Animate dots for Hello animation
@@ -25,17 +35,16 @@ const interval = 500; // Time in milliseconds for each dot to blink
 if (dots !== null) { 
   function blinkDots() {
       // Set all dots to invisible
-      dots.forEach(dot => dot.style.opacity = 0.5);
-    
+        dots.forEach(dot => dot.style.opacity = 0.5);
+      
       // Set the current dot to visible
-      dots[currentDot].style.opacity = 1;
-    
+        dots[currentDot].style.opacity = 1;
+      
       // Move to the next dot
-      currentDot = (currentDot + 1) % dots.length;
-    
-    
-    // Start the blinking effect
-    setInterval(blinkDots, interval);
+        currentDot = (currentDot + 1) % dots.length;
+      
+      // Start the blinking effect
+        setInterval(blinkDots, interval);
     }
 }
 
