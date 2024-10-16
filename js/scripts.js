@@ -149,6 +149,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
+
 /// Anime.js - 'Wordpress' word Animation
 document.addEventListener("DOMContentLoaded", function() {
   anime({
@@ -167,3 +169,57 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
+///// Homepage - Animate dots for Hello animation
+const dots = document.querySelectorAll('.hello-dots span');
+let currentDot = 0;
+const interval = 500; // Time in milliseconds for each dot to blink
+
+if (dots.length > 0) { 
+  function blinkDots() {
+    // Set all dots to semi-visible
+    dots.forEach(dot => dot.style.opacity = 0.5);
+
+    // Set the current dot to fully visible
+    dots[currentDot].style.opacity = 1;
+
+    // Move to the next dot
+    currentDot = (currentDot + 1) % dots.length;
+  }
+
+  // Start the blinking effect
+  setInterval(blinkDots, interval);
+}
+
+
+/// PROJECTS: scroll to next div
+document.addEventListener('DOMContentLoaded', function () {
+  const cards = document.querySelectorAll('.project-card');
+  const buttons = document.querySelectorAll('#next-project');
+
+  if ( cards !== null) { 
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', function () {
+      // If it's not the last card, scroll to the next one
+      if (index < cards.length - 1) {
+        cards[index + 1].scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+}
+});
+
+
+/// VIDEOS AUTOPLAY
+document.addEventListener('DOMContentLoaded', function () {
+  const videos = document.querySelectorAll('video');
+  if ( videos !== null) { 
+    videos.forEach(video => {
+      video.autoplay = true;  // Set autoplay
+      video.loop = true;      // Set loop to repeat
+      video.muted = true;     // Ensure it's muted (important for autoplay in most browsers)
+      
+      video.play();  // Start playing
+    });
+ }
+});
