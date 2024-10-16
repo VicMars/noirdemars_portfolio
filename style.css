@@ -291,14 +291,17 @@ section .nav-link.active a span {
 
 .hello-animation-portrait {
   display:block;
+  position: absolute;
+  top:-5px;
+  right:20px;
+  width:25vw;
   font-size:1rem;
 }
 
 .hello-animation-portrait-img {
   display:block;
-  position:absolute;
-  top:-5px;
-  right:20px;
+  position:relative;
+  right:-80%;
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
@@ -309,7 +312,7 @@ section .nav-link.active a span {
   position:relative;
   width:20vw;
   object-fit:cover;
-  transform: translateX(-80%) rotate(5deg);
+  transform:rotate(5deg);
   z-index:1;
   transition: transform 2s ease;
 }
