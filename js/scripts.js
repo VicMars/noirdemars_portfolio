@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Apply effect on each title
-  const paragraphAnchor = document.getElementById('page-title-anchor');
+  const paragraphTitleAnchor = document.getElementById('page-title-anchor');
   
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
-  observer.observe(paragraphAnchor); 
+  observer.observe(paragraphTitleAnchor); 
 
 });
 
