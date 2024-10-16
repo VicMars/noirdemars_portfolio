@@ -350,9 +350,10 @@ section .nav-link.active a span {
   position:absolute;
   top:-5px;
   right:-80%;
-  font-size:1rem;
+  margin-top:20px;
+  font-size: 0.9rem;
   text-align:right;
-  transition: right 3s ease;
+  transition: right 4s ease-in-out;
 }
 
 #portrait_img {
