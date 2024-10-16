@@ -302,7 +302,6 @@ section .nav-link.active a span {
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
-  transition: right 4s ease-in-out;
 }
 
 #portrait_img {
