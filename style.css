@@ -301,7 +301,7 @@ section .nav-link.active a span {
 .hello-animation-portrait-img {
   display:block;
   position:relative;
-  right:-80%;
+  right:0;
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
@@ -310,7 +310,7 @@ section .nav-link.active a span {
 #portrait_img {
   display:block;
   position:relative;
-  right:0;
+  left:80%;
   width:20vw;
   object-fit:cover;
   transform:rotate(5deg);
