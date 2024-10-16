@@ -203,7 +203,7 @@ if (helloElements !== null) {
     // Add event listener for mouseover to change the target element's style
     element.addEventListener('mouseover', function() {
       // portraitImgWrapper.style.right = '20px'; // Change position on hover
-      portraitImg.style.leftt = '0';
+      portraitImg.style.left = '0';
       portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
     });
   
