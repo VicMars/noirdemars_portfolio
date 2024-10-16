@@ -194,28 +194,25 @@ if (dots.length > 0) {
 
 
 ///// HOMEPAGE:  Hello animation
-const helloElements = document.querySelectorAll(".hello-animation-text, #portrait_img");
-const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
-const portraitImg = document.querySelector("img#portrait_img");
-
-if (helloElements !== null) { 
-  helloElements.forEach(element => {
-    // Add event listener for mouseover to change the target element's style
-    element.addEventListener('mouseover', function() {
-      portraitImgWrapper.style.right = '20px'; // Change position on hover
-      portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
-    });
+document.addEventListener('DOMContentLoaded', function () {
+  const helloText = document.querySelector(".hello-animation-text");
+  const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
+  const portraitImg = document.querySelector("img#portrait_img");
   
-    // Add event listener for mouseout to reset the target element's style
-    element.addEventListener('mouseout', function() {
-      portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
-      portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
-    });
+  if (helloText !== null) { 
+      // Add event listener for mouseover to change the target element's style
+      helloText.addEventListener('mouseover', function() {
+        portraitImgWrapper.style.right = '20px'; // Change position on hover
+        portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
+      });
     
-    // element.style.transition = 'all 3s ease';
-  });
-}
-
+      // Add event listener for mouseout to reset the target element's style
+      helloText.addEventListener('mouseout', function() {
+        portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
+        portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
+      });  
+  }
+});
 
 /// PROJECTS: scroll to next div
 document.addEventListener('DOMContentLoaded', function () {
