@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   SlideLeftTitle
   .add({
-      targets: '.is--slideleft ..title-sliding',
+      targets: '.is--slideleft .title-sliding',
       translateX: [100,0],
       translateZ: 0,
       opacity: [0,1],
