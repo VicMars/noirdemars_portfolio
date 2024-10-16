@@ -9,7 +9,7 @@ if (helloElements !== null) {
     element.addEventListener('mouseover', function() {
       // portraitImgWrapper.style.right = '20px'; // Change position on hover
       // portraitImg.style.transform = 'translateX(20px)';
-      portraitImg.style.right = '0';
+      portraitImg.style.right = '100%';
       portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
     });
   
@@ -17,7 +17,7 @@ if (helloElements !== null) {
     element.addEventListener('mouseout', function() {
       // portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
       // portraitImg.style.transform = 'translateX(-80%)';
-      portraitImg.style.right = '-70%';
+      portraitImg.style.right = '0';
       portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
     });
     
