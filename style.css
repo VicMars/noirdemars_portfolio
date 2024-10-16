@@ -314,7 +314,7 @@ section .nav-link.active a span {
 .hello-dots span {
   font-weight: 500;
   line-height:12px;
-  opacity:0.5;
+/*   opacity:0.5; */
 }
 
 .hello-animation-text p {
