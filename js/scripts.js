@@ -1,4 +1,4 @@
-/// Anime.js - Paragraph Text Effect
+/// Anime.js - Paragraph Loading Effect
 document.addEventListener("DOMContentLoaded", function() {
 
   var SlideupParagraph = anime.timeline({
@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Apply effect on each paragraph
   const paragraphAnchor = document.getElementById('paragraph-anchor');
 
+  if (paragraphAnchor) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -28,5 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   observer.observe(paragraphAnchor);
-  
+  }
 });
