@@ -377,14 +377,13 @@ section .nav-link.active a span {
     padding: 4rem 25px;
 }
 
-.homepage-introduction-one h1,
 .homepage-introduction-one h2 {
     font-family:'Spartan';
     font-weight:100;
 }
 
 .homepage-introduction-one h1 {
-  font-size: calc(clamp(7rem, 8.49vw, 14rem) / 1.9 );
+  font-size: calc(clamp(7rem, 8.49vw, 14rem) / 1.15 );
   margin-bottom:25px;
 }
 
