@@ -509,7 +509,7 @@ section .nav-link.active a span {
   text-transform:uppercase;
 }
 
-contact-links-social ul li a:after {
+.contact-links-social ul li a:after {
   display:block;
   content:"";
   width:20px;
@@ -523,7 +523,7 @@ contact-links-social ul li a:after {
   -webkit-transition: all 0.25s ease-in-out;
 }
 
-contact-links-social ul li a:hover:after {
+.contact-links-social ul li a:hover:after {
   width:60px;
   background-color:white;
 }
