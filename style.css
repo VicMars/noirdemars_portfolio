@@ -954,9 +954,14 @@ contact-links-social ul li a:hover:after {
 
 /* Animate.js custom selector
 * ------------------------------------ */
-.title-anchor, #paragraph-anchor {
+.title-anchor {
   position: relative; /* Ensure it’s positioned properly */
   overflow: visible; /* Allow overflow */
+}
+
+#paragraph-anchor {
+  position: relative; /* Ensure it’s positioned properly */
+  overflow: hidden; /* Don't Allow overflow */
 }
 
 .page-title .letter {
