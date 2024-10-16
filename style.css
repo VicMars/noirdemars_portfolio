@@ -392,7 +392,7 @@ section .nav-link.active a span {
    margin: 10px;
 }
 
-.secondary-introduction-two {
+.homepage-introduction-two {
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -403,13 +403,13 @@ section .nav-link.active a span {
   padding: 15px 25px;
 }
 
-.secondary-introduction-two p {
+.homepage-introduction-two p {
    font-size:1.1rem;
    font-weight:300;
    margin:0;
 }
 
-.secondary-introduction-two p span {
+.homepage-introduction-two p span {
   font-size: 14px;
   font-weight: 600;
   margin: 0 10px;
