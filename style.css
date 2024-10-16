@@ -368,7 +368,7 @@ section .nav-link.active a span {
   cursor:pointer;
 }
 
-.secondary-introduction-one {
+.homepage-introduction-one {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -378,7 +378,13 @@ section .nav-link.active a span {
     padding: 4rem 25px;
 }
 
-.secondary-introduction-one .portrait-dot {
+.homepage-introduction-one h1,
+.homepage-introduction-one h2 {
+    font-family:'Spartan';
+    font-weight:100;
+}
+
+.homepage-introduction-one .portrait-dot {
    display: block;
    width: fit-content;
    font-size:16px;
