@@ -384,6 +384,7 @@ section .nav-link.active a span {
 
 .homepage-introduction-one h1 {
   font-size: calc(clamp(7rem, 8.49vw, 14rem) / 1.15 );
+  font-weight: 600;
   margin-bottom:25px;
 }
 
