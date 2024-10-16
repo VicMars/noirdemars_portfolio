@@ -298,7 +298,6 @@ section .nav-link.active a span {
   display:block;
   position:absolute;
   top:-5px;
-  right:-80%;
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
