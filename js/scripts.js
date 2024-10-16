@@ -1,36 +1,38 @@
 /// AOS library - Enforce reloading of animation normaly set with 'data-aos-once'
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Initialize AOS
     AOS.init({
         duration: 1500,
         easing: 'ease-in-out',
-        once: false, // Ensure it does not play only once
+        once: false, // Set to false to allow multiple animations
     });
 
-    // Select the element with the AOS attribute
-    const aosElement = document.querySelector('[data-aos]');
+    // Select all elements with AOS attributes
+    const aosElements = document.querySelectorAll('[data-aos]');
 
-    // Create an Intersection Observer to watch the AOS element
+    // Create an Intersection Observer to watch AOS elements
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // Reset AOS by removing and adding the attribute
-                const aosAttribute = aosElement.getAttribute('data-aos');
-                aosElement.removeAttribute('data-aos'); // Temporarily remove the attribute
-                void aosElement.offsetWidth; // Trigger reflow to reset the animation
-                aosElement.setAttribute('data-aos', aosAttribute); // Re-add the attribute
+                // Play the animation by adding the `aos-animate` class
+                const target = entry.target;
+                target.classList.add('aos-animate');
 
-                // Play the animation
-                AOS.refresh(); // Refresh AOS to recognize the change
+                // Force a refresh to allow re-triggering the animation
+                setTimeout(() => {
+                    target.classList.remove('aos-animate');
+                    AOS.refresh(); // Refresh AOS to recognize changes
+                }, 50); // Delay before removing the class
             }
         });
     });
 
-    // Observe the element
-    if (aosElement) {
-        observer.observe(aosElement);
-    }
+    // Observe each AOS element
+    aosElements.forEach((element) => {
+        observer.observe(element);
+    });
 });
+
 
 
 ///// Homepage:  Hello animation
