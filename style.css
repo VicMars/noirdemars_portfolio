@@ -307,7 +307,7 @@ section .nav-link.active a span {
   text-align:right;
 }
 
-#portrait_img {
+img#portrait_img {
   display:block;
   position:relative;
   left:80%;
