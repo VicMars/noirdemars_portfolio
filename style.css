@@ -307,7 +307,7 @@ section .nav-link.active a span {
 #portrait_img {
   width:20vw;
   object-fit:cover;
-  transform: translateX(-80%) rotate(5deg);
+/*   transform: translateX(-80%) rotate(5deg); */
   z-index:1;
   transition: transform 2s ease;
 }
