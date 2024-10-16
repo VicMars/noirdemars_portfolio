@@ -395,7 +395,7 @@ section .nav-link.active a span {
 .homepage-introduction-one .portrait-dot {
    display: block;
    width: fit-content;
-   font-size:16px;
+   font-size:28px;
    font-weight:bold;
    margin: 10px;
 }
