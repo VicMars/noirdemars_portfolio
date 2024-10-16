@@ -17,7 +17,7 @@ if (helloElements !== null) {
       portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
     });
 
-    element.style.transition = 'transform 4s ease';
+    element.style.transition = 'all 4s ease';
   });
 }
 
