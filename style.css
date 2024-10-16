@@ -310,7 +310,7 @@ section .nav-link.active a span {
 #portrait_img {
   display:block;
   position:relative;
-  right:-70%;
+  right:0;
   width:20vw;
   object-fit:cover;
   transform:rotate(5deg);
