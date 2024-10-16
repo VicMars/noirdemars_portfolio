@@ -398,7 +398,7 @@ section .nav-link.active a span {
    width: fit-content;
    font-size:28px;
    font-weight:bold;
-   margin: 10px;
+   margin: 0 10px;
 }
 
 .homepage-introduction-two {
