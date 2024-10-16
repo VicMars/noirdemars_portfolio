@@ -311,10 +311,14 @@ section .nav-link.active a span {
   display:flex;
 }
 
+.hello-dots {
+  transform:rotate(30deg);
+  margin-top:15px;
+}
+
 .hello-dots span {
   font-weight: 500;
   line-height:12px;
-/*   opacity:0.5; */
 }
 
 .hello-animation-text p {
@@ -327,18 +331,6 @@ section .nav-link.active a span {
   display:block;
   position:relative;
 }
-
-/* .hello-animation-content span {
-  display:block;
-  font-weight: 500;
-  line-height:12px;
-  opacity:0.5;
-}
-
-.hello-animation-content p {
-  font-size:1rem;
-  padding:15px 0;
-} */
 
 .hello-animation-portrait {
   display:block;
