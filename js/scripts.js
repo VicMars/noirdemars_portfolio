@@ -6,7 +6,7 @@ const portraitImg = document.querySelector("#portrait_img");
 if (helloElements !== null) { 
   helloElements.forEach(element => {
     // Add event listener for mouseover to change the target element's style
-    hellohelloElement.addEventListener('mouseover', function() {
+      helloElement.addEventListener('mouseover', function() {
       portraitImgWrapper.style.right = '20px'; // Change position on hover
       portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
     });
