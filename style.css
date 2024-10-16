@@ -384,6 +384,14 @@ section .nav-link.active a span {
     font-weight:100;
 }
 
+.homepage-introduction-one h1 {
+  font-size: calc(clamp(7rem, 8.49vw, 14rem) / 1.8 );
+}
+
+.homepage-introduction-one h2 {
+  font-size: calc(clamp(4.36rem, 5.25vw, 8.7rem) / 1.8 );
+}
+
 .homepage-introduction-one .portrait-dot {
    display: block;
    width: fit-content;
