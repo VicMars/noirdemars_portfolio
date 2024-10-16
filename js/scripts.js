@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-///// Homepage - Animate dots for Hello animation
+///// HOMEPAGE: Animate dots for Hello animation
 const dots = document.querySelectorAll('.hello-dots span');
 let currentDot = 0;
 const interval = 500; // Time in milliseconds for each dot to blink
@@ -189,6 +189,33 @@ if (dots.length > 0) {
 
   // Start the blinking effect
   setInterval(blinkDots, interval);
+}
+
+
+
+///// HOMEPAGE:  Hello animation
+const helloElements = document.querySelectorAll(".hello-animation-text, #portrait_img");
+const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
+const portraitImg = document.querySelector("#portrait_img");
+
+if (helloElements !== null) { 
+  helloElements.forEach(element => {
+    // Add event listener for mouseover to change the target element's style
+    element.addEventListener('mouseover', function() {
+      // portraitImgWrapper.style.right = '20px'; // Change position on hover
+      portraitImg.style.right = '20px';
+      portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
+    });
+  
+    // Add event listener for mouseout to reset the target element's style
+    element.addEventListener('mouseout', function() {
+      // portraitImgWrapper.style.right = '-80%'; // Reset position when no hover
+      portraitImg.style.right = '-80%';
+      portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
+    });
+    
+    // element.style.transition = 'all 3s ease';
+  });
 }
 
 
