@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize AOS
     AOS.init({
+        duration: 1500,
         easing: 'ease-in-out',
         once: false, // Ensure it does not play only once
     });
