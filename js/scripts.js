@@ -1,3 +1,37 @@
+/// AOS library - Enforce reloading of animation normaly set with 'data-aos-once'
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize AOS
+    AOS.init({
+        easing: 'ease-in-out',
+        once: false, // Ensure it does not play only once
+    });
+
+    // Select the element with the AOS attribute
+    const aosElement = document.querySelector('[data-aos]');
+
+    // Create an Intersection Observer to watch the AOS element
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Reset AOS by removing and adding the attribute
+                const aosAttribute = aosElement.getAttribute('data-aos');
+                aosElement.removeAttribute('data-aos'); // Temporarily remove the attribute
+                void aosElement.offsetWidth; // Trigger reflow to reset the animation
+                aosElement.setAttribute('data-aos', aosAttribute); // Re-add the attribute
+
+                // Play the animation
+                AOS.refresh(); // Refresh AOS to recognize the change
+            }
+        });
+    });
+
+    // Observe the element
+    if (aosElement) {
+        observer.observe(aosElement);
+    }
+});
+
+
 ///// Homepage:  Hello animation
 const helloElements = document.querySelectorAll(".hello-animation-text, #portrait_img");
 const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
@@ -43,7 +77,6 @@ if (dots.length > 0) {
   // Start the blinking effect
   setInterval(blinkDots, interval);
 }
-
 
 
 /// PROJECTS: scroll to next div
