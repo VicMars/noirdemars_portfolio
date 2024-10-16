@@ -209,7 +209,7 @@ section .nav-link.active a span {
   color:white;
 }
 
-.home-link a {
+.nav-link.home-link a {
   font-family:"Playfair Display";
   font-size: 35px;
   letter-spacing:-1px;
