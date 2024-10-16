@@ -1,5 +1,5 @@
 ///// Homepage:  Hello animation
-const helloText = document.querySelector(".hello-animation-text");
+const helloText = document.querySelectorAll(".hello-animation-text, #portrait_img");
 const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
 const portraitImg = document.querySelector("#portrait_img");
 
