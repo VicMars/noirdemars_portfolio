@@ -465,6 +465,7 @@ section .nav-link.active a span {
 }
 
 .content-contact h2 {
+  font-family:'Spartan';
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 200;
