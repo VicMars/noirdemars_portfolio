@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
       delay: (el, i) => 500 + 60 * i
   });
   
-  // Apply effect on each paragraph
+  // Apply effect on each title
   const titleSlideAnchor = document.getElementById('home-title-anchor');
 
   const observer = new IntersectionObserver((entries) => {
@@ -140,7 +140,39 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/// Anime.js - Title Animation
+/// Anime.js - Paragraph Loading Effect
+var SlideupPara = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+
+SlideupPara
+.add({
+    targets: '.is--slideup .paragraph-loading',
+    translateY: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1800,
+    delay: (el, i) => 1000 + 60 * i
+});
+
+// Apply effect on each title
+  const paragraphAnchor = document.getElementById('paragraph-anchor');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        SlideupPara.play();
+      }
+    });
+  });
+  observer.observe(paragraphAnchor);
+});
+
+
+
+/// Anime.js - Page Title Animation: moving letters
 document.addEventListener("DOMContentLoaded", function() {
   //Split letters of title
   var wordsplit = document.getElementsByClassName("wordsplit");
