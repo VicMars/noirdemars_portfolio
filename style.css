@@ -374,7 +374,7 @@ section .nav-link.active a span {
     flex-direction: column;
     font-weight:200;
     height:40vh;
-    padding: 4rem 25px;
+    padding: 4rem;
 }
 
 .homepage-introduction-one h2 {
