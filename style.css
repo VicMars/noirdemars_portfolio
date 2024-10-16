@@ -229,49 +229,6 @@ section .nav-link.active a span {
 /* HOMEPAGE 
 * --------------------------------- */
 
-/* Primary Title */
-.primary-title {
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  align-content: center;
-  position: relative;
-  top: 0;
-  left: 0;
-  max-width: 100%;
-  height: calc(100vh - 100px);
-  max-height: 100%;
-}
-
-.primary-title-line,
-.primary-title-inline {
-  height: calc((100vh - 100px) / 2);
-}
-
-.primary-title-inline {
-  display:flex;
-}
-
-.primary-title h1 {
-  font-size: clamp(7rem, 24.75vw, 25rem);
-  font-weight:600;
-  letter-spacing:-0.2rem;
-  margin:0;
-  padding: 0;
-  line-height:260px;
-}
-
-.primary-title-span {
-  font-family:"Playfair Display";
-  font-size: clamp(3.5rem, 8vw, 12.5rem);
-  font-weight:600;
-  letter-spacing:-0.2rem;
-  margin:0;
-  padding: 0;
-  flex-basis:35%;
-  text-align:center;
-}
-
 /* Homepage Title */
 .homepage-title {
   display: flex;
@@ -417,7 +374,6 @@ section .nav-link.active a span {
   font-weight: 600;
   margin: 0 10px;
 }
-
 
 .rotating-star {
     display: inline-block;
