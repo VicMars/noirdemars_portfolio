@@ -442,7 +442,7 @@ img#portrait_img:hover {
   margin:0 auto;
 }
 
-.content-contact-col .col-two {
+.content-contact-col.col-two {
   border-right:1px solid white;
 }
 
