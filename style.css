@@ -595,9 +595,10 @@ q:after {
 }
 
 .homepage-ndm-def {
+   align-self: flex-end;
    display:block;
    width: 50vw;
-   padding: 0 4rem;
+   padding: 2rem 4rem;
    text-align:left;
    border-right:1px solid white;
 }
