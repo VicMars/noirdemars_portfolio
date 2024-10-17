@@ -299,7 +299,8 @@ section .nav-link.active a span {
 .hello-animation-portrait-img {
   display:block;
   position:relative;
-  left:80%;
+  left:0;
+  transform:translateX(150px);
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
