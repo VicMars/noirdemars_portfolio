@@ -443,9 +443,8 @@ img#portrait_img:hover {
 }
 
 .content-contact-col.col-two {
-  border-right:1px solid white;
+  border-left:1px solid white;
 }
-
 
 .content-contact h2 {
   font-family:'Spartan';
