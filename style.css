@@ -612,6 +612,12 @@ q:after {
    margin:5px 0 15px 0;
 }
 
+.homepage-ndm-def-link {
+  text-align:center;
+  padding: 2rem 0;
+  border-bottom:1px solid white;
+}
+
 
 /* Work
 ------------------------------------------------------ */
