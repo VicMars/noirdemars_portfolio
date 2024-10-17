@@ -296,11 +296,10 @@ section .nav-link.active a span {
   font-size:1rem;
 }
 
-.hello-animation-portrait-img {
+.hello-animation-portrait-wrapper {
   display:block;
   position:relative;
-  left:0;
-  transform:translateX(150px);
+  right:-100px;
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
