@@ -443,15 +443,11 @@ img#portrait_img:hover {
   text-align:center;
   font-size: 1.3rem;
   font-weight:100;
-  text-decoration:  none;
+  text-decoration: none;
   color: #fff;
 }
 
-.contact-links {
-  text-align:center;
-}
-
-.contact-links li {
+.content-contact li {
   display:block;
   text-align:center;
   padding:25px;
