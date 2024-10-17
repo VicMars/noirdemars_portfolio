@@ -540,23 +540,18 @@ li.contact-link a:hover:after {
    background-color:#000000;
 }
 
-.homepage-ndm-def-first {
-   padding-bottom:80px;
-}
-
-.homepage-ndm-def-first p {
+.homepage-ndm-def p {
   margin-bottom:0;
 }
 
-.homepage-ndm-def-first,
-.homepage-ndm-def-second {
+.homepage-ndm-def {
    display:block;
-   width: 50vw;
+   width: 40vw;
    margin: 0 auto;
    text-align:center;
 }
 
-.homepage-ndm-def-first h4 {
+.homepage-ndm-def h4 {
    font-weight:100;
    letter-spading:-0.05rem;
    margin-bottom:15px;
@@ -568,6 +563,7 @@ li.contact-link a:hover:after {
   flex-direction:column;
   justify-content:center;
   text-align:center;
+  padding-bottom:80px
 }
 
 .homepage-quote p {
