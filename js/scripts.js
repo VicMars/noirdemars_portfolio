@@ -196,14 +196,13 @@ if (dots.length > 0) {
 ///// HOMEPAGE:  Hello animation
 document.addEventListener('DOMContentLoaded', function () {
   const helloText = document.querySelector(".hello-animation-text");
-  const portraitImgWrapper = document.querySelector(".hello-animation-portrait-img");
+  const portraitImgWrapper = document.querySelector(".hello-animation-portrait-wrapper");
   const portraitImg = document.querySelector("img#portrait_img");
   
   if (helloText !== null) { 
       // Add event listener for mouseover to change the target element's style
       helloText.addEventListener('mouseover', function() {
-        // portraitImgWrapper.style.left = '0'; // Change position on hover
-        portraitImgWrapper.style.transform = 'translateX(0)'; // Change position on hover
+        portraitImgWrapper.style.right = '0'; // Change position on hover
         portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
       });
 
@@ -214,8 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
       // Add event listener for mouseout to reset the target element's style
       helloText.addEventListener('mouseout', function() {
-        // portraitImgWrapper.style.left = '80%'; // Reset position when no hover
-        portraitImgWrapper.style.transform = 'translateX(150px)'; // Change position on hover
+        portraitImgWrapper.style.right = '-100px'; // Change position on hover
         portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
       });  
   }
