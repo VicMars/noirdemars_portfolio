@@ -544,6 +544,12 @@ li.contact-link a:hover:after {
    text-align:center;
 }
 
+.homepage-ndm-def-first h3 {
+   font-family:"Playfair Display";
+   font-weight:500;
+   letter-spading:-0.05rem;
+}
+
 
 /* Work
 ------------------------------------------------------ */
