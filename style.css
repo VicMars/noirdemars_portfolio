@@ -555,8 +555,15 @@ li.contact-link a:hover:after {
 }
 
 /* Quotation */
+.homepage-quote {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
 .homepage-quote p {
    font-size:14px;
+   margin-bottom:0;
 }
 
 q {
