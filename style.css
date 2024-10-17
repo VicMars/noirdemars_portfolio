@@ -581,13 +581,13 @@ q {
   font-size:3rem;
   width: 30vw;
   height:100%;
-  margin:0 auto;
+  margin:10px auto;
 }
 
 q:before {
  display:block; 
  font-size:6rem;
- text-align:left;
+ text-align:center;
  height:30px;
 }
 
@@ -595,8 +595,8 @@ q:after {
  display:none;
 }
 
-.homepage-quote q p {
- margin-top:15px;
+q p {
+  margin-top:10px;
 }
 
 
