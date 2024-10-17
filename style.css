@@ -303,7 +303,7 @@ section .nav-link.active a span {
   right:-250px;
   margin-top:20px;
   font-size: 0.9rem;
-  text-align:right;
+  text-align:center;
   transition: right 2s ease;
 }
 
