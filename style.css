@@ -448,7 +448,7 @@ img#portrait_img {
   text-align:center;
 }
 
-.contact-links ul {
+.contact-links li {
   padding:25px;
   text-align:center;
 }
@@ -470,7 +470,7 @@ img#portrait_img {
   text-transform:uppercase;
 }
 
-.contact-links-social ul li a:after {
+li.contact-link a:after {
   display:block;
   content:"";
   width:20px;
