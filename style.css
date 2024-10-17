@@ -410,9 +410,11 @@ img#portrait_img:hover {
   display:flex;
   flex-direction:column;
   justify-content:center;
+  position:sticky;
+  top:0;
+  left:0;
   width:100%;
   height:100vh;
-/*   padding:3rem 0; */
 }
 
 .content-contact {
@@ -532,8 +534,10 @@ li.contact-link a:hover:after {
    display:flex;
    flex-direction:column;
    justify-content:center;
+   position:relative;
    width:100%;
    height:100vh;
+   background-color:#000000;
 }
 
 .homepage-ndm-def-first {
