@@ -18,10 +18,6 @@ body {
   color: white;
 }
 
-/* :hover {
- cursor:pointer;
-} */
-
 a {
  color: white;
 }
@@ -319,7 +315,7 @@ img#portrait_img {
 
 .hello-animation-name {
   font-size:0.9rem;
-  margin-top:8px;
+  margin-top:10px;
 }
 
 .homepage-introduction-one {
@@ -562,42 +558,6 @@ li.contact-link a:after {
    align-self: flex-end;
    margin: 0 0 0 -50px;
 }
-
-/* .paragraph-loading p {
-  font-size:1.9rem;
-  font-weight:100;
-  text-align:center;
-  margin-bottom:0;
-}
-
-.contact-work-link {
-   text-align:center;
-   margin:25px 0 0 0;
-}
-
-.contact-work-link a {
-   font-size:0.8rem;
-   text-decoration:none;
-   text-transform:uppercase;
-}
-
-.contact-work-link a:after {
-  display:block;
-  content:"";
-  width:20px;
-  height:1px;
-  background-color:white;
-  margin:6px auto;
-  text-align:center;
-  transition: width 0.25s ease-in-out;
-  -moz-transition: width 0.25s ease-in-out;
-  -o-transition: width 0.25s ease-in-out;
-  -webkit-transition: width 0.25s ease-in-out;
-}
-
-.contact-work-link a:hover:after {
-  width:60px;
-} */
 
 .projects-list {
   display:block;
