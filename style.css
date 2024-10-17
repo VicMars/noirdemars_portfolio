@@ -894,6 +894,11 @@ q:after {
   flex-basis:40%;
 }
 
+.content-about-text-col {
+   align-self:flex-end;
+   justify-items:start;
+}
+
 .content-about-text h1 {
    margin: 0;
 }
