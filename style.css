@@ -299,6 +299,7 @@ section .nav-link.active a span {
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
+  transition: left 2s ease;
 }
 
 img#portrait_img {
