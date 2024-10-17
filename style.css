@@ -296,8 +296,9 @@ section .nav-link.active a span {
 .hello-animation-portrait-wrapper {
   display:block;
   position:relative;
-  right:-250px;
+  right:-230px;
   margin-top:20px;
+  padding:0 20px;
   font-size: 0.9rem;
   text-align:center;
   transition: right 2s ease;
