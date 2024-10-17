@@ -299,11 +299,11 @@ section .nav-link.active a span {
 .hello-animation-portrait-wrapper {
   display:block;
   position:relative;
-  right:-100px;
+  right:-250px;
   margin-top:20px;
   font-size: 0.9rem;
   text-align:right;
-  transition: left 2s ease;
+  transition: right 2s ease;
 }
 
 img#portrait_img {
