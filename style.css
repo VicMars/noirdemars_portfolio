@@ -575,6 +575,11 @@ li.contact-link a:hover:after {
    margin-bottom:0;
 }
 
+.homepage-quote span {
+  display:block;
+  font-weight:bold;
+}
+
 q {
   display:block;
   position:relative;
