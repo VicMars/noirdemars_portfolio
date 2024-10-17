@@ -552,9 +552,9 @@ li.contact-link a:hover:after {
 }
 
 .homepage-ndm-def h4 {
-   font-weight:100;
+   font-weight:300;
    letter-spading:-0.05rem;
-   margin-bottom:15px;
+   margin:5px 0 15px 0;
 }
 
 /* Quotation */
@@ -580,9 +580,10 @@ q {
   display:block;
   position:relative;
   font-size:3rem;
+  line-height:0;
   width: 30vw;
   height:100%;
-  margin:10px auto;
+  margin:10px auto 0 auto;
 }
 
 q:before {
