@@ -597,7 +597,7 @@ q:after {
 .homepage-ndm-def {
    align-self: flex-end;
    display:block;
-   width: 50vw;
+   width: 70vw;
    padding: 2rem 4rem;
    text-align:left;
    border-right:1px solid white;
@@ -614,6 +614,7 @@ q:after {
 }
 
 .homepage-ndm-def-link {
+  width:30vw;
   text-align:center;
   padding: 2rem 0;
   border-bottom:1px solid white;
