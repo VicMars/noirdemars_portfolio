@@ -407,8 +407,12 @@ img#portrait_img:hover {
 /* Contact
 ------------------------------------------------------ */
 #content-contact {
-  display:block;
-  padding:3rem 0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:100%;
+  height:100vh;
+/*   padding:3rem 0; */
 }
 
 .content-contact {
@@ -520,6 +524,24 @@ li.contact-link a:hover:after {
   20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
   80% { opacity: 0; }
   100% { opacity: 0; }
+}
+
+/* Homepage Definition
+------------------------------------------------------ */
+.homepage-ndm-definition {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   width:100%;
+   height:100vh;
+}
+
+.homepage-ndm-def-first {
+   margin-bottom:25px;
+}
+
+.homepage-ndm-def-first, .homepage-ndm-def-second {
+   text-align:center;
 }
 
 
