@@ -568,11 +568,16 @@ q {
   margin:0 auto;
 }
 
-q:before, q:after { font-size:6rem;}
+q:before {
+ display:block; 
+ font-size:6rem;
+ text-align:left;
+ height:30px;
+}
 
-q:before {display:block; text-align:left; height:30px;}
-
-q:after {display:block; text-align:right; height:30px;}
+q:after {
+ display:none;
+}
 
 
 /* Work
