@@ -171,10 +171,11 @@ section .nav-link a {
   text-decoration:none;
   font-size:18px;
   transform: rotate(180deg);
+  margin:10px 0;
 }
 
 section .nav-link a span {
-   margin:20px 0;
+   margin:10px 0;
    color:#121212;
    font-weight:600;
 }
