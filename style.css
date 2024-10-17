@@ -555,6 +555,10 @@ li.contact-link a:hover:after {
 }
 
 /* Quotation */
+.homepage-quote p {
+   font-size:14px;
+}
+
 q {
   display:block;
   position:relative;
@@ -563,6 +567,7 @@ q {
   height:100%;
   margin:0 auto;
 }
+
 q:before, q:after { font-size:6rem;}
 
 q:before {display:block; text-align:left; height:30px;}
