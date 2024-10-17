@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
       // Add event listener for mouseout to reset the target element's style
       helloText.addEventListener('mouseout', function() {
-        portraitImgWrapper.style.right = '-100px'; // Change position on hover
+        portraitImgWrapper.style.right = '-250px'; // Change position on hover
         portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
       });  
   }
