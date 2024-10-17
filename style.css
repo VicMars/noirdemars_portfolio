@@ -540,15 +540,15 @@ li.contact-link a:hover:after {
    background-color:#000000;
 }
 
-.homepage-ndm-def p {
-  margin-bottom:0;
-}
-
 .homepage-ndm-def {
    display:block;
-   width: 40vw;
+   width: 36vw;
    margin: 0 auto;
-   text-align:center;
+   text-align:left;
+}
+
+.homepage-ndm-def p {
+  margin-bottom:0;
 }
 
 .homepage-ndm-def h4 {
