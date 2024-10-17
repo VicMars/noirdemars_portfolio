@@ -314,6 +314,11 @@ img#portrait_img {
   transition: transform 2s ease;
 }
 
+.hello-animation-portrait-wrapper:hover, 
+img#portrait_img:hover {
+  cursor:pointer;
+}
+
 .hello-animation-name {
   font-size:0.9rem;
   margin-top:10px;
