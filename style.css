@@ -595,6 +595,10 @@ q:after {
  display:none;
 }
 
+.homepage-quote q p {
+ margin-top:15px;
+}
+
 
 /* Work
 ------------------------------------------------------ */
