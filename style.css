@@ -563,7 +563,7 @@ li.contact-link a:hover:after {
   flex-direction:column;
   justify-content:center;
   text-align:center;
-  padding-bottom:80px
+  padding-bottom:100px;
 }
 
 .homepage-quote p {
