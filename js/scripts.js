@@ -215,13 +215,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
    if (portraitImg !== null) { 
       // Add event listener for mouseover to change the target element's style
-      portraitImg.addEventListener('mouseover', function() {
+      portraitImgWrapper.addEventListener('mouseover', function() {
         portraitImgWrapper.style.transform = 'translateX(-200px)'; // Change position on hover
         portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
       });
     
       // Add event listener for mouseout to reset the target element's style
-     portraitImg.addEventListener('mouseout', function() {
+     portraitImgWrapper.addEventListener('mouseout', function() {
         portraitImgWrapper.style.transform = 'translateX(0)'; // Reset position on hover
         portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
       });  
