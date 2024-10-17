@@ -556,9 +556,8 @@ li.contact-link a:hover:after {
    text-align:center;
 }
 
-.homepage-ndm-def-first h3 {
-   font-family:"Playfair Display";
-   font-weight:500;
+.homepage-ndm-def-first h4 {
+   font-weight:100;
    letter-spading:-0.05rem;
    margin-bottom:15px;
 }
@@ -568,6 +567,7 @@ li.contact-link a:hover:after {
   display:flex;
   flex-direction:column;
   justify-content:center;
+  text-align:center;
 }
 
 .homepage-quote p {
