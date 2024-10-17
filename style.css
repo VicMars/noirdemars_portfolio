@@ -464,7 +464,7 @@ img#portrait_img:hover {
   padding:0 10px;
 }
 
-.contact-links-social ul li a {
+.contact-links-social li a {
   font-size:0.9rem;
   text-decoration:none;
   text-transform:uppercase;
@@ -484,7 +484,7 @@ li.contact-link a:after {
   -webkit-transition: all 0.25s ease-in-out;
 }
 
-.contact-links-social ul li a:hover:after {
+li.contact-link a:hover:after {
   width:60px;
   background-color:white;
 }
