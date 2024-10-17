@@ -421,14 +421,21 @@ img#portrait_img:hover {
 
 .content-contact {
   display: flex;
-  justify-content: space-around;
-  align-content:center;
+  justify-content: space-between;
   align-items:center;
   background-color:  #000;
   color: #fff;
-  max-width: 100%;
-  height: 100%;
-  margin:  2.5em;
+  width: 100%;
+  height: 100vh;
+  border-bottom:1px solid white;
+}
+
+.content-contact-text,  .content-contact .contact-links-social {
+    align-content:center;
+    flex-basis: 50vw;
+    flex-grow:1;
+    padding: 3rem;
+    height: 80vh;
 }
 
 .content-contact h2 {
