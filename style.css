@@ -579,7 +579,6 @@ q {
   display:block;
   position:relative;
   font-size:3rem;
-  line-height:0;
   width: 30vw;
   margin:10px auto 0 auto;
 }
