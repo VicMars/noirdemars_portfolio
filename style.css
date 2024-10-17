@@ -440,6 +440,7 @@ img#portrait_img {
 .content-contact a {
   text-align:center;
   font-size: 1.3rem;
+  font-weight:100;
   text-decoration:  none;
   color: #fff;
 }
@@ -449,8 +450,9 @@ img#portrait_img {
 }
 
 .contact-links li {
-  padding:25px;
+  display:block;
   text-align:center;
+  padding:25px;
 }
 
 .contact-links-social {
