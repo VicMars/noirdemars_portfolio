@@ -202,7 +202,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (helloText !== null) { 
       // Add event listener for mouseover to change the target element's style
       helloText.addEventListener('mouseover', function() {
-        portraitImgWrapper.style.right = '0'; // Change position on hover
+        // portraitImgWrapper.style.right = '0'; // Change position on hover
+        portraitImgWrapper.style.transform = 'translateX(-500px)';
         portraitImg.style.transform = 'rotate(0deg)'; // Change rotation on hover
       });
 
@@ -213,7 +214,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
       // Add event listener for mouseout to reset the target element's style
       helloText.addEventListener('mouseout', function() {
-        portraitImgWrapper.style.right = '-250px'; // Change position on hover
+        // portraitImgWrapper.style.right = '-250px'; // Change position on hover
+        portraitImgWrapper.style.transform = 'translateX(0)';
         portraitImg.style.transform = 'rotate(5deg)'; // Reset rotation when no hover
       });  
   }
