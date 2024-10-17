@@ -277,6 +277,10 @@ section .nav-link.active a span {
   padding:0 15px;
 }
 
+.hello-animation-text:hover {
+  cursor:pointer;
+}
+
 .hello-animation-image {
   flex-basis:15%;
   display:block;
@@ -312,8 +316,9 @@ img#portrait_img {
   transition: transform 2s ease;
 }
 
-.hello-animation-text:hover {
-  cursor:pointer;
+.hello-animation-name {
+  font-size:0.9rem;
+  margin-top:8px;
 }
 
 .homepage-introduction-one {
