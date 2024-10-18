@@ -1050,32 +1050,52 @@ q:after {
   }
 
   .hello-animation {
-     display:block;
+     height:auto;
+     flex-direction: column;
      order:2;
   }
 
   .homepage-introduction-two {
      order:3;
   }
-
- .hello-animation-text {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 20px;
-  }
   
  .homepage-introduction-one h1 {
     font-size: calc(clamp(7rem, 8.49vw, 14rem)* 0.55);
  }
 
- .hello-animation-portrait-wrapper, .hello-animation-portrait {
+ .hello-animation-portrait {
+    display: block;
+    width: 90%;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+ }
+
+  .hello-animation-portrait-wrapper {
+   display: block;
    position: relative;
-   right:0;
-   width: 100%;
+   left: 0;
+   right: 0;
+   width: 80%;
+   height: inherit;
+   margin: 0 auto;
 }
+
+ .hello-animation-image {
+    width:100%;
+ }
+ 
+ .hello-animation-text {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+  }
  
  img#portrait_img {
-   width:65vw;
+   width:60vw;
  }
 
   #content-contact {
