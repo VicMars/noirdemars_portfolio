@@ -177,7 +177,6 @@ section .nav-link.active a span {
   text-decoration:none;
   margin-left:0;
   transition: margin-left 1s ease-in-out;
-  padding-left: 20px;
 }
 
 .home-link a em {
