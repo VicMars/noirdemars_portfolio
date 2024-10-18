@@ -984,7 +984,7 @@ q:after {
 .content-about-portfolio button:hover {
     background-color:white;
     color:#000000;
-    transform:translateX(-120px);
+    transform:translateX(-20px) rotate(90deg);
 }
 
 .content-about-portfolio button a {
