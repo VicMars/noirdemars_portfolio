@@ -1184,12 +1184,13 @@ q:after {
  /* WORK */
  .content-work {
    height:inherit;
-   margin-top: 80px;
  }
- .content-work-introduction {
+ 
+ .content-work-introduction,
+ .content-about-introduction {
     display: block;
     max-width: 80vw;
-    margin: 0 auto;
+    margin: 60px auto 0 auto;
   }
 
   .content-work-text {
@@ -1197,8 +1198,14 @@ q:after {
     height:auto;
    }
 
-  .content-work-paragraph {
+  .content-work-paragraph,
+  .content-about-text-col {
    margin: 20px 0 0 0;
+  }
+
+  .content-about-details {
+    max-width: 80vw;
+    margin:0 auto;
   }
 
   .projects-list {
