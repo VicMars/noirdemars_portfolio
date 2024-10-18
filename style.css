@@ -144,18 +144,8 @@ section {
 }
 
 /* Navigation */
-.main-nav .nav-mobile {
+.main-nav-mobile {
   display:none;
-}
-
-.main-nav .nav-mobile a {
-  font-family:"Spartan";
-  font-size:18px;
-  text-decoration:none;
-}
-
-.main-nav a:hover {
-  margin-left:10px;
 }
 
 section .nav-link a {
@@ -1048,12 +1038,24 @@ q:after {
 * -------------------------------- */
 @media (max-width:48em) {
 
-  .main-nav .nav-mobile {
-    display:block;
+ 
+
+/*   .main-nav-mobile .nav-mobile a {
+  font-family:"Spartan";
+  font-size:18px;
+  text-decoration:none;
+}
+
+.main-nav a:hover {
+  margin-left:10px;
+} */
+
+  section, .section-index, .section-about, .section-work {
+    display:none;
   }
 
-  section {
-    display:none;
+  .main-nav-mobile {
+    display:block;
   }
 
   .content .primary-title-one h1, 
