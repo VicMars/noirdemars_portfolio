@@ -1230,5 +1230,10 @@ q:after {
  
   .project-card-main-right {
    order: 2;
+   border: 5px solid white;
+  }
+
+ .project-card-main-left .project-card-images {
+   height:40vh;
   }
 }
