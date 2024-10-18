@@ -138,17 +138,14 @@ section {
   display:none;
 }
 
-.home-link {  
- width: 55px;
-}
-
 .nav-link.home-link a {
   font-family:"Playfair Display";
   font-size: 35px;
   letter-spacing:0.05rem;
   color:inherit;
   text-decoration:none;
-  margin-left:0;
+  line-height:0.85;
+  margin-right:8px;
 }
 
 .home-link a em {
