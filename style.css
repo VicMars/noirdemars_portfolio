@@ -995,6 +995,7 @@ q:after {
 
 .contact-links-social.about-page ul li a {
    font-size:1.9rem;
+   font-weight:100;
 }
 
 /* Animate.js custom selector
