@@ -972,7 +972,6 @@ q:after {
 .content-about-portfolio button {
     position:absolute;
     top: -50px;
-    right:unset;
     background-color:transparent;
     color:white;
     border:1px solid white;
@@ -985,7 +984,7 @@ q:after {
 .content-about-portfolio button:hover {
     background-color:white;
     color:#000000;
-    right:-120px;
+    transform:translateX(-120px);
 }
 
 .content-about-portfolio button a {
