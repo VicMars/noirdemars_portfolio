@@ -1045,8 +1045,11 @@ q:after {
    }
 
    .nav-mobile.home-link a {
-     font-size:35px;
+     font-family:"Playfair Display";
+     font-size: 35px;
+     text-decoration:none;
      line-height:0;
+     margin-right:0;
    }
 
   .homepage-title {
