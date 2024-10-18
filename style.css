@@ -955,7 +955,7 @@ q:after {
    text-transform:uppercase;
    text-align:center;
    margin:100px 0 0 0;
-} 
+}
 
 .contact-about-link h2 {
   font-weight:100;
@@ -989,8 +989,11 @@ q:after {
    margin-top:30px;
 }
 
+.contact-links-social.about-page ul li {
+      display:block;
+}
+
 .contact-links-social.about-page ul li a {
-   display:block;
    font-size:1.9rem;
 }
 
