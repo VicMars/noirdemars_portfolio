@@ -1109,6 +1109,7 @@ q:after {
  }
 
  .homepage-ndm-def-link {
+   width:80vw;
    max-width:80vw;
    margin:0 auto;
    border-top: 1px solid white;
