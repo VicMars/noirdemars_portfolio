@@ -919,6 +919,7 @@ q:after {
 .wordpress-anim {
    display:inline-block;
    position:relative;
+   line-height:2;
 }
 
 .wordpress-anim:before {
