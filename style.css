@@ -1230,6 +1230,7 @@ q:after {
   .project-card {
     flex-direction: column;
     width: calc(100vw - 30px);
+    height:auto;
   }
  
   .project-card-main-right {
