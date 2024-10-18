@@ -169,7 +169,7 @@ section .nav-link.active a span {
   color:white;
 }
 
-.nav-link.home-link a {
+.home-link a {
   font-family:"Playfair Display";
   font-size: 35px;
   letter-spacing:0.05rem;
@@ -1028,7 +1028,9 @@ q:after {
   .main-nav-mobile {
     display:flex;
     justify-content:space-between;
-    width:100vw;
+    align-items:center;
+    max-width:100%;
+    margin:0 15px;
   }
 
    .main-nav-mobile a {
