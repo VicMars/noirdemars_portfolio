@@ -142,7 +142,7 @@ section {
  width: 55px;
 }
 
-.home-link a {
+.nav-link.home-link a {
   font-family:"Playfair Display";
   font-size: 35px;
   letter-spacing:0.05rem;
@@ -1047,7 +1047,8 @@ q:after {
      padding-bottom: 3px;
    }
 
-   .home-link a {
+   .nav-mobile.home-link a {
+     font-size:35px;
      line-height:0;
    }
 
