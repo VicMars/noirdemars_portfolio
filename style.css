@@ -955,14 +955,17 @@ q:after {
    margin:100px 0 0 0;
 } 
 
+.contact-about-link h2 {
+  font-weight:100;
+}
+
 .content-about-portfolio {
     display:block;
     text-align: center;
-    max-width:60vw;
-    margin: 6rem auto;
+    max-width:100%;
+    margin: 6rem auto 20px auto;
     padding: 25px 0;
     border-top: 1px solid;
-    border-bottom: 1px solid;
 }
 
 .content-about-portfolio h4 a {
@@ -977,6 +980,14 @@ q:after {
   font-style:italic;
 }
 
+.contact-links-social.about-page ul {
+   padding:0;
+}
+
+.contact-links-social.about-page ul li {
+   display:block;
+   font-size:1.9rem;
+}
 
 /* Animate.js custom selector
 * ------------------------------------ */
