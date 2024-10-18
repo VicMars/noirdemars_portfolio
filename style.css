@@ -962,7 +962,7 @@ q:after {
 
 .content-about-portfolio {
     display:block;
-    text-align: center;
+    text-align:center;
     max-width:100%;
     margin: 6rem auto 20px auto;
     padding: 25px 0;
@@ -974,11 +974,13 @@ q:after {
     text-decoration:none;
     font-style:normal;
     font-weight:100; 
-    transition: all 300ms;
+    opacity:1;
+    transition: all 300ms ease;
 }
 
 .content-about-portfolio h4 a:hover {
   font-style:italic;
+  opacity:0.8;
 }
 
 .contact-links-social.about-page ul {
