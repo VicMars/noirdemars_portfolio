@@ -151,8 +151,7 @@ section {
 .home-link a em {
   font-size:26px;
   font-weight:600;
-  margin-left:-1px;
-  line-height: 0;
+  vertical-align: bottom;
 }
 
 .nav-link {
