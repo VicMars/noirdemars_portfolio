@@ -968,7 +968,6 @@ q:after {
     max-width:100%;
     margin: 6rem auto 20px auto;
     padding: 25px 0;
-    /* border-top: 1px solid; */
 }
 
 .content-about-portfolio button {
@@ -984,14 +983,19 @@ q:after {
 .content-about-portfolio button a {
     text-transform:uppercase;
     text-decoration:none;
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-style:normal;
     font-weight:100; 
     opacity:1;
     transition: all 300ms ease;
 }
+
 .content-about-portfolio button:hover {
     background-color:white;
+    right:-30px;
+}
+
+.content-about-portfolio button a:hover {
     color:#000000;
 }
 
