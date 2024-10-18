@@ -1043,17 +1043,30 @@ q:after {
   }
  
   .homepage-introduction-one {
+    width: 80vw;
     height:auto;
+    margin: 80px auto 0 auto
     order:1;
   }
- 
+
   .hello-animation {
+     display:block;
      order:2;
   }
 
   .homepage-introduction-two {
      order:3;
   }
+
+ .hello-animation-text {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+  }
+  
+ .homepage-introduction-one h1 {
+    font-size: calc(clamp(7rem, 8.49vw, 14rem)* 0.55);
+ }
 
   #content-contact {
     height:auto;
