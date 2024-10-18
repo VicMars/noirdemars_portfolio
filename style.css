@@ -1204,7 +1204,8 @@ q:after {
     margin: 60px auto 0 auto;
   }
 
-  .content-work-text {
+  .content-work-text,
+  .content-about-text {
     display:block;
     height:auto;
    }
