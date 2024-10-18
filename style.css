@@ -181,6 +181,7 @@ section .nav-link.active a span {
 
 .nav-link.home-link a {
   font-size: 35px;
+  padding-left: 10px;
 }
 
 .home-link a em {
