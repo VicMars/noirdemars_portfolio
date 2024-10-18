@@ -158,16 +158,6 @@ section .nav-link.active {
   display:block;
   position: relative;
   margin-bottom:0;
-  animation: moveUp 3s ease-in-out forwards;
-}
-
-@keyframes moveUp {
-  from {
-   margin-bottom:-30px;
-  }
-  to {
-   margin-bottom:0;
-  }
 }
 
 section .nav-link.active a span {
