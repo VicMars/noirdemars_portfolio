@@ -1231,10 +1231,16 @@ q:after {
  
   .project-card-main-right {
    order: 2;
-   border: 5px solid white;
   }
+
+  project-card-main-right .project-video {
+   width:100%;
+   height:auto;
+   object-fit:cover;
+}
 
  .project-card-main-left .project-card-images {
    height:40vh;
   }
+ 
 }
