@@ -286,11 +286,16 @@
   <!-- AOS Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      AOS.init({
-        once: false // Ensure animations replay when scrolling back up
-      });
-    });
+    const emToPixels = (em) => em * parseFloat(getComputedStyle(document.documentElement).fontSize);
+    const threshold = emToPixels(48); // Convert 48em to pixels
+
+    if (window.innerWidth < threshold) {
+        AOS.init({
+            disable: true
+        });
+    } else {
+        AOS.init();
+    }
   </script>
     
   <!-- Custom JS -->
