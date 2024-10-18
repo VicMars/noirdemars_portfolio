@@ -582,7 +582,7 @@ q:after {
    align-content: flex-end;
    display:block;
    width: 70vw;
-   padding: 2rem 4rem;
+   padding: 2rem 8rem 2rem 4rem;
    text-align:left;
    border-right:1px solid white;
 }
