@@ -985,9 +985,10 @@ q:after {
 
 .contact-links-social.about-page ul {
    padding:0;
+   margin-top:30px;
 }
 
-.contact-links-social.about-page ul li {
+.contact-links-social.about-page ul li a {
    display:block;
    font-size:1.9rem;
 }
