@@ -1132,6 +1132,11 @@ q:after {
     font-size: calc(clamp(4.36rem, 5.25vw, 8.7rem) * 0.55);
  }
 
+ .content-contact-col.col-two .contact-links-social li a {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
  .homepage-ndm-definition {
     height:auto;
  }
