@@ -1234,7 +1234,8 @@ q:after {
   }
  
   .project-card-main-right {
-   order: 2;
+    order: 2;
+    height: auto;
   }
 
   project-card-main-right .project-video {
