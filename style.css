@@ -1013,6 +1013,11 @@ q:after {
 .contact-links-social.about-page ul li a {
    font-size:1.9rem;
    font-weight:100;
+   transition: all 300ms ease-in-out;
+}
+
+.contact-links-social.about-page ul li a:hover {
+   letter-spacing:1px;
 }
 
 /* Animate.js custom selector
