@@ -1212,12 +1212,12 @@ q:after {
 
   .content-work-paragraph,
   .content-about-text-col {
-   margin: 20px 0 0 0;
+   margin: 25px 0 0 0;
   }
 
   .content-about-details {
-    max-width: 80vw;
-    margin:0 auto;
+    width: 80vw;
+    margin:20px auto 4 auto;
   }
 
   .projects-list {
