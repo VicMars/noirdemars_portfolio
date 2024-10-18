@@ -966,7 +966,6 @@ q:after {
     position:relative;
     text-align: right;
     max-width:100%;
-    margin: 6rem auto 20px auto;
     padding: 25px 0;
 }
 
@@ -980,7 +979,13 @@ q:after {
     border-radius:0;
     padding:10px 15px 6px 15px;
     transform: rotate(90deg);
-    transition: right 1s ease;
+    transition: all 1s ease;
+}
+
+.content-about-portfolio button:hover {
+    background-color:white;
+    color:#000000;
+    right:-120px;
 }
 
 .content-about-portfolio button a {
@@ -990,11 +995,6 @@ q:after {
     font-style:normal;
     font-weight:100; 
     opacity:1;
-}
-
-.content-about-portfolio button:hover {
-    background-color:white;
-    right:-120px;
 }
 
 .content-about-portfolio button a:hover {
