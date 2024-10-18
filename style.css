@@ -1007,7 +1007,7 @@ q:after {
 
 .contact-links-social.about-page ul li {
    display:block;
-   line-height:2;
+   margin-bottom:25px;
 }
 
 .contact-links-social.about-page ul li a {
