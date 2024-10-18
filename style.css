@@ -179,10 +179,14 @@ section .nav-link.active a span {
   transition: margin-left 1s ease-in-out;
 }
 
+.nav-link.home-link a {
+  font-size: 35px;
+}
+
 .home-link a em {
   font-size:26px;
   font-weight:600;
-  margin-left:-10px;
+  margin-left:-1px;
 }
 
 /* HOMEPAGE 
