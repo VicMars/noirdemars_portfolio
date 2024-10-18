@@ -30,7 +30,7 @@ a:focus {
 
 h1 {
   font-family:"Playfair Display";
-  font-size: clamp(7rem, 8.49vw, 14rem);
+  font-size: clamp(4.75rem, 8.49vw, 14rem);
   line-height:1;
   margin:0;
 }
