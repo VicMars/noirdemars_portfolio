@@ -1012,62 +1012,26 @@ q:after {
 * -------------------------------- */
 @media (max-width:48em) {
 
- 
-
-/*   .main-nav-mobile .nav-mobile a {
-  font-family:"Spartan";
-  font-size:18px;
-  text-decoration:none;
+ .wrapper {
+   display:block;
 }
-
-.main-nav a:hover {
-  margin-left:10px;
-} */
 
   section, .section-index, .section-about, .section-work {
     display:none;
   }
 
   .main-nav-mobile {
-    display:block;
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
   }
 
-  .content .primary-title-one h1, 
-  .content .primary-title-two h1, 
-  .content .primary-title-one-bottom .primary-title-span h1 {
-    line-height:1;
-  }
-
-  .content .secondary-title .secondary-introduction {
-   width:100%;
-   margin: 50px 0;
-  }
-
-  .content .secondary-title {
-    height:100%;
-  }
-  
-  .content .secondary-introduction-one {
-    padding:0;
-  }
-
-  .content .secondary-introduction-two {
-     text-align:center;
-     padding:0;
-     margin-top:50px;
+   .main-nav-mobile a {
+     text-decoration:none;
    }
-
-  .content .secondary-introduction-one .hello-animation {
-    margin-top:50px;
-  }
-
-  .secondary-introduction-one .hello-animation-content:hover ~ .hello-animation-image {
-    top:unset;
-    bottom:10vh;
-  }
-
-  .content .secondary-introduction-one .hello-animation #portrait_img {
-    width:45vw;
-  }
+ 
+   .main-nav-mobile .nav-mobile.active {
+   }
+  
   
 }
