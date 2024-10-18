@@ -972,12 +972,15 @@ q:after {
 
 .content-about-portfolio button {
     position:absolute;
-    right:-40px;
+    top: -50px;
+    right:unset;
     background-color:transparent;
     color:white;
     border:1px solid white;
     border-radius:0;
     padding:10px 15px 6px 15px;
+    transform: rotate(90deg);
+    transition: right 1s ease;
 }
 
 .content-about-portfolio button a {
@@ -987,12 +990,11 @@ q:after {
     font-style:normal;
     font-weight:100; 
     opacity:1;
-    transition: all 300ms ease;
 }
 
 .content-about-portfolio button:hover {
     background-color:white;
-    right:-30px;
+    right:-120px;
 }
 
 .content-about-portfolio button a:hover {
