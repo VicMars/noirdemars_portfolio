@@ -84,21 +84,6 @@ p {
   overflow:hidden;
 }
 
-.main-nav {
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-  position: sticky;
-  top: 0;
-  left:0;
-}
-
-.main-nav.work {
-   border-bottom:1px solid white;
-   justify-content: center;
-}
-
 .wrapper {
   display:flex;
   justify-content:space-between;
@@ -125,22 +110,20 @@ p {
 }
 
 section {
-  width:50px;
-  height:100vh;
-  align-content:flex-end;
-  text-align:center;
-  transition: all 1s ease-in-out;
-  box-sizing:border-box;
-}
-
-.section-index, .section-work, .section-about {
- display:flex;
- flex-direction:column;
- justify-content:space-between;
- align-items:center;
+ display:block;
  width:55px;
  height:100vh;
  border-right:1px solid white;
+}
+
+.main-nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  left:0;
 }
 
 /* Navigation */
