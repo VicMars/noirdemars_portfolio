@@ -1212,9 +1212,9 @@ q:after {
    margin: 25px 0 0 0;
   }
 
-  .content-work-projects-wrapper { 
-    margin-bottom:60px;
-  }
+ .content-work-projects-wrapper { 
+    margin-bottom:40px;
+  } 
 
   .content-about-details {
     width: 80vw;
