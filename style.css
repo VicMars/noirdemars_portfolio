@@ -1014,6 +1014,8 @@ q:after {
 
  .wrapper {
    display:block;
+   height: inherit;
+   overflow: scroll;
 }
 
   section, .section-index, .section-about, .section-work {
