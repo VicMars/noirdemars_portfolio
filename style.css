@@ -176,6 +176,10 @@ section {
   transform:rotate(90deg);
 }
 
+.nav-mobile a #ndm_logo {
+  width:80px;
+}
+
 
 /* HOMEPAGE 
 * --------------------------------- */
