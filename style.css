@@ -713,6 +713,7 @@ q:after {
    justify-content: space-between;
    width: fit-content;
    overflow-x: scroll;
+   scroll-snap-type: y mandatory;
 }
 
 .project-card {
@@ -723,6 +724,7 @@ q:after {
  gap:15px;
  width: calc(100vw - 85px);
  padding:15px;
+ scroll-snap-align: start;
 }
 
 
