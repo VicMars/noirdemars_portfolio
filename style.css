@@ -97,6 +97,10 @@ ul {
   overflow: hidden;
 }
 
+.content {
+  scroll-snap-type: x mandatory;
+}
+
 .content, .content-about {
   flex-grow:1;
   display:block;
@@ -198,6 +202,7 @@ section {
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
+  scroll-snap-align: start;
 }
 
 .homepage-title::-webkit-scrollbar {
@@ -381,6 +386,7 @@ img#portrait_img:hover {
   height:100vh;
   border-top:1px solid white;
   border-bottom:1px solid white;
+  scroll-snap-align: start;
 }
 
 .content-contact {
@@ -524,6 +530,7 @@ li.contact-link a:hover:after {
    height:100vh;
    background-color:#000000;
    border-top:1px solid white;
+   scroll-snap-align: start;
 }
 
 /* Quotation */
